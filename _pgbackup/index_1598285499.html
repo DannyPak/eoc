@@ -19,7 +19,7 @@
                 <button type="button" class="btn navbar-toggler mx-3" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="align-content-between align-self-stretch collapse d-flex flex-row-reverse flex-wrap navbar-collapse py-2" id="navbarResponsive">
+                <div class="collapse navbar-collapse p-0" id="navbarResponsive" style="flex-direction: row-reverse; flex-wrap: wrap; align-self: stretch;">
                     <div>
                         <ul class="navbar-nav">
                             <li class="nav-item">
@@ -80,9 +80,21 @@
                 </div>
             </div>
         </div>
-        <div class="bg-info container-fluid d-flex footer justify-content-center py-2">
-            <p class="border-1 border-right border-white my-auto px-2 text-white">EOC Copyright @ 2020</p> 
-            <p class="my-auto px-2 text-white">Created by AIDA</p> 
+        <div class="bg-info container-fluid footer">
+            <div class="row">
+                <div class="col-2 offset-2"> 
+                    <p class="text-left text-white">EOC Copyright @ 2020</p> 
+                </div>
+                <div class="col-2 offset-4 text-right"> 
+                    <p class="text-white">Created by AIDA</p> 
+                </div>
+            </div>
         </div>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>
