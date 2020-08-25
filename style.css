@@ -29,7 +29,7 @@ body {
     color: #01a689;
 }
 
-footer p {
+footer span, .top-menu {
     font-size: 0.8rem;
 }
 
@@ -40,11 +40,10 @@ footer p {
     justify-content: space-between;
 }
 
-.main-menu li:nth-child(1) a:hover{
-    color:red !important;
-    
 
-    
+
+.main-menu li:nth-child(1) a:hover{
+    color:red !important;    
 }
 
 .main-menu li:nth-child(2) a:hover{
