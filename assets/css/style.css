@@ -24,6 +24,7 @@ body {
 
 .title-tc {
     color: #e4645d;
+
 }
 
 .title-en {
@@ -73,4 +74,8 @@ footer {
 
 .main-menu li:nth-child(6) a:hover {
     color: black !important;
+}
+
+.gallery-row{
+    margin:15px
 }
