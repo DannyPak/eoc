@@ -4,12 +4,15 @@ i18next.init({
     resources: {
       en: {
         translation: {
-          "key": "hello world"
+        //menu
+          "menu-1": "Message",
+          "key2": "Title"
         }
       },
-      tc: {
+      zh: {
         translation: {
-          "key": "hello welt"
+          "menu-1": "訊息",
+          "key2": "Titleleleldld"
         }
       }
     }
@@ -19,7 +22,8 @@ i18next.init({
   });
   
   function updateContent() {
-    document.getElementById('output').innerHTML = i18next.t('key');
+    document.getElementById('menu-1').innerHTML = i18next.t('menu-1');
+    document.getElementById('mc').innerHTML = i18next.t('key2');
   }
   
   function changeLng(lng) {
