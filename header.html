@@ -1,3 +1,4 @@
+<script src="assets/js/jquery.min.js"></script> 
 <header>
     <div class="container p-0">
         <nav class="nav navbar navbar-expand-lg navbar-light p-0">
@@ -13,10 +14,11 @@
 
 
                 <div class="my-2">
-                    <a href="https://www.eoc.org.hk" role="button" class="btn btn-outline-primary btn-sm" target="_blank">EOC Home</a> <button class="btn btn-outline-secondary btn-sm" onclick="i18next.changeLanguage('zh')">
+                    <a href="https://www.eoc.org.hk" role="button" class="btn btn-outline-primary btn-sm" target="_blank">EOC Home</a> 
+                    <button id="btn-tc" class="btn btn-outline-secondary btn-sm" onclick="selectLang()">
                         繁體
                     </button>
-                    <button class="btn btn-outline-secondary btn-sm" onclick="i18next.changeLanguage('en')">
+                    <button id="btn-en" class="btn btn-outline-secondary btn-sm" onclick="selectLang()">
                         ENG
                     </button>
                    
@@ -25,24 +27,22 @@
 
                 <ul class="navbar-nav main-menu">
                     <li class="nav-item">
-                        <a href="" class="border-5 border-bottom border-danger nav-link"><span id="menu-1"></span></a>
+                        <a href="" class="border-5 border-bottom border-danger nav-link"><span id="menu1"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="border-5 border-bottom border-warning nav-link">milestone</a>
+                        <a href="" class="border-5 border-bottom border-warning nav-link"><span id="menu2"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="border-5 border-bottom border-success nav-link">Activites &
-                            Programmes</a>
+                        <a href="" class="border-5 border-bottom border-success nav-link"><span id="menu3"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="border-5 border-bottom border-info nav-link">Recognition Award</a>
+                        <a href="" class="border-5 border-bottom border-info nav-link"><span id="menu4"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="gallery.html" class="border-5 border-bottom border-primary nav-link">Multimedia
-                            Corner</a>
+                        <a href="gallery.html" class="border-5 border-bottom border-primary nav-link"><span id="menu5"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="border-5 border-bottom border-secondary nav-link">Logo</a>
+                        <a href="" class="border-5 border-bottom border-secondary nav-link"><span id="menu6"></span></a>
                     </li>
                 </ul>
 
@@ -50,6 +50,46 @@
         </nav>
     </div>
 
-    <script src="assets/js/translate.js"></script>
 
 </header>
+<script>
+$.getJSON('data.json', function(data) {
+
+  console.log(data);
+  var en=data[0].en;
+  var tc=data[0].tc;
+if(lang == "en"){
+    document.getElementById("btn-en").style.display = "none"; 
+    document.getElementById("btn-tc").style.display = "inline"; 
+    
+    document.getElementById("menu1").innerHTML = en.menu.menu1;
+    document.getElementById("menu2").innerHTML = en.menu.menu2;
+    document.getElementById("menu3").innerHTML = en.menu.menu3;
+    document.getElementById("menu4").innerHTML = en.menu.menu4;
+    document.getElementById("menu5").innerHTML = en.menu.menu5;
+    document.getElementById("menu6").innerHTML = en.menu.menu6;
+    
+
+
+  }else{
+
+    document.getElementById("btn-tc").style.display = "none"; 
+    document.getElementById("btn-en").style.display = "inline"; 
+    document.getElementById("menu1").innerHTML = tc.menu.menu1
+    document.getElementById("menu2").innerHTML = tc.menu.menu2;
+    document.getElementById("menu3").innerHTML = tc.menu.menu3;
+    document.getElementById("menu4").innerHTML = tc.menu.menu4;
+    document.getElementById("menu5").innerHTML = tc.menu.menu5;
+    document.getElementById("menu6").innerHTML = tc.menu.menu6;
+  
+
+  }
+
+  
+
+
+
+  
+});
+
+</script>
