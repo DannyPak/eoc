@@ -1,8 +1,8 @@
-<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/jquery.min.js"></script>
 <header>
     <div class="container p-0">
         <nav class="nav navbar navbar-expand-lg navbar-light p-0">
-            <a href="index.html" class="navbar-brand">
+            <a href="" class="navbar-brand" id="logo">
                 <img src="assets/img/eoc_logo_150.png" alt="logo">
             </a>
             <button type="button" class="btn navbar-toggler mx-3" data-toggle="collapse"
@@ -14,35 +14,36 @@
 
 
                 <div class="my-2">
-                    <a href="https://www.eoc.org.hk" role="button" class="btn btn-outline-primary btn-sm" target="_blank">EOC Home</a> 
+                    <a href="https://www.eoc.org.hk" role="button" class="btn btn-outline-primary btn-sm"
+                        target="_blank">EOC Home</a>
                     <button id="btn-tc" class="btn btn-outline-secondary btn-sm" onclick="selectLang()">
                         繁體
                     </button>
                     <button id="btn-en" class="btn btn-outline-secondary btn-sm" onclick="selectLang()">
                         ENG
                     </button>
-                   
+
 
                 </div>
 
                 <ul class="navbar-nav main-menu">
                     <li class="nav-item">
-                        <a href="" class="border-5 border-bottom border-danger nav-link"><span id="menu1"></span></a>
+                        <a href="" id="menu1" class="border-5 border-bottom border-danger nav-link"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="border-5 border-bottom border-warning nav-link"><span id="menu2"></span></a>
+                        <a href="" id="menu2" class="border-5 border-bottom border-warning nav-link"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="border-5 border-bottom border-success nav-link"><span id="menu3"></span></a>
+                        <a href="" id="menu3" class="border-5 border-bottom border-success nav-link"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="border-5 border-bottom border-info nav-link"><span id="menu4"></span></a>
+                        <a href="" id="menu4" class="border-5 border-bottom border-info nav-link"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="gallery.html" class="border-5 border-bottom border-primary nav-link"><span id="menu5"></span></a>
+                        <a href="" id="menu5" class="border-5 border-bottom border-primary nav-link"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="border-5 border-bottom border-secondary nav-link"><span id="menu6"></span></a>
+                        <a href="" id="menu6" class="border-5 border-bottom border-secondary nav-link"></a>
                     </li>
                 </ul>
 
@@ -53,43 +54,56 @@
 
 </header>
 <script>
-$.getJSON('data.json', function(data) {
+    $.getJSON('data.json', function (data) {
 
-  console.log(data);
-  var en=data[0].en;
-  var tc=data[0].tc;
-if(lang == "en"){
-    document.getElementById("btn-en").style.display = "none"; 
-    document.getElementById("btn-tc").style.display = "inline"; 
-    
-    document.getElementById("menu1").innerHTML = en.menu.menu1;
-    document.getElementById("menu2").innerHTML = en.menu.menu2;
-    document.getElementById("menu3").innerHTML = en.menu.menu3;
-    document.getElementById("menu4").innerHTML = en.menu.menu4;
-    document.getElementById("menu5").innerHTML = en.menu.menu5;
-    document.getElementById("menu6").innerHTML = en.menu.menu6;
-    
-
-
-  }else{
-
-    document.getElementById("btn-tc").style.display = "none"; 
-    document.getElementById("btn-en").style.display = "inline"; 
-    document.getElementById("menu1").innerHTML = tc.menu.menu1
-    document.getElementById("menu2").innerHTML = tc.menu.menu2;
-    document.getElementById("menu3").innerHTML = tc.menu.menu3;
-    document.getElementById("menu4").innerHTML = tc.menu.menu4;
-    document.getElementById("menu5").innerHTML = tc.menu.menu5;
-    document.getElementById("menu6").innerHTML = tc.menu.menu6;
+        console.log(data);
   
 
-  }
-
-  
+        var menu = data[0].menu;
 
 
+        if (lang == "en") {
+            document.getElementById("btn-tc").style.display = "inline";
+            document.getElementById("btn-en").style.display = "none";
+            document.getElementById("menu1").innerHTML = menu.m1.en;
+            document.getElementById("menu2").innerHTML = menu.m2.en;
+            document.getElementById("menu3").innerHTML = menu.m3.en;
+            document.getElementById("menu4").innerHTML = menu.m4.en;
+            document.getElementById("menu5").innerHTML = menu.m5.en;
+            document.getElementById("menu6").innerHTML = menu.m6.en;
 
-  
-});
 
+
+
+
+
+
+
+        } else {
+
+            document.getElementById("btn-tc").style.display = "none";
+            document.getElementById("btn-en").style.display = "inline";
+            document.getElementById("menu1").innerHTML = menu.m1.tc
+            document.getElementById("menu2").innerHTML = menu.m2.tc;
+            document.getElementById("menu3").innerHTML = menu.m3.tc;
+            document.getElementById("menu4").innerHTML = menu.m4.tc;
+            document.getElementById("menu5").innerHTML = menu.m5.tc;
+            document.getElementById("menu6").innerHTML = menu.m6.tc;
+
+
+        }
+        document.getElementById("logo").setAttribute("href", menu.m0.link + "?lang=" + lang);
+        document.getElementById("menu1").setAttribute("href", menu.m1.link + "?lang=" + lang);
+        document.getElementById("menu2").setAttribute("href", menu.m2.link + "?lang=" + lang);
+        document.getElementById("menu3").setAttribute("href", menu.m3.link + "?lang=" + lang);
+        document.getElementById("menu4").setAttribute("href", menu.m4.link + "?lang=" + lang);
+        document.getElementById("menu5").setAttribute("href", menu.m5.link + "?lang=" + lang);
+        document.getElementById("menu6").setAttribute("href", menu.m6.link + "?lang=" + lang);
+
+
+
+
+
+
+    });
 </script>

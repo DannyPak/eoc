@@ -60,20 +60,23 @@
             $("#footer").load("footer.html");
         });
 
+</script>
 
+
+<!---Fill content -->
+<script>
   $.getJSON('data.json', function(data) {
   console.log(data);
-  var en=data[0].en;
-  var tc=data[0].tc;
+  var index=data[0].index;
 
   if(lang == "en"){
 
-    document.getElementById("content").innerHTML = en.index.content;
+    document.getElementById("content").innerHTML = index.content.en;
 
 
   }else{
 
-    document.getElementById("content").innerHTML = tc.index.content;
+    document.getElementById("content").innerHTML = index.content.tc;
 
   }
 
