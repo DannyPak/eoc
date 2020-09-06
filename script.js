@@ -2,7 +2,7 @@
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 var lang = urlParams.get('lang')
-
+/*
 $.getJSON('data.json', function (data) {
   console.log(data);
   var en = data[0].en;
@@ -27,7 +27,7 @@ $.getJSON('data.json', function (data) {
     document.getElementById("age").innerHTML = tc.name;
   }
 
-});
+});*/
 
 
 
