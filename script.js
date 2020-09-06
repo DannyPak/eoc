@@ -9,8 +9,8 @@ $.getJSON('data.json', function (data) {
   var tc = data[0].tc;
 
   if (lang == "en") {
-    document.getElementById("btn-en").style.display = "none";
-    document.getElementById("btn-tc").style.display = "inline";
+    //document.getElementById("btn-en").style.display = "none";
+    //document.getElementById("btn-tc").style.display = "inline";
 
 
     document.getElementById("welcome").innerHTML = "welcome";
@@ -19,8 +19,8 @@ $.getJSON('data.json', function (data) {
 
   } else {
 
-    document.getElementById("btn-tc").style.display = "none";
-    document.getElementById("btn-en").style.display = "inline";
+    //document.getElementById("btn-tc").style.display = "none";
+    //document.getElementById("btn-en").style.display = "inline";
 
     document.getElementById("welcome").innerHTML = "歡迎";
     document.getElementById("name").innerHTML = tc.age;
