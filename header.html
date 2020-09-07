@@ -14,22 +14,30 @@
 
 
                 <div class="my-2">
-                    <a href="https://www.eoc.org.hk" role="button" class="btn btn-outline-primary btn-sm"
-                        target="_blank">EOC Home</a>
-                    <button id="btn-tc" class="btn btn-outline-secondary btn-sm" onclick="selectLang()">
-                        繁體
+                    <a href="https://www.eoc.org.hk" role="button" class="btn btn-outline-secondary btn-sm" id="btn-eoc"
+                        target="_blank"></a>
+                    <button id="btn-tc" class="btn btn-secondary btn-sm" onclick="selectLang()">
+                        繁
                     </button>
-                    <button id="btn-en" class="btn btn-outline-secondary btn-sm" onclick="selectLang()">
-                        ENG
+                    <button id="btn-en" class="btn btn-secondary btn-sm" onclick="selectLang()">
+                        EN
                     </button>
 
 
                 </div>
 
                 <ul class="navbar-nav main-menu">
-                    <li class="nav-item">
-                        <a href="" id="menu1" class="border-5 border-bottom border-danger nav-link"></a>
+                    <li class="nav-item dropdown">
+                        <a href="" id="menu1" class="border-5 border-bottom border-danger nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                          </div>
                     </li>
+                   
                     <li class="nav-item">
                         <a href="" id="menu2" class="border-5 border-bottom border-warning nav-link"></a>
                     </li>
@@ -42,6 +50,7 @@
                     <li class="nav-item">
                         <a href="" id="menu5" class="border-5 border-bottom border-primary nav-link"></a>
                     </li>
+                    
                     <li class="nav-item">
                         <a href="" id="menu6" class="border-5 border-bottom border-secondary nav-link"></a>
                     </li>
@@ -54,42 +63,32 @@
 
 </header>
 <script>
-    $.getJSON('data.json', function (data) {
-
-        console.log(data);
+    $.getJSON('data.json', function (data) {      
   
-
         var menu = data[0].menu;
-
-
+    
         if (lang == "en") {
             document.getElementById("btn-tc").style.display = "inline";
-            document.getElementById("btn-en").style.display = "none";
+            document.getElementById("btn-en").style.display = "none";    
+            document.getElementById("btn-eoc").innerHTML= "EOC Home";    
             document.getElementById("menu1").innerHTML = menu.m1.en;
             document.getElementById("menu2").innerHTML = menu.m2.en;
             document.getElementById("menu3").innerHTML = menu.m3.en;
             document.getElementById("menu4").innerHTML = menu.m4.en;
             document.getElementById("menu5").innerHTML = menu.m5.en;
             document.getElementById("menu6").innerHTML = menu.m6.en;
-
-
-
-
-
-
-
-
+    
         } else {
 
             document.getElementById("btn-tc").style.display = "none";
             document.getElementById("btn-en").style.display = "inline";
+            document.getElementById("btn-eoc").innerHTML= "平機會主頁";
             document.getElementById("menu1").innerHTML = menu.m1.tc
             document.getElementById("menu2").innerHTML = menu.m2.tc;
             document.getElementById("menu3").innerHTML = menu.m3.tc;
             document.getElementById("menu4").innerHTML = menu.m4.tc;
             document.getElementById("menu5").innerHTML = menu.m5.tc;
             document.getElementById("menu6").innerHTML = menu.m6.tc;
-
 
         }
         document.getElementById("logo").setAttribute("href", menu.m0.link + "?lang=" + lang);
@@ -99,9 +98,6 @@
         document.getElementById("menu4").setAttribute("href", menu.m4.link + "?lang=" + lang);
         document.getElementById("menu5").setAttribute("href", menu.m5.link + "?lang=" + lang);
         document.getElementById("menu6").setAttribute("href", menu.m6.link + "?lang=" + lang);
-
-
-
 
 
 
