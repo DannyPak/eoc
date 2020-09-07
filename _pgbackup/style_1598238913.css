@@ -1,0 +1,18 @@
+.banner {
+    background: #F1F3F4;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.border-5 {
+    border-width: 5px !important;
+}
+
+.navbar-nav > li {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
