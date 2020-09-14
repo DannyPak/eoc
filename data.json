@@ -77,8 +77,8 @@
             },
             "card-title-1": {
                 "content": {
-                    "en": "<h3>Key Facts and Figures (9/1996 - 6/2016)</h3>",
-                    "tc": "<h3>重要數據 (9/1996 - 6/2016)</h3>"
+                    "en": "<h2>Key Facts and Figures (9/1996 - 6/2016)</h2>",
+                    "tc": "<h2>重要數據 (9/1996 - 6/2016)</h2>"
                 }
             },
             "card-1": {
