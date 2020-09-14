@@ -47,7 +47,7 @@
 <!-- timeline-->
 
 <div class="container">
- 
+ <div id="timeline-title" class="py-5"></div>
   <div class="row">
       <div class="col-md-12">
           <div class="main-timeline4">
@@ -104,6 +104,7 @@
 <!-- card -->
 
 <div class="container">
+    <div id="card-title-1" class="py-5"></div>
   <div class="row">
       <div class="col-lg-3 col-sm-6">
           <div class="card-box bg-blue">
@@ -205,14 +206,17 @@
       var milestone = data[0].milestone;
     
     if (lang == "en") {
+        document.getElementById("timeline-title").innerHTML = milestone["timeline-title"].content.en;
       document.getElementById("1995").innerHTML = milestone["1995"].content.en;
-
+      document.getElementById("card-title-1").innerHTML = milestone["card-title-1"].content.en;
       document.getElementById("card-1").innerHTML = milestone["card-1"].content.en;
 
 
 
     }else{
+    document.getElementById("timeline-title").innerHTML = milestone["timeline-title"].content.tc;
       document.getElementById("1995").innerHTML = milestone["1995"].content.tc;
+      document.getElementById("card-title-1").innerHTML = milestone["card-title-1"].content.tc;
       document.getElementById("card-1").innerHTML = milestone["card-1"].content.tc;
     }
      
