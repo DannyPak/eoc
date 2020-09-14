@@ -63,22 +63,22 @@
         "milestone": {
             "timeline-title": {
                 "content": {
-                    "en": "<h2>History of Hong Kong’s Anti-discrimination Legislation</h2>",
-                    "tc": "<h2>香港反歧視條例歷史</h2>"
+                    "en": "History of Hong Kong’s Anti-discrimination Legislation",
+                    "tc": "香港反歧視條例歷史"
                 }
                 
             },
             "1995": {
                 "content": {
-                    "en": "<h6>The Sex Discrimination Ordinance (SDO) and the Disability Discrimination Ordinance (DDO) were enacted</h6>",
-                    "tc": "<h6>《性別歧視條例》和《殘疾歧視條例》制定</h6>"
+                    "en": "The Sex Discrimination Ordinance (SDO) and the Disability Discrimination Ordinance (DDO) were enacted",
+                    "tc": "《性別歧視條例》和《殘疾歧視條例》制定"
                 }
                 
             },
             "card-title-1": {
                 "content": {
-                    "en": "<h2>Key Facts and Figures (9/1996 - 6/2016)</h2>",
-                    "tc": "<h2>重要數據 (9/1996 - 6/2016)</h2>"
+                    "en": "Key Facts and Figures (9/1996 - 6/2016)",
+                    "tc": "重要數據 (9/1996 - 6/2016)"
                 }
             },
             "card-1": {
