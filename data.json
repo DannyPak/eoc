@@ -64,6 +64,13 @@
                     "en": "<h6>The Sex Discrimination Ordinance (SDO) and the Disability Discrimination Ordinance (DDO) were enacted</h6>",
                     "tc": "<h6>《性別歧視條例》和《殘疾歧視條例》制定</h6>"
                 }
+                
+            },
+            "card-1": {
+                "content": {
+                    "en": "Enquiries received",
+                    "tc": "接獲查詢"
+                }
             }
         }
     }

@@ -22,6 +22,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
   <link rel="manifest" href="assets/img/site.webmanifest">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 </head>
 
@@ -43,7 +44,7 @@
 </div>
 
   <!-- page banner end -->
-
+<!-- timeline-->
 
 <div class="container">
  
@@ -55,14 +56,14 @@
                       <span class="year">1995</span>
                       <div class="inner-content">
                          
-                          <span class="description" id="content-1995">
+                          <span class="description" id="1995">
                           </span>
                       </div>
                     </span>
               </div>
               <div class="timeline">
                   <a href="#" class="timeline-content">
-                      <span class="year">2017</span>
+                      <span class="year">1996</span>
                       <div class="inner-content">
                           <h3 class="title">Web Developer</h3>
                           <p class="description">
@@ -73,7 +74,7 @@
               </div>
               <div class="timeline">
                   <a href="#" class="timeline-content">
-                      <span class="year">2016</span>
+                      <span class="year">1997</span>
                       <div class="inner-content">
                           <h3 class="title">Web Designer</h3>
                           <p class="description">
@@ -84,7 +85,7 @@
               </div>
               <div class="timeline">
                   <a href="#" class="timeline-content">
-                      <span class="year">2015</span>
+                      <span class="year">1998</span>
                       <div class="inner-content">
                           <h3 class="title">Web Developer</h3>
                           <p class="description">
@@ -97,6 +98,67 @@
       </div>
   </div>
 </div>
+
+<!-- end of timeline-->
+
+<!-- card -->
+
+<div class="container">
+  <div class="row">
+      <div class="col-lg-3 col-sm-6">
+          <div class="card-box bg-blue">
+              <div class="inner">
+                  <h3>270,197 </h3>
+                  <div id="card-1"></div>
+              </div>
+              <div class="icon">
+                  <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+              </div>
+            
+          </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6">
+          <div class="card-box bg-green">
+              <div class="inner">
+                  <h3> ₹185358 </h3>
+                  <p> Today’s Collection </p>
+              </div>
+              <div class="icon">
+                  <i class="fa fa-money" aria-hidden="true"></i>
+              </div>
+              
+          </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+          <div class="card-box bg-orange">
+              <div class="inner">
+                  <h3> 5464 </h3>
+                  <p> New Admissions </p>
+              </div>
+              <div class="icon">
+                  <i class="fa fa-user-plus" aria-hidden="true"></i>
+              </div>
+              
+          </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+          <div class="card-box bg-red">
+              <div class="inner">
+                  <h3> 723 </h3>
+                  <p> Faculty Strength </p>
+              </div>
+              <div class="icon">
+                  <i class="fa fa-users"></i>
+              </div>
+             
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- end of card -->
 
 
 
@@ -143,9 +205,15 @@
       var milestone = data[0].milestone;
     
     if (lang == "en") {
-      document.getElementById("content-1995").innerHTML = milestone["1995"].content.en;
+      document.getElementById("1995").innerHTML = milestone["1995"].content.en;
+
+      document.getElementById("card-1").innerHTML = milestone["card-1"].content.en;
+
+
+
     }else{
-      document.getElementById("content-1995").innerHTML = milestone["1995"].content.tc;
+      document.getElementById("1995").innerHTML = milestone["1995"].content.tc;
+      document.getElementById("card-1").innerHTML = milestone["card-1"].content.tc;
     }
      
 
