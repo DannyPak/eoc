@@ -86,6 +86,12 @@
                     "en": "Enquiries received",
                     "tc": "接獲查詢"
                 }
+            },
+            "card-2": {
+                "content": {
+                    "en": "Complaints received",
+                    "tc": "接獲投訴"
+                }
             }
         }
     }
