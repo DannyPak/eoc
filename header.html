@@ -78,9 +78,9 @@
             document.getElementById("m5").innerHTML = menu.m5.en;
             document.getElementById("m6").innerHTML = menu.m6.en;
 
-            document.getElementById("m1-1").innerHTML = menu["m1-1"].en;
-            document.getElementById("m1-2").innerHTML = menu["m1-2"].en;
-            document.getElementById("m1-3").innerHTML = menu["m1-3"].en;
+            document.getElementById("m1-1").innerHTML = menu.m1["sub-1"].en;
+            document.getElementById("m1-2").innerHTML = menu.m1["sub-2"].en;
+            document.getElementById("m1-3").innerHTML = menu.m1["sub-3"].en;
     
         } else {
 
@@ -94,9 +94,9 @@
             document.getElementById("m5").innerHTML = menu.m5.tc;
             document.getElementById("m6").innerHTML = menu.m6.tc;
 
-            document.getElementById("m1-1").innerHTML = menu["m1-1"].tc;
-            document.getElementById("m1-2").innerHTML = menu["m1-2"].tc;
-            document.getElementById("m1-3").innerHTML = menu["m1-3"].tc;
+            document.getElementById("m1-1").innerHTML = menu.m1["sub-1"].tc;
+            document.getElementById("m1-2").innerHTML = menu.m1["sub-2"].tc;
+            document.getElementById("m1-3").innerHTML = menu.m1["sub-3"].tc;
 
         }
         
@@ -108,9 +108,9 @@
         document.getElementById("m5").setAttribute("href", menu.m5.link + "?lang=" + lang);
         document.getElementById("m6").setAttribute("href", menu.m6.link + "?lang=" + lang);
 
-        document.getElementById("m1-1").setAttribute("href", menu["m1-1"].link + "?lang=" + lang);
-        document.getElementById("m1-2").setAttribute("href", menu["m1-2"].link + "?lang=" + lang);
-        document.getElementById("m1-3").setAttribute("href", menu["m1-3"].link + "?lang=" + lang);
+        document.getElementById("m1-1").setAttribute("href", menu.m1["sub-1"].link + "?lang=" + lang);
+        document.getElementById("m1-2").setAttribute("href", menu.m2["sub-2"].link + "?lang=" + lang);
+        document.getElementById("m1-3").setAttribute("href", menu.m3["sub-3"].link + "?lang=" + lang);
 
 
     });
