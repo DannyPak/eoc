@@ -28,15 +28,16 @@
 
                 <ul class="navbar-nav main-menu">
                     <li class="nav-item dropdown">
-                        <a href="" id="m1" class="border-5 border-bottom border-danger nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                        <a href="" id="m1" class="border-5 border-bottom border-danger nav-link dropdown-toggle"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#" id="m1-1">Action</a>
                             <a class="dropdown-item" href="#" id="m1-2">Another action</a>
                             <a class="dropdown-item" href="#" id="m1-3">Something else here</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#" id="m1-4">Separated link</a>
-                          </div>
-                    </li>                   
+                        </div>
+                    </li>
                     <li class="nav-item">
                         <a href="" id="m2" class="border-5 border-bottom border-warning nav-link"></a>
                     </li>
@@ -49,7 +50,7 @@
                     <li class="nav-item">
                         <a href="" id="m5" class="border-5 border-bottom border-primary nav-link"></a>
                     </li>
-                    
+
                     <li class="nav-item">
                         <a href="" id="m6" class="border-5 border-bottom border-secondary nav-link"></a>
                     </li>
@@ -62,16 +63,16 @@
 
 </header>
 <script>
-    $.getJSON('data.json', function (data) {      
-  
+    $.getJSON('data.json', function (data) {
+
         var menu = data[0].menu;
-    
+
         if (lang == "en") {
             document.getElementById("btn-tc").style.display = "inline";
-            document.getElementById("btn-en").style.display = "none";    
-            document.getElementById("btn-eoc").innerHTML= "EOC Home";    
+            document.getElementById("btn-en").style.display = "none";
+            document.getElementById("btn-eoc").innerHTML = "EOC Home";
             document.getElementById("m1").innerHTML = menu.m1.en;
-            
+
             document.getElementById("m2").innerHTML = menu.m2.en;
             document.getElementById("m3").innerHTML = menu.m3.en;
             document.getElementById("m4").innerHTML = menu.m4.en;
@@ -81,12 +82,12 @@
             document.getElementById("m1-1").innerHTML = menu.m1["sub-1"].en;
             document.getElementById("m1-2").innerHTML = menu.m1["sub-2"].en;
             document.getElementById("m1-3").innerHTML = menu.m1["sub-3"].en;
-    
+
         } else {
 
             document.getElementById("btn-tc").style.display = "none";
             document.getElementById("btn-en").style.display = "inline";
-            document.getElementById("btn-eoc").innerHTML= "平機會主頁";
+            document.getElementById("btn-eoc").innerHTML = "平機會主頁";
             document.getElementById("m1").innerHTML = menu.m1.tc
             document.getElementById("m2").innerHTML = menu.m2.tc;
             document.getElementById("m3").innerHTML = menu.m3.tc;
@@ -99,7 +100,7 @@
             document.getElementById("m1-3").innerHTML = menu.m1["sub-3"].tc;
 
         }
-        
+
         document.getElementById("logo").setAttribute("href", menu.m0.link + "?lang=" + lang);
         document.getElementById("m1").setAttribute("href", menu.m1.link + "?lang=" + lang);
         document.getElementById("m2").setAttribute("href", menu.m2.link + "?lang=" + lang);
