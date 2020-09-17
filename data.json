@@ -6,9 +6,9 @@
                 "tc":"平機會主頁",
                 "link":"https://www.eoc.org.hk"
             },
-            "m0": {
-                "en": "Index",
-                "tc": "主頁",
+            "logo": {
+                "en": "<img src=\"assets/img/eoc_logo_150.png\" alt=\"logo\">",
+                "tc": "<img src=\"assets/img/eoc_logo_150.png\" alt=\"logo\">",
                 "link": "index.html"
             },
             "m1": {

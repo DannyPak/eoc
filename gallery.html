@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
   <meta charset="utf-8">
@@ -30,17 +30,17 @@
   <!-- page banner -->
   <div class="bg-light jumbotron ">
     <div class="container py-5">
-        <div class="row align-items-center">
-            <div class="col-sm-12 col-md-4">
-                <h1 class="display-3 title-tc" id="title-tc"></h1>
-                <h1 class="display-4 title-en" id="title-en"></h1>
-            </div>
-            <div class="col-sm-12 col-md-8">
-                <img src="assets/img/eoc-page-banner.png" alt="Banner" class="img-fluid">
-            </div>
+      <div class="row align-items-center">
+        <div class="col-sm-12 col-md-4">
+          <h1 class="display-4 title-tc" id="title-tc"></h1>
+          <h1 class="display-4 title-en" id="title-en"></h1>
         </div>
+        <div class="col-sm-12 col-md-8">
+          <img src="assets/img/eoc-page-banner.png" alt="Banner" class="img-fluid">
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 
   <!-- page banner end -->
 
@@ -166,7 +166,7 @@ Replace '0' with corresponding slide number.
   <script>
     $(function () {
       $("#header").load("header.html");
-     
+
       $("#footer").load("footer.html");
     });
   </script>
@@ -186,13 +186,7 @@ Replace '0' with corresponding slide number.
   </script>
 
   <script>
-    /*
-                $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-                                event.preventDefault();
-                                $(this).ekkoLightbox();
-                            });
-                 
-                 */
+
 
     function switchStyle() {
       if (document.getElementById('styleSwitch').checked) {

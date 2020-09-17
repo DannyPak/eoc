@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -34,8 +34,8 @@
         <div class="container py-5">
             <div class="row align-items-center">
                 <div class="col-sm-12 col-md-4">
-
-                    <h1 class="display-3 title-tc" id="title-tc"></h1>
+    
+                    <h1 class="display-4 title-tc" id="title-tc"></h1>
                     <h1 class="display-4 title-en" id="title-en"></h1>
                 </div>
                 <div class="col-sm-12 col-md-8">
@@ -52,11 +52,11 @@
         <h2 id="timeline-title" class="py-5 milestone-title"></h2>
         <div class="row">
             <div class="col-md-12 ">
-                <div class="main-timeline4">
+                <div class="main-timeline">
                     <div class="timeline">
                         <span class="timeline-content">
                             <span class="year">1995</span>
-                            <div class="inner-content description">
+                            <div class="description">
 
                                 <span id="1995"></span>
                             </div>
@@ -229,8 +229,9 @@
     <script>
         $(function () {
             $("#header").load("header.html");
-
+           
             $("#footer").load("footer.html");
+
         });
     </script>
 
@@ -257,20 +258,11 @@
                     document.getElementById(elementId[i]).innerHTML = milestone[elementId[i]].en;
                 }
 
-                /* document.getElementById("timeline-title").innerHTML = milestone["timeline-title"].en; 
-                 document.getElementById("1995").innerHTML = milestone["1995"].en;
-                 document.getElementById(i).innerHTML = milestone[i].en;
-                 document.getElementById("card-title-1").innerHTML = milestone["card-title-1"].en;
-                 document.getElementById("card-1").innerHTML = milestone["card-1"].en;
-                 document.getElementById("card-2").innerHTML = milestone["card-2"].en;*/
+               
 
                 else {
                     document.getElementById(elementId[i]).innerHTML = milestone[elementId[i]].tc;
-                    /*document.getElementById("timeline-title").innerHTML = milestone["timeline-title"].tc;
-                     document.getElementById("1995").innerHTML = milestone["1995"].tc;
-                     document.getElementById("card-title-1").innerHTML = milestone["card-title-1"].tc;
-                     document.getElementById("card-1").innerHTML = milestone["card-1"].tc;
-                     document.getElementById("card-2").innerHTML = milestone["card-2"].tc;*/
+                   
 
                 }
             }
