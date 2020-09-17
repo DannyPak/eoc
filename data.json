@@ -1,6 +1,11 @@
 [
     {
         "menu": {
+            "btn-eoc":{
+                "en":"EOC Home",
+                "tc":"平機會主頁",
+                "link":"https://www.eoc.org.hk"
+            },
             "m0": {
                 "en": "Index",
                 "tc": "主頁",
@@ -9,22 +14,23 @@
             "m1": {
                 "en": "Message",
                 "tc": "獻詞",
-                "link": "message.html",
-                "sub-1": {
-                    "en": "Submenu 1",
-                    "tc": "子表單1",
-                    "link": "message.html"
-                },
-                "sub-2": {
-                    "en": "Submenu 2",
-                    "tc": "子表單2",
-                    "link": "message.html"
-                },
-                "sub-3": {
-                    "en": "Submenu 3",
-                    "tc": "子表單3",
-                    "link": "message.html"
-                }
+                "link": "message.html"
+                
+            },
+            "m1-1": {
+                "en": "Submenu 1",
+                "tc": "子表單1",
+                "link": "message.html"
+            },
+            "m1-2": {
+                "en": "Submenu 2",
+                "tc": "子表單2",
+                "link": "message.html"
+            },
+            "m1-3": {
+                "en": "Submenu 3",
+                "tc": "子表單3",
+                "link": "message.html"
             },
             "m2": {
                 "en": "Milstone",

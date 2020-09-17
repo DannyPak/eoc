@@ -8,15 +8,14 @@
             </a>
             <button type="button" class="btn navbar-toggler mx-3" data-toggle="collapse"
                 data-target="#navbarResponsive">
-                <span class="navbar-toggler-icon" > </span>
+                <span class="navbar-toggler-icon"> </span>
             </button>
 
             <div class="collapse nav-menu navbar-collapse pb-4" id="navbarResponsive">
 
 
                 <div class="my-2">
-                    <a href="https://www.eoc.org.hk" role="button" class="btn btn-outline-secondary btn-sm" id="btn-eoc"
-                        target="_blank"></a>
+                    <a href="" role="button" class="btn btn-outline-secondary btn-sm" id="btn-eoc" target="_blank"></a>
                     <button id="btn-tc" class="btn btn-secondary btn-sm" onclick="selectLang()">
                         繁
                     </button>
@@ -65,55 +64,33 @@
 </header>
 
 <script>
+    //insert Element's ID
+    var menuId = ["btn-eoc", "m1", "m1-1", "m1-2", "m1-3", "m2", "m3", "m4", "m5", "m6",];
+
+
     $.getJSON('data.json', function (data) {
 
         var menu = data[0].menu;
 
-        if (lang == "en") {
-            document.getElementById("btn-tc").style.display = "inline";
-            document.getElementById("btn-en").style.display = "none";
-            document.getElementById("btn-eoc").innerHTML = "EOC Home";
-            document.getElementById("m1").innerHTML = menu.m1.en;
+        for (var j = 0; j < menuId.length; j++) {
 
-            document.getElementById("m2").innerHTML = menu.m2.en;
-            document.getElementById("m3").innerHTML = menu.m3.en;
-            document.getElementById("m4").innerHTML = menu.m4.en;
-            document.getElementById("m5").innerHTML = menu.m5.en;
-            document.getElementById("m6").innerHTML = menu.m6.en;
+            if (lang == "en") {
+                console.log(menuId[j]);
+                document.getElementById("btn-tc").style.display = "inline";
+                document.getElementById("btn-en").style.display = "none";
+                document.getElementById(menuId[j]).innerHTML = menu[menuId[j]].en;
 
-            document.getElementById("m1-1").innerHTML = menu.m1["sub-1"].en;
-            document.getElementById("m1-2").innerHTML = menu.m1["sub-2"].en;
-            document.getElementById("m1-3").innerHTML = menu.m1["sub-3"].en;
+            } else {
+                document.getElementById("btn-tc").style.display = "none";
+                document.getElementById("btn-en").style.display = "inline";
 
-        } else {
+                document.getElementById(menuId[j]).innerHTML = menu[menuId[j]].tc;
 
-            document.getElementById("btn-tc").style.display = "none";
-            document.getElementById("btn-en").style.display = "inline";
-            document.getElementById("btn-eoc").innerHTML = "平機會主頁";
-            document.getElementById("m1").innerHTML = menu.m1.tc
-            document.getElementById("m2").innerHTML = menu.m2.tc;
-            document.getElementById("m3").innerHTML = menu.m3.tc;
-            document.getElementById("m4").innerHTML = menu.m4.tc;
-            document.getElementById("m5").innerHTML = menu.m5.tc;
-            document.getElementById("m6").innerHTML = menu.m6.tc;
-
-            document.getElementById("m1-1").innerHTML = menu.m1["sub-1"].tc;
-            document.getElementById("m1-2").innerHTML = menu.m1["sub-2"].tc;
-            document.getElementById("m1-3").innerHTML = menu.m1["sub-3"].tc;
-
+            }
+            document.getElementById(menuId[j]).setAttribute("href", menu[menuId[j]].link + "?lang=" + lang);
         }
 
-        document.getElementById("logo").setAttribute("href", menu.m0.link + "?lang=" + lang);
-        document.getElementById("m1").setAttribute("href", menu.m1.link + "?lang=" + lang);
-        document.getElementById("m2").setAttribute("href", menu.m2.link + "?lang=" + lang);
-        document.getElementById("m3").setAttribute("href", menu.m3.link + "?lang=" + lang);
-        document.getElementById("m4").setAttribute("href", menu.m4.link + "?lang=" + lang);
-        document.getElementById("m5").setAttribute("href", menu.m5.link + "?lang=" + lang);
-        document.getElementById("m6").setAttribute("href", menu.m6.link + "?lang=" + lang);
 
-        document.getElementById("m1-1").setAttribute("href", menu.m1["sub-1"].link + "?lang=" + lang);
-        document.getElementById("m1-2").setAttribute("href", menu.m1["sub-2"].link + "?lang=" + lang);
-        document.getElementById("m1-3").setAttribute("href", menu.m1["sub-3"].link + "?lang=" + lang);
 
 
     });

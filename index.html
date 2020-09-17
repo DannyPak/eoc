@@ -68,20 +68,37 @@
 
   <!---Fill content -->
   <script>
+    
+    //insert element ID here
+    var elementId = ["content"];
+
     $.getJSON('data.json', function (data) {
 
       var index = data[0].index;
 
-      if (lang == "en") {
+      for (var i = 0; i < elementId.length; i++) {
+                if (lang == "en") {
 
-        document.getElementById("content").innerHTML = index["content"].en;
+                    document.getElementById(elementId[i]).innerHTML = index[elementId[i]].en;
+                }
 
+                /* document.getElementById("timeline-title").innerHTML = milestone["timeline-title"].en; 
+                 document.getElementById("1995").innerHTML = milestone["1995"].en;
+                 document.getElementById(i).innerHTML = milestone[i].en;
+                 document.getElementById("card-title-1").innerHTML = milestone["card-title-1"].en;
+                 document.getElementById("card-1").innerHTML = milestone["card-1"].en;
+                 document.getElementById("card-2").innerHTML = milestone["card-2"].en;*/
 
-      } else {
+                else {
+                    document.getElementById(elementId[i]).innerHTML = index[elementId[i]].tc;
+                    /*document.getElementById("timeline-title").innerHTML = milestone["timeline-title"].tc;
+                     document.getElementById("1995").innerHTML = milestone["1995"].tc;
+                     document.getElementById("card-title-1").innerHTML = milestone["card-title-1"].tc;
+                     document.getElementById("card-1").innerHTML = milestone["card-1"].tc;
+                     document.getElementById("card-2").innerHTML = milestone["card-2"].tc;*/
 
-        document.getElementById("content").innerHTML = index["content"].tc;
-
-      }
+                }
+            }
 
 
     });
