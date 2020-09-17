@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>EOC 25th Anniversary</title>
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Place your kit's code here -->
+  <script src="https://kit.fontawesome.com/0e045ca404.js" crossorigin="anonymous"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/site.webmanifest">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div id="header"></div>
+  <div class="bg-light jumbotron jumbotron-fluid ">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-sm-12 col-md-6">
+          <h1 class="display-4 title-tc">承先啟後。穩步將來</h1>
+          <h1 class="display-4 title-en">Inheriting the Past Charting the Future</h1>
+        </div>
+        <div class="col-sm-12 col-md-6"> <img src="assets/img/25-banner.svg" alt="Banner" class="img-fluid"> </div>
+      </div>
+    </div>
+  </div>
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-12 col-lg-10 offset-lg-1">
+        <span id="content"></span>
+
+      </div>
+    </div>
+  </div>
+  <div id="footer"></div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <script src="assets/js/popper.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+  <script>
+
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+
+  /*------------Fill content---------*/
+
+
+        //insert Element's ID
+        var elementId = ["content"];
+
+
+        $.getJSON('data.json', function (data) {
+            
+            //insert page title  
+            
+
+            //insert page content
+            var mydata = data[0].index;
+            for (var i = 0; i < elementId.length; i++) {
+                if (lang == "en") {
+
+                    document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].en;
+                }
+
+
+
+                else {
+                    document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].tc;
+
+
+                }
+            }
+
+
+        });
+
+
+
+        /*------------end of Fill content---------*/
+
+  </script>
+
+</body>
+
+</html>

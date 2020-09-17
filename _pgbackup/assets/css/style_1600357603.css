@@ -24,6 +24,7 @@ body {
 
 .title-tc {
     color: #e4645d;
+
 }
 
 .title-en {
@@ -47,11 +48,12 @@ footer {
 }
 
 .main-menu li a:hover {
-    text-decoration: underline;
+    text-decoration: underline
 }
 
 .main-menu li:nth-child(1) a:hover {
     color: red !important;
+
 }
 
 .main-menu li:nth-child(2) a:hover {
@@ -75,19 +77,22 @@ footer {
 }
 
 .gallery-row {
-    margin: 15px;
+    margin: 15px
 }
 
 /* milstone timeline */
+
 .milestone-title {
     font-size: 2.5rem;
     font-weight: 300;
     color: grey;
+
 }
+
 
 .main-timeline {
     overflow: hidden;
-    position: relative;
+    position: relative
 }
 
 .main-timeline:before {
@@ -98,21 +103,21 @@ footer {
     position: absolute;
     top: 50px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%)
 }
 
 .main-timeline .timeline-content:before,
 .main-timeline .timeline:before {
     top: 50%;
     transform: translateY(-50%);
-    content: "";
+    content: ""
 }
 
 .main-timeline .timeline {
     width: 50%;
     padding-left: 100px;
     float: right;
-    position: relative;
+    position: relative
 }
 
 .main-timeline .timeline:before {
@@ -122,13 +127,13 @@ footer {
     background: #fff;
     border: 5px solid #333;
     position: absolute;
-    left: -10px;
+    left: -10px
 }
 
 .main-timeline .timeline-content {
     display: block;
     padding-left: 150px;
-    position: relative;
+    position: relative
 }
 
 .main-timeline .timeline-content:before {
@@ -136,7 +141,7 @@ footer {
     height: 10px;
     border-top: 7px dotted #333;
     position: absolute;
-    left: -92px;
+    left: -92px
 }
 
 .main-timeline .year {
@@ -152,7 +157,7 @@ footer {
     box-shadow: inset 0 0 5px rgba(0, 0, 0, .4);
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0
 }
 
 .main-timeline .year:before {
@@ -163,7 +168,7 @@ footer {
     position: absolute;
     bottom: -13px;
     right: 0;
-    transform: rotate(45deg);
+    transform: rotate(45deg)
 }
 
 .main-timeline .inner-content {
@@ -175,37 +180,37 @@ footer {
     font-weight: 600;
     color: #f54957;
     text-transform: uppercase;
-    margin: 0 0 5px;
+    margin: 0 0 5px
 }
 
 .main-timeline .description {
     font-size: 1.4rem;
     font-weight: 300;
     color: #6f6f6f;
-    margin: 0 0 5px;
+    margin: 0 0 5px
 }
 
 .main-timeline .timeline:nth-child(2n) {
-    padding: 0 100px 0 0;
+    padding: 0 100px 0 0
 }
 
 .main-timeline .timeline:nth-child(2n) .timeline-content:before,
 .main-timeline .timeline:nth-child(2n) .year,
 .main-timeline .timeline:nth-child(2n):before {
     left: auto;
-    right: -10px;
+    right: -10px
 }
 
 .main-timeline .timeline:nth-child(2n) .timeline-content {
-    padding: 0 150px 0 0;
+    padding: 0 150px 0 0
 }
 
 .main-timeline .timeline:nth-child(2n) .timeline-content:before {
-    right: -92px;
+    right: -92px
 }
 
 .main-timeline .timeline:nth-child(2n) .year {
-    right: 0;
+    right: 0
 }
 
 .main-timeline .timeline:nth-child(2n) .year:before {
@@ -213,116 +218,116 @@ footer {
     left: 0;
     border-left: none;
     border-right: 20px solid ;
-    transform: rotate(-45deg);
+    transform: rotate(-45deg)
 }
 
 .main-timeline .timeline:nth-child(2) {
-    margin-top: 110px;
+    margin-top: 110px
 }
 
 .main-timeline .timeline:nth-child(odd) {
-    margin: -110px 0 0;
+    margin: -110px 0 0
 }
 
 .main-timeline .timeline:nth-child(even) {
-    margin-bottom: 80px;
+    margin-bottom: 80px
 }
 
 .main-timeline .timeline:first-child,
 .main-timeline .timeline:last-child:nth-child(even) {
-    margin: 0;
+    margin: 0
 }
 
 .main-timeline .timeline:nth-child(2n) .year {
     border-color: #1ebad0;
-    color: #1ebad0;
+    color: #1ebad0
 }
 
 .main-timeline .timeline:nth-child(2) .year:before {
-    border-right-color: #1ebad0;
+    border-right-color: #1ebad0
 }
 
 .main-timeline .timeline:nth-child(2n) .title {
-    color: #1ebad0;
+    color: #1ebad0
 }
 
 .main-timeline .timeline:nth-child(3n) .year {
     border-color: #7cba01;
-    color: #7cba01;
+    color: #7cba01
 }
 
 .main-timeline .timeline:nth-child(3) .year:before {
-    border-left-color: #7cba01;
+    border-left-color: #7cba01
 }
 
 .main-timeline .timeline:nth-child(3n) .title {
-    color: #7cba01;
+    color: #7cba01
 }
 
 .main-timeline .timeline:nth-child(4n) .year {
     border-color: #f8781f;
-    color: #f8781f;
+    color: #f8781f
 }
 
 .main-timeline .timeline:nth-child(4) .year:before {
-    border-right-color: #f8781f;
+    border-right-color: #f8781f
 }
 
 .main-timeline .timeline:nth-child(4n) .title {
-    color: #f8781f;
+    color: #f8781f
 }
 
 @media only screen and (max-width:1200px) {
     .main-timeline .year {
         top: 50%;
-        transform: translateY(-50%);
+        transform: translateY(-50%)
     }
 }
 
 @media only screen and (max-width:990px) {
     .main-timeline .timeline {
-        padding-left: 75px;
+        padding-left: 75px
     }
 
     .main-timeline .timeline:nth-child(2n) {
-        padding: 0 75px 0 0;
+        padding: 0 75px 0 0
     }
 
     .main-timeline .timeline-content {
-        padding-left: 130px;
+        padding-left: 130px
     }
 
     .main-timeline .timeline:nth-child(2n) .timeline-content {
-        padding: 0 130px 0 0;
+        padding: 0 130px 0 0
     }
 
     .main-timeline .timeline-content:before {
         width: 68px;
-        left: -68px;
+        left: -68px
     }
 
     .main-timeline .timeline:nth-child(2n) .timeline-content:before {
-        right: -68px;
+        right: -68px
     }
 }
 
 @media only screen and (max-width:767px) {
     .main-timeline {
-        overflow: visible;
+        overflow: visible
     }
 
     .main-timeline:before {
         height: 100%;
         top: 0;
         left: 0;
-        transform: translateX(0);
+        transform: translateX(0)
     }
 
     .main-timeline .timeline:before,
     .main-timeline .timeline:nth-child(2n):before {
         top: 60px;
         left: -9px;
-        transform: translateX(0);
+        transform: translateX(0)
     }
 
     .main-timeline .timeline,
@@ -332,23 +337,23 @@ footer {
         float: none;
         text-align: center;
         padding: 0;
-        margin: 0 0 10px;
+        margin: 0 0 10px
     }
 
     .main-timeline .timeline-content,
     .main-timeline .timeline:nth-child(2n) .timeline-content {
-        padding: 0;
+        padding: 0
     }
 
     .main-timeline .timeline-content:before,
     .main-timeline .timeline:nth-child(2n) .timeline-content:before {
-        display: none;
+        display: none
     }
 
     .main-timeline .timeline:nth-child(2n) .year,
     .main-timeline .year {
         position: relative;
-        transform: translateY(0);
+        transform: translateY(0)
     }
 
     .main-timeline .timeline:nth-child(2n) .year:before,
@@ -361,27 +366,30 @@ footer {
         left: -23px;
         bottom: auto;
         right: auto;
-        transform: rotate(0);
+        transform: rotate(0)
     }
 
     .main-timeline .timeline:nth-child(2n) .year:before {
-        border-right-color: #1ebad0;
+        border-right-color: #1ebad0
     }
 
     .main-timeline .timeline:nth-child(3n) .year:before {
-        border-right-color: #7cba01;
+        border-right-color: #7cba01
     }
 
     .main-timeline .timeline:nth-child(4n) .year:before {
-        border-right-color: #f8781f;
+        border-right-color: #f8781f
     }
 
     .main-timeline .inner-content {
-        padding: 10px;
+        padding: 10px
     }
 }
 
-/* end of milestone timeline */
+/* end of milestone timeline*/
+
+
+
 /* milestone card */
 .card-box {
     position: relative;
@@ -455,18 +463,11 @@ footer {
 }
 
 .card-number {
-    font-size: 3rem;
+    font-size: 3rem
 }
 
 .card-content {
-    font-size: 2rem;
+    font-size: 2rem
 }
 
 /* end of milestone card */
-.footer {
-    font-size: 0.8rem;
-}
-
-.footer {
-    font-size: 0.8rem;
-}
