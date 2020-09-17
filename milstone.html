@@ -58,7 +58,7 @@
                             <span class="year">1995</span>
                             <div class="inner-content description">
 
-                               <span id="1995"></span>
+                                <span id="1995"></span>
                             </div>
                         </span>
                     </div>
@@ -238,32 +238,39 @@
 
     <!---Fill content -->
     <script>
-        $.getJSON('data.json', function (data) {
-            console.log(data);
+        var elementId = ["timeline-title", "1995", "card-title-1", "card-1", "card-2"];
 
+
+        $.getJSON('data.json', function (data) {
             var menu = data[0].menu;
+            var milestone = data[0].milestone;
+
+
             document.getElementById("title-en").innerHTML = menu.m2.en;
             document.getElementById("title-tc").innerHTML = menu.m2.tc;
 
-            var milestone = data[0].milestone;
-console.log(milestone);
+            for (var i = 0; i < elementId.length; i++) {
+                if (lang == "en") {
 
-            if (lang == "en") {
+                    document.getElementById(elementId[i]).innerHTML = milestone[elementId[i]].en;
+                }
 
+                /* document.getElementById("timeline-title").innerHTML = milestone["timeline-title"].en; 
+                 document.getElementById("1995").innerHTML = milestone["1995"].en;
+                 document.getElementById(i).innerHTML = milestone[i].en;
+                 document.getElementById("card-title-1").innerHTML = milestone["card-title-1"].en;
+                 document.getElementById("card-1").innerHTML = milestone["card-1"].en;
+                 document.getElementById("card-2").innerHTML = milestone["card-2"].en;*/
 
-                document.getElementById("timeline-title").innerHTML = milestone["timeline-title"].en;
-                document.getElementById("1995").innerHTML = milestone["1995"].en;
-                document.getElementById("card-title-1").innerHTML = milestone["card-title-1"].en;
-                document.getElementById("card-1").innerHTML = milestone["card-1"].en;
-                document.getElementById("card-2").innerHTML = milestone["card-2"].en;
+                else {
+                    document.getElementById(elementId[i]).innerHTML = milestone[elementId[i]].tc;
+                    /*document.getElementById("timeline-title").innerHTML = milestone["timeline-title"].tc;
+                     document.getElementById("1995").innerHTML = milestone["1995"].tc;
+                     document.getElementById("card-title-1").innerHTML = milestone["card-title-1"].tc;
+                     document.getElementById("card-1").innerHTML = milestone["card-1"].tc;
+                     document.getElementById("card-2").innerHTML = milestone["card-2"].tc;*/
 
-            } else {
-                document.getElementById("timeline-title").innerHTML = milestone["timeline-title"].tc;
-                document.getElementById("1995").innerHTML = milestone["1995"].tc;
-                document.getElementById("card-title-1").innerHTML = milestone["card-title-1"].tc;
-                document.getElementById("card-1").innerHTML = milestone["card-1"].tc;
-                document.getElementById("card-2").innerHTML = milestone["card-2"].tc;
-
+                }
             }
 
 
