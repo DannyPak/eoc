@@ -44,6 +44,12 @@ footer {
 
 }
 
+@media only screen and (max-width:767px) {
+    footer{
+        font-size: 0.7rem;
+    }
+}
+
 .nav-menu {
     flex-direction: column;
     align-items: flex-end;
@@ -487,6 +493,12 @@ footer {
     padding-top:120px;
     padding-bottom:50px;
     border-radius:10px;
+    
 }
+
+@media only screen and (max-width:767px) {
+    .messages-content{
+        margin-right
+    }
 
 
