@@ -24,12 +24,13 @@ body {
     padding-bottom: 10px !important;
 }
 
-.title-tc {
+.title-tc, .bio-name {
     color: #e4645d;
 }
 
-.title-en {
-    color: #118091;
+.title-en, .bio-title {
+  /* color: #118091;*/
+    color:#01a6b9  
 }
 
 footer,
@@ -38,7 +39,8 @@ footer,
 }
 
 footer {
-    background-color: #118091; 
+    /* background-color: #118091;  */
+    background-color:#01a6b9
 
 }
 
@@ -81,12 +83,14 @@ footer {
     margin: 15px;
 }
 
-/* milstone timeline */
-.milestone-title {
+.milestone-title, .messages-title {
     font-size: 2.5rem;
-    font-weight: 300;
-    color: grey;
+    font-weight: 500;
+    color: #01a6b9 
 }
+
+/* milstone timeline */
+
 
 .main-timeline {
     overflow: hidden;
@@ -466,5 +470,23 @@ footer {
 }
 
 /* end of milestone card */
+
+/* messages page */
+
+.bio-image{
+    max-width:200px;
+    border-radius:50%;
+    border-color: #fff;
+    border-width:10px;
+    border-style: solid;
+    margin-bottom:-100px;
+    z-index:1;
+}
+
+.messages-content{
+    padding-top:120px;
+    padding-bottom:50px;
+    border-radius:10px;
+}
 
 

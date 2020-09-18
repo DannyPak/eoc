@@ -75,7 +75,7 @@
         for (var j = 0; j < menuId.length; j++) {
 
             if (lang == "en") {
-                console.log(menuId[j]);
+
                 document.getElementById("btn-tc").style.display = "inline";
                 document.getElementById("btn-en").style.display = "none";
                 document.getElementById(menuId[j]).innerHTML = menu[menuId[j]].en;
@@ -83,7 +83,6 @@
             } else {
                 document.getElementById("btn-tc").style.display = "none";
                 document.getElementById("btn-en").style.display = "inline";
-
                 document.getElementById(menuId[j]).innerHTML = menu[menuId[j]].tc;
 
             }

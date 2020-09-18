@@ -10,10 +10,6 @@
     <title>EOC 25th Anniversary</title>
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-
-
-    <!--place at the end of stylesheet sequence-->
     <link href="assets/css/style.css" rel="stylesheet">
 
 
@@ -229,9 +225,7 @@
     <script>
         $(function () {
             $("#header").load("header.html");
-
             $("#footer").load("footer.html");
-
         });
 
         /*------------Fill content---------*/
@@ -255,8 +249,6 @@
 
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].en;
                 }
-
-
 
                 else {
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].tc;
