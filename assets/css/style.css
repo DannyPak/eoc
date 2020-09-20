@@ -32,7 +32,8 @@ body {
 .title-en,
 .bio-title {
     /* color: #118091;*/
-    color: #01a6b9
+     color: #01a6b9 
+   
 }
 
 footer,
@@ -94,7 +95,8 @@ footer {
 .messages-title {
     font-size: 2.5rem;
     font-weight: 500;
-    color: #01a6b9
+    color: #01a6b9 
+   
 }
 
 /* milstone timeline */
