@@ -104,11 +104,11 @@
             },
             "card-2": {
                 "en": "Complaints received",
-                "tc": "接獲投訴<BR><BR>"
+                "tc": "接獲投訴<BR><BR><BR>"
             },
             "card-3": {
                 "en": "Cases initiated by the EOC",
-                "tc": "由平機會主動作出調查個案<BR>"
+                "tc": "由平機會主動作出調查個案<BR><BR>"
             }, 
             "card-4": {
                 "en": "Cases concluded",
