@@ -109,7 +109,11 @@
             "card-3": {
                 "en": "Cases initiated by the EOC",
                 "tc": "由平機會主動作出調查的個案"
-            }          
+            }, 
+            "card-4": {
+                "en": "Cases concluded",
+                "tc": "已完結的個案"
+            }         
         },
 
         "messages": {
