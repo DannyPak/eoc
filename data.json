@@ -105,7 +105,11 @@
             "card-2": {
                 "en": "Complaints received",
                 "tc": "接獲投訴"
-            }
+            },
+            "card-3": {
+                "en": "Cases initiated by the EOC",
+                "tc": "由平機會主動作出調查的個案"
+            }          
         },
 
         "messages": {
