@@ -100,7 +100,7 @@
             },
             "card-1": {
                 "en": "Enquiries received",
-                "tc": "接獲查詢<BR><BR>"
+                "tc": "接獲查詢<BR><BR><BR>"
             },
             "card-2": {
                 "en": "Complaints received",
@@ -108,23 +108,23 @@
             },
             "card-3": {
                 "en": "Cases initiated by the EOC",
-                "tc": "由平機會主動作出調查個案"
+                "tc": "由平機會主動作出調查個案<BR>"
             }, 
             "card-4": {
                 "en": "Cases concluded",
-                "tc": "已完結的個案"
+                "tc": "已完結的個案<BR><BR><BR>"
             }, 
             "card-5": {
                 "en": "Conciliation attempted",
-                "tc": "已進行調停"
+                "tc": "已進行調停<BR><BR><BR>"
             },   
             "card-6": {
                 "en": "Conciliation successful",
-                "tc": "調停成功"
+                "tc": "調停成功<BR><BR><BR>"
             }, 
             "card-7": {
                 "en": "Successful conciliation rate",
-                "tc": "調停成功率"
+                "tc": "調停成功率<BR><BR><BR>"
             },  
             "card-8": {
                 "en": "Total monetary compensation for complaints settled through conciliation",
