@@ -99,27 +99,27 @@
                 "tc": "重要數據 (9/1996 - 6/2016)"
             },
             "card-1": {
-                "en": "Enquiries received<BR>",
+                "en": "Enquiries received<BR><BR><BR>",
                 "tc": "接獲查詢<BR><BR><BR>"
             },
             "card-2": {
-                "en": "Complaints received<BR><BR>",
+                "en": "Complaints received<BR><BR><BR>",
                 "tc": "接獲投訴<BR><BR><BR>"
             },
             "card-3": {
-                "en": "Cases initiated by the EOC<BR>",
+                "en": "Cases initiated by the EOC<BR><BR>",
                 "tc": "由平機會主動作出調查個案<BR><BR>"
             }, 
             "card-4": {
-                "en": "Cases concluded<BR><BR>",
+                "en": "Cases concluded<BR><BR><BR>",
                 "tc": "已完結的個案<BR><BR><BR>"
             }, 
             "card-5": {
-                "en": "Conciliation attempted<BR><BR>",
+                "en": "Conciliation attempted<BR><BR><BR>",
                 "tc": "已進行調停<BR><BR><BR>"
             },   
             "card-6": {
-                "en": "Conciliation successful<BR><BR>",
+                "en": "Conciliation successful<BR><BR><BR>",
                 "tc": "調停成功<BR><BR><BR>"
             }, 
             "card-7": {
