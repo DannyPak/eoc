@@ -108,12 +108,20 @@
             },
             "card-3": {
                 "en": "Cases initiated by the EOC",
-                "tc": "由平機會主動作出調查的個案"
+                "tc": "由平機會主動作出調查個案"
             }, 
             "card-4": {
                 "en": "Cases concluded",
                 "tc": "已完結的個案"
-            }         
+            }, 
+            "card-5": {
+                "en": "Conciliation attempted",
+                "tc": "已進行調停"
+            },   
+            "card-6": {
+                "en": "Conciliation successful",
+                "tc": "調停成功"
+            }                 
         },
 
         "messages": {
