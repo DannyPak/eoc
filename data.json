@@ -100,11 +100,11 @@
             },
             "card-1": {
                 "en": "Enquiries received",
-                "tc": "接獲查詢<br></br>"
+                "tc": "接獲查詢<BR><BR>"
             },
             "card-2": {
                 "en": "Complaints received",
-                "tc": "接獲投訴<br></br>"
+                "tc": "接獲投訴<BR><BR>"
             },
             "card-3": {
                 "en": "Cases initiated by the EOC",
