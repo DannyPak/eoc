@@ -242,7 +242,7 @@ footer {
 .main-timeline .timeline:nth-child(even) {
     margin-bottom: 80px;
 }
-
+ 
 .main-timeline .timeline:first-child,
 .main-timeline .timeline:last-child:nth-child(even) {
     margin: 0;
