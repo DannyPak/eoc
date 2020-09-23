@@ -474,8 +474,14 @@ footer {
 }
 
 .card-content {
-    font-size: 1rem;
+    font-size: 2rem;
 }
+
+.card-content-8 {
+    font-size: 1.5rem;
+}
+
+
 
 /* end of milestone card */
 
