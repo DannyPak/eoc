@@ -127,8 +127,8 @@
                 "tc": "調停成功率<BR><BR><BR>"
             },  
             "card-8": {
-                "en": "Total monetary compensation for complaints settled through conciliation",
-                "tc": "投訴通過調停得到和解的金錢賠償總額<BR><BR>"
+                "en": "Total monetary compensation for complaints settled through conciliation<BR><BR>",
+                "tc": "投訴通過調停得到和解的金錢賠償總額<BR><BR><BR>"
             }                            
         },
 
