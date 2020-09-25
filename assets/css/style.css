@@ -40,6 +40,11 @@ body {
    
 }
 
+.btn-lang:hover{
+    background-color:#01a6b9 ;
+    border-color:#01a6b9
+}
+
 
 
 
