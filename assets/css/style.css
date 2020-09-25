@@ -4,6 +4,7 @@
 
 .logo{
     max-width:300px;
+    
 }
 
 
@@ -504,7 +505,7 @@ footer {
 /* messages page */
 
 .bio-image {
-    max-width: 200px;
+    
     border-radius: 50%;
     border-color: #fff;
     border-width: 10px;
