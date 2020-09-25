@@ -31,8 +31,9 @@
             <div class="row align-items-center">
                 <div class="col-sm-12 col-md-4 text-center text-md-left">
 
-                    <h1 class="display-4 title-tc" id="title-tc"></h1>
-                    <h1 class="display-4 title-en" id="title-en"></h1>
+                    <!-- <h1 class="display-4 title-tc" id="title-tc"></h1>
+                    <h1 class="display-4 title-en" id="title-en"></h1> -->
+                    <h1 class="display-5 page-title" id="page-title"></h1>
                 </div>
                 <div class="col-sm-12 col-md-8 py-3">
                     <img src="assets/img/eoc-page-banner.png" alt="Banner" class="img-fluid">
@@ -45,14 +46,14 @@
     
 
     <div class="container">
-        <h2 id="messages-title" class="text-center py-5 messages-title"></h2>
+        <!-- <h2 id="message-title" class="text-center py-5 messages-title"></h2> -->
         <div class="row">
             <img src="assets/img/chu.png" alt="Chu Man-kin" class="bio-image mx-auto d-block">
             <div class="col-12 messages-content bg-light mx-auto mb-5">
                
-                <h2 class="col-12 bio-name text-center" id="ac-name"></h2>
-                <h3 class="col-12 bio-title text-center display-5" id="ac-title"></h3>
-                    <p class="col-12 mt-5" id="ac-content"></p>
+                <h2 class="col-12 bio-name text-center" id="cp-name"></h2>
+                <h3 class="col-12 bio-title text-center display-5" id="cp-title"></h3>
+                    <p class="col-12 mt-5" id="cp-content"></p>
                    
             </div>
         </div>
@@ -93,18 +94,18 @@
 
 
         //insert Element's ID
-        var elementId = ["messages-title","ac-name","ac-title","ac-content"];
+        var elementId = ["page-title","cp-name","cp-title","cp-content"];
 
 
         $.getJSON('data.json', function (data) {
             
             //insert page title  
-            var menu = data[0].menu;
+            /*var menu = data[0].menu;
             document.getElementById("title-en").innerHTML = menu.m1.en;
-            document.getElementById("title-tc").innerHTML = menu.m1.tc;
+            document.getElementById("title-tc").innerHTML = menu.m1.tc;*/
 
             //insert page content
-            var mydata = data[0].messages;
+            var mydata = data[0].message;
             for (var i = 0; i < elementId.length; i++) {
                 if (lang != "tc") {
 

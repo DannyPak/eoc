@@ -34,11 +34,14 @@ body {
 }
 
 .title-en,
-.bio-title {
+.bio-title, .page-title {
     /* color: #118091;*/
      color: #01a6b9 
    
 }
+
+
+
 
 footer,
 .top-menu {
