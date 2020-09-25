@@ -106,7 +106,7 @@
             //insert page content
             var mydata = data[0].messages;
             for (var i = 0; i < elementId.length; i++) {
-                if (lang == "en") {
+                if (lang != "tc") {
 
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].en;
                 }
