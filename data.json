@@ -12,8 +12,8 @@
                 "link": "index.html"
             },
             "m1": {
-                "en": "Messages",
-                "tc": "獻詞",
+                "en": "Chairperson's Message",
+                "tc": "主席的話",
                 "link": " "
                 
             },
@@ -135,7 +135,7 @@
         "message": {
             "page-title":{
                 "en":"Chairperson's Message",
-                "tc":"平機會主席的話"
+                "tc":"主席的話"
             },
             "message-title":{
                 "en":"MESSAGE from the CHAIRPERSON",
