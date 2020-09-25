@@ -7,8 +7,8 @@
                 "link":"https://www.eoc.org.hk"
             },
             "logo": {
-                "en": "<img src=\"assets/img/eoc_logo_200.png\" alt=\"logo\">",
-                "tc": "<img src=\"assets/img/eoc_logo_200.png\" alt=\"logo\">",
+                "en": "<img src=\"assets/img/logo-horizontal.png\" alt=\"logo\">",
+                "tc": "<img src=\"assets/img/logo-horizontal.png\" alt=\"logo\">",
                 "link": "index.html"
             },
             "m1": {
