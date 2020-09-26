@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Chair Persons</title>
+    <title>List of Chairpersons</title>
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
@@ -77,6 +77,9 @@
             $("#footer").load("footer.html");
         });
 
+          //insert Element's ID
+        var elementId = ["chairpersons-title"];
+
         /*------------Fill content---------*/
 
 
@@ -89,7 +92,7 @@
             document.getElementById("title-tc").innerHTML = menu.m3.tc;
 
             //insert page content
-            var mydata = data[0].milestone;
+            var mydata = data[0].chairpersons;
             for (var i = 0; i < elementId.length; i++) {
                 if (lang == "en") {
 
