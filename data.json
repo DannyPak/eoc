@@ -129,7 +129,32 @@
             "card-8": {
                 "en": "Total monetary compensation for complaints settled through conciliation<BR><BR>",
                 "tc": "投訴通過調停得到和解的金錢賠償總額<BR><BR><BR>"
-            }                            
+            
+            },
+            "card-11": {
+                "en": "Number of applications for legal assistance<BR><BR><BR>",
+                "tc": "法律協助申請<BR><BR><BR>"
+            },
+            "card-12": {
+                "en": "Legal assistance granted<BR><BR><BR>",
+                "tc": "獲給予法律協助的個案<BR><BR><BR>"
+            },
+            "card-13": {
+                "en": "Settlement before commencement of legal proceedings<BR><BR>",
+                "tc": "在展開法律程序前達成和解<BR><BR>"
+            }, 
+            "card-14": {
+                "en": "Settlement after commencement of legal proceedings<BR><BR>",
+                "tc": "在展開法律程序後達成和解<BR><BR>"
+            }, 
+            "card-15": {
+                "en": "EOC assisted court cases<BR><BR><BR>",
+                "tc": "平機會協助的法庭個案<BR><BR>"
+            },   
+            "card-16": {
+                "en": "Total settlement(including damages awarded by the courts and out-of-court settlement)",
+                "tc": "和解金額總數(包括由法庭判決的賠償及庭外和解的個案)"    
+            }   
         },
 
         "message": {
