@@ -16,30 +16,6 @@
                 "tc": "主席的話",
                 "link": "chairperson-message.html"    
             },
-
-            /*
-            "m1-1": {
-                "en": "Submenu 1",
-                "tc": "子表單1",
-                "link": "message.html"
-            },
-            "m1-2": {
-                "en": "Submenu 2",
-                "tc": "子表單2",
-                "link": "message.html"
-            },
-            "m1-3": {
-                "en": "Submenu 3",
-                "tc": "子表單3",
-                "link": "message.html"
-            },
-            "m1-4": {
-                "en": "Submenu 4",
-                "tc": "子表單4",
-                "link": "message.html"
-            },
-            */
-
             "m2": {
                 "en": "Our Stories",
                 "tc": "我們的故事",
@@ -100,7 +76,7 @@
                 "tc": "相片簿",
                 "link": "gallery.html"
             },
-            "m6": {
+            "m5": {
                 "en": "Logo",
                 "tc": "標誌",
                 "link": "logo.html"
