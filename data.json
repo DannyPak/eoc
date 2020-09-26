@@ -19,7 +19,7 @@
             "m2": {
                 "en": "Our Stories",
                 "tc": "我們的故事",
-                "link": " "
+                "link": "index.html"
             },
             "m2-1": {
                 "en": "List of Chairpersons",
@@ -40,7 +40,7 @@
                 "en": "Our People, Voices and Mission",
                 "tc": "我們是誰, 聲音及任務",
                 "link": "stories.html"
-            },           
+            },         
             "m3": {
                 "en": "Event & Activites",
                 "tc": "平機會與活動",
@@ -75,11 +75,6 @@
                 "en": "Multimedia Gallery",
                 "tc": "相片簿",
                 "link": "gallery.html"
-            },
-            "m5": {
-                "en": "Logo",
-                "tc": "標誌",
-                "link": "logo.html"
             }
         },
 
