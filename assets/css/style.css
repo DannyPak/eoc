@@ -416,7 +416,7 @@ footer {
     color: #fff;
     padding: 20px 10px 40px;
     margin: 20px 0px;
-    min-height: 300px;
+    min-height: 400px;
 }
 
 .card-box:hover {
@@ -499,6 +499,17 @@ footer {
     font-size: 1.9rem;
 }
 
+.card-content-13 {
+    font-size: 1.8rem;
+}
+
+.card-content-16 {
+    font-size: 1.5rem;
+}
+
+.card-number-16 {
+    font-size: 1.9rem;
+}
 
 /* end of milestone card */
 
