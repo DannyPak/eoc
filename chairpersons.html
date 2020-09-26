@@ -79,7 +79,8 @@
 
         /*------------Fill content---------*/
 
-
+        //insert Element's ID
+        var elementId = ["chairpersons-title"];
 
         $.getJSON('data.json', function (data) {
             
@@ -89,7 +90,7 @@
             document.getElementById("title-tc").innerHTML = menu.m3.tc;
 
             //insert page content
-            var mydata = data[0].milestone;
+            var mydata = data[0].chairpersons;
             for (var i = 0; i < elementId.length; i++) {
                 if (lang == "en") {
 
