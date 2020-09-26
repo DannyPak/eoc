@@ -96,8 +96,7 @@
             "timeline-title": {
                 "en": "History of Hong Kong’s Anti-discrimination Legislation",
                 "tc": "香港反歧視條例歷史"
-            },
-                     
+            },     
             "1995": {
                 "en": "The Sex Discrimination Ordinance (SDO) and the Disability Discrimination Ordinance (DDO) were enacted",
                 "tc": "《性別歧視條例》和《殘疾歧視條例》制定"
@@ -193,19 +192,25 @@
             "cp-title": {
                 "en": "Chairperson, Equal Opportunities Commission",
                 "tc": "平機會主席"
-          
             },
             "cp-content": {
                 "en": "On 20 May 1996, the Equal Opportunities Commission (EOC) came into establishment, following the enactment of the Sex Discrimination Ordinance (Chapter 480) in 1995. <br><br>The EOC was founded with a clear mission of implementing the anti-discrimination ordinances in Hong Kong – to work towards the elimination of discrimination on the grounds of gender, family status, disability and race. As Hong Kong’s equality body, we also monitor relevant developments and act to promote equality for all, irrespective of different characteristics. Indeed, our overall vision is to create a pluralistic and inclusive society where there is no barrier to equal opportunities. <br><br>Over the last 20 years, the EOC has strived to break down the longstanding hurdles faced by various disadvantaged and marginalised groups in society. In fulfilling our role and mission, we have strived to keep pace with the development of Hong Kong, as the city underwent significant social, economic and political changes. <br><br>We are pleased to see that the concepts of equal opportunities are taking root in Hong Kong, and there is much greater understanding of their importance among community members. This could not have happened without the vision and effort of our predecessors, the dedication of the EOC colleagues, and the support of different stakeholders and sectors of the community. <br><br>The momentous occasion of the 20th anniversary offers us an opportunity to express our appreciation to our former Chairpersons, our current and past Board Members, as well as our allies and friends, to present our vision for the future, and renew our commitment to advancing equal opportunities for all. Building on the foundation of our work, we are eager to make even greater contribution to Hong Kong in the years to come.<br><br> We have created this mini-site to highlight the major milestones of the EOC to the public, as well as the events and programmes we have devised for this special occasion. We cordially invite you to join in our celebrations, and we look forward to having you in our future journey, as we continue to forge a path to an inclusive society free of discrimination.",
                 "tc": "隨著《性別歧視條例》(第480章)於 1995年獲制訂後，平等機會委員會(平機會)於1996年5月20日正式成立。平機會有明確的使命，致力推行香港的反歧視條例，以消除基於性別、家庭崗位、殘疾和種族的歧視為己任。平機會亦密切監察社會上的相關發展，推動人人享有平等，以保障市民不會因為上述特徵而遭到歧視。事實上，平機會的抱負就是建立一個人人得享平等機會的多元共融社會。過去二十年來，平機會致力移除社會上各弱勢社群和邊緣群體長久以來面對的種種障礙。在履行本身的角色和責任時，平機會一直緊隨香港的發展步伐，確保委員會的工作能配合香港在社會、經濟及政治各方面的轉變。對於平等機會的理念逐漸於香港扎根，市民更為認識平等機會的重要性，平機會感到十分鼓舞。這實在有賴前人的遠見和努力，平機會同事們的孜孜不倦，以及不同持份者和社區各界的支持，才能取得有關成果。適逢平機會二十周年，我們藉此向歷任主席、現任及歷屆委員，我們的工作夥伴和朋友衷心表達謝意，並重申我們致力促進人人平等的抱負和承諾。憑藉前人奠下的基礎，我們定將繼續努力，為香港作出更大的貢獻。平機會為二十周年特別設立了這個網頁，讓公眾認識平機會二十年來的重要工作，和二十周年的慶祝活動和計劃。在此，我們誠邀大家參與委員會的慶祝活動，亦期待日後與你同行平等路，攜手共建「零歧視」的共融社會。"
             }
-            
         },
+
         "chairpersons":{
             "chairpersons-title": {
                 "en": "List of Chairpersons",
                 "tc": "主席名單"
             }
-        }
+            },
+        "members":{
+            "members-title": {
+                "en": "List of Members",
+                "tc": "會員名單"
+            }
+            }
+        
     }
 ]
