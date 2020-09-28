@@ -550,3 +550,47 @@ footer {
 
 }
 
+/* back to top button */
+
+#back-button {
+    display: inline-block;
+    color:#01a6b9;  
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #back-button:hover{
+      cursor: pointer;
+      color:#4CDBFF
+  }
+
+  #back-button:active{
+    color:#888888
+}
+
+
+  #back-button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* Styles for the content section */
+  
+ 
+  @media (min-width: 500px) {
+   
+    #back-button {
+      margin: 30px;
+    }
+  }
+
+
