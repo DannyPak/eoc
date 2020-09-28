@@ -48,7 +48,7 @@
         
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb bg-white container">
-          <li class="breadcrumb-item"><a href="#" id="m1">Home</a></li>
+          <li class="breadcrumb-item"><a href="#" id="level-0"></a></li>
           <li class="breadcrumb-item" id="level-1"></li>
           <li class="breadcrumb-item active" aria-current="page" id="level-2"></li>
         </ol>
@@ -60,7 +60,7 @@
 
 
 
-            <h2 id="chairpersons-title" class="py-5 milestone-title text-center"></h2>
+            <h2 id="chairpersons-title" class="py-5 page-title text-center"></h2>
     
 
  
@@ -97,25 +97,26 @@
         /*------------Fill content---------*/
 
         //insert Element's ID
-        var elementId = ["chairpersons-title","m1","level-1","level-2"];
+        var elementId = ["chairpersons-title"];
 
         $.getJSON('data.json', function (data) {
             
             //insert page title  
             var menu = data[0].menu;
             document.getElementById("title-en").innerHTML = menu["m3-1"].en;
-            document.getElementById("title-tc").innerHTML = menu["m3-1"].tc;
-            document.getElementById("m1").setAttribute("href", menu["m1"].link + "?lang=" + lang);
+            document.getElementById("title-tc").innerHTML = menu["m3-1"].tc;          
 
             
-            //insert content to breadcumb
+            //insert breadcumb content
+
+            document.getElementById("level-0").setAttribute("href", menu["m1"].link + "?lang=" + lang);
             if(lang !="tc"){
-                document.getElementById("m1").innerHTML = menu["m1"].en;                
+                document.getElementById("level-0").innerHTML = menu["m1"].en;                
                 document.getElementById("level-1").innerHTML = menu["m3"].en;
                 document.getElementById("level-2").innerHTML = document.getElementById("title-en").innerHTML;
             }else{
 
-                document.getElementById("m1").innerHTML = menu["m1"].tc;                
+                document.getElementById("level-0").innerHTML = menu["m1"].tc;                
                 document.getElementById("level-1").innerHTML = menu["m3"].tc;
                 document.getElementById("level-2").innerHTML = document.getElementById("title-tc").innerHTML;
 
