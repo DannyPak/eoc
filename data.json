@@ -38,8 +38,8 @@
             },
             "m3-3": {
                 "en": "Milestones",
-                "tc": "公司里程",
-                "link": "milestone.html"
+                "tc": "重要里程",
+                "link": "milestones.html"
             },
             "m3-4": {
                 "en": "Our People, Voices and Mission",
@@ -117,62 +117,70 @@
                 "en": "Key Facts and Figures (9/1996 - 6/2016)",
                 "tc": "重要數據 (9/1996 - 6/2016)"
             },
+            "card-title-2": {
+                "en": "Enquires and Complaints",
+                "tc": "查詢及投訴"
+            }, 
+            "card-title-3": {
+                "en": "Legal Assistance",
+                "tc": "法律協助"
+            },
             "card-1": {
-                "en": "Enquiries received<BR><BR><BR>",
-                "tc": "接獲查詢<BR><BR><BR><BR><BR>"
+                "en": "Enquiries received",
+                "tc": "接獲查詢"
             },
             "card-2": {
-                "en": "Complaints received<BR><BR><BR>",
-                "tc": "接獲投訴<BR><BR><BR><BR><BR>"
+                "en": "Complaints received",
+                "tc": "接獲投訴"
             },
             "card-3": {
-                "en": "Cases initiated by the EOC<BR><BR>",
-                "tc": "由平機會主動作出調查個案<BR><BR><BR><BR>"
+                "en": "Cases initiated by the EOC",
+                "tc": "由平機會主動作出調查個案"
             }, 
             "card-4": {
-                "en": "Cases concluded<BR><BR><BR>",
-                "tc": "已完結的個案<BR><BR><BR><BR><BR>"
+                "en": "Cases concluded",
+                "tc": "已完結的個案"
             }, 
             "card-5": {
-                "en": "Conciliation attempted<BR><BR><BR>",
-                "tc": "已進行調停<BR><BR><BR><BR><BR>"
+                "en": "Conciliation attempted",
+                "tc": "已進行調停"
             },   
             "card-6": {
-                "en": "Conciliation successful<BR><BR><BR>",
-                "tc": "調停成功<BR><BR><BR><BR><BR>"
+                "en": "Conciliation successful",
+                "tc": "調停成功"
             }, 
             "card-7": {
-                "en": "Successful conciliation rate<BR><BR>",
-                "tc": "調停成功率<BR><BR><BR><BR><BR>"
+                "en": "Successful conciliation rate",
+                "tc": "調停成功率"
             },  
             "card-8": {
-                "en": "Total monetary compensation for complaints settled through conciliation<BR><BR>",
-                "tc": "投訴通過調停得到和解的金錢賠償總額<BR><BR><BR><BR><BR>"
+                "en": "Total monetary compensation for complaints settled through conciliation",
+                "tc": "投訴通過調停得到和解的金錢賠償總額"
             
             },
             "card-11": {
-                "en": "Number of applications for legal assistance<BR><BR>",
-                "tc": "法律協助申請<BR><BR><BR><BR><BR>"
+                "en": "Number of applications for legal assistance",
+                "tc": "法律協助申請"
             },
             "card-12": {
-                "en": "Legal assistance granted<BR><BR><BR>",
-                "tc": "獲給予法律協助的個案<BR><BR><BR><BR>"
+                "en": "Legal assistance granted",
+                "tc": "獲給予法律協助的個案"
             },
             "card-13": {
-                "en": "Settlement before commencement of legal proceedings<BR><BR>",
-                "tc": "在展開法律程序前達成和解<BR><BR><BR><BR><BR>"
+                "en": "Settlement before commencement of legal proceedings",
+                "tc": "在展開法律程序前達成和解"
             }, 
             "card-14": {
-                "en": "Settlement after commencement of legal proceedings<BR><BR>",
-                "tc": "在展開法律程序後達成和解<BR><BR><BR><BR><BR>"
+                "en": "Settlement after commencement of legal proceedings",
+                "tc": "在展開法律程序後達成和解"
             }, 
             "card-15": {
-                "en": "EOC assisted court cases<BR><BR><BR>",
-                "tc": "平機會協助的法庭個案<BR><BR><BR><BR>"
+                "en": "EOC assisted court cases",
+                "tc": "平機會協助的法庭個案"
             },   
             "card-16": {
-                "en": "Total settlement(including damages awarded by the courts and out-of-court settlement)<BR><BR>",
-                "tc": "和解金額總數(包括由法庭判決的賠償及庭外和解的個案)<BR><BR><BR><BR><BR>"    
+                "en": "Total settlement(including damages awarded by the courts and out-of-court settlement)",
+                "tc": "和解金額總數(包括由法庭判決的賠償及庭外和解的個案)"    
             }   
         },
 

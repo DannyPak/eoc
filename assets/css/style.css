@@ -104,11 +104,11 @@ footer {
     margin: 15px;
 }
 
-.milestone-title,
-.messages-title, h2 {
+
+.page-title {
     font-size: 2.5rem;
     font-weight: 500;
-    color: #01a6b9 
+    
    
 }
 
@@ -412,11 +412,14 @@ footer {
 /* end of milestone timeline */
 /* milestone card */
 .card-box {
-    position: relative;
+    
     color: #fff;
     padding: 20px 10px 40px;
     margin: 20px 0px;
-    min-height: 400px;
+     min-height: 320px;
+    position: relative; 
+    
+    
 }
 
 .card-box:hover {
@@ -445,10 +448,10 @@ footer {
     position: absolute;
     top: auto;
     bottom: 5px;
-    right: 5px;
+    right: 20px;
     z-index: 0;
     font-size: 72px;
-    color: rgba(0, 0, 0, 0.15);
+    color: rgba(0, 0, 0, 0.1);
 }
 
 .card-box .card-box-footer {
@@ -483,12 +486,27 @@ footer {
     background-color: #d9534f !important;
 }
 
-.card-number {
-    font-size: 3rem;
+
+
+
+.card-number, .card-number-8, .card-number-16 {
+  
+    position: absolute;
+    top: auto;
+    bottom: 20px;
+    left: 20px;
+    z-index: 0;
+       
+}
+
+.card-number,#card-title-2,#card-title-3 {
+    font-size: 3.2rem; 
+   
 }
 
 .card-content {
-    font-size: 2rem;
+    font-size: 2.5rem;    
+
 }
 
 .card-content-8 {
