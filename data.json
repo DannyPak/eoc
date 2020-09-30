@@ -218,7 +218,14 @@
                 "en": "List of Members",
                 "tc": "歷任委員名單"
             }
+            },
+        "stories":{
+            "stories-title": {
+                "en": "Our People Our Voices Our Mission at Work (Video)",
+                "tc": "人物誌 (視頻)"
             }
+            }
+
 
     }
 ]
