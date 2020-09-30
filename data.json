@@ -12,7 +12,7 @@
                 "link": "index.html"
             },
             "m1": {
-                "en": "Home",
+                "en": "Main Page",
                 "tc": "主頁",
                 "link": "index.html"    
             },            
@@ -27,58 +27,58 @@
                 "link": ""
             },
             "m3-1": {
-                "en": "List of Chairpersons",
-                "tc": "歷屆主席",
+                "en": "List of Chairpersons 1996-2020",
+                "tc": "歷任主席名單 1996-2020",
                 "link": "chairpersons.html"
             },
             "m3-2": {
-                "en": "List of Members",
-                "tc": "會員名單",
+                "en": "List of Members 1996-2020",
+                "tc": "歷任委員名單 1996-2020",
                 "link": "members.html"
             },
             "m3-3": {
-                "en": "Milestones",
-                "tc": "重要里程",
+                "en": "Milestones by Year",
+                "tc": "發展里程",
                 "link": "milestones.html"
             },
             "m3-4": {
-                "en": "Our People, Voices and Mission",
-                "tc": "我們是誰, 聲音及任務",
+                "en": "Our People, Our Voices, Our Mission at Work (Video)",
+                "tc": "人物誌 (視頻)",
                 "link": "stories.html"
             },         
             "m4": {
-                "en": "Event & Activites",
-                "tc": "平機會與活動",
+                "en": "Events & Activites",
+                "tc": "慶祝活動",
                 "link": " "
             },
             "m4-1": {
                 "en": "Children’s Painting and Colouring Competition",
-                "tc": "兒童繪畫與填色比賽",
+                "tc": "兒童填色及繪畫比賽",
                 "link": "competition.html"
             },
             "m4-2": {
                 "en": "Visual Campaign",
-                "tc": "視覺比賽",
+                "tc": "視覺藝術活動",
                 "link": "campaign.html"
             },
             "m4-3": {
                 "en": "EO Employer Recognition Award",
-                "tc": "公司表彰大獎",
+                "tc": "平等機會僱主嘉許計劃",
                 "link": "award.html"
             },
             "m4-4": {
                 "en": "Asia-Pacific Women Caregivers with Disabilities Conference",
-                "tc": "亞太區女性護理人員殘疾會議",
+                "tc": "亞太區殘障女性照顧者會議",
                 "link": "conference.html"
             }, 
             "m4-5": {
                 "en": "25th Anniversary Reception",
-                "tc": "25週年招待會",
+                "tc": "廿五週年慶祝聚會",
                 "link": "reception.html"
             },                       
             "m5": {
                 "en": "Multimedia Gallery",
-                "tc": "相片簿",
+                "tc": "多媒體資訊",
                 "link": "gallery.html"
             }
         },
