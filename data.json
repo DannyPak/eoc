@@ -12,7 +12,7 @@
                 "link": "index.html"
             },
             "m1": {
-                "en": "Main Page",
+                "en": "Home",
                 "tc": "主頁",
                 "link": "index.html"    
             },            
@@ -42,8 +42,8 @@
                 "link": "milestones.html"
             },
             "m3-4": {
-                "en": "Our People Our Voices Our Mission at Work (Video)",
-                "tc": "人物誌 (視頻)",
+                "en": "Our People, Our Voices, Our Mission at Work",
+                "tc": "人物誌",
                 "link": "stories.html"
             },         
             "m4": {
@@ -221,8 +221,8 @@
             },
         "stories":{
             "stories-title": {
-                "en": "Our People Our Voices Our Mission at Work (Video)",
-                "tc": "人物誌 (視頻)"
+                "en": "Our People Our Voices Our Mission at Work",
+                "tc": "人物誌"
             }
             },
         "competition":{
