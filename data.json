@@ -27,13 +27,13 @@
                 "link": ""
             },
             "m3-1": {
-                "en": "List of Chairpersons 1996-2020",
-                "tc": "歷任主席名單 1996-2020",
+                "en": "List of Chairpersons",
+                "tc": "歷任主席名單",
                 "link": "chairpersons.html"
             },
             "m3-2": {
-                "en": "List of Members 1996-2020",
-                "tc": "歷任委員名單 1996-2020",
+                "en": "List of Members",
+                "tc": "歷任委員名單",
                 "link": "members.html"
             },
             "m3-3": {
@@ -42,7 +42,7 @@
                 "link": "milestones.html"
             },
             "m3-4": {
-                "en": "Our People, Our Voices, Our Mission at Work (Video)",
+                "en": "Our People Our Voices Our Mission at Work (Video)",
                 "tc": "人物誌 (視頻)",
                 "link": "stories.html"
             },         
