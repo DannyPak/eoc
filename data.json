@@ -248,8 +248,13 @@
                 "en": "Asia-Pacific Women Caregivers with Disabilities Conference",
                 "tc": "亞太區殘障女性照顧者會議"
             }
+            }, 
+        "reception":{
+            "reception-title": {
+                "en": "25th Anniversary Reception",
+                "tc": "廿五週年慶祝聚會"
+            }
             } 
-
             
     }
 ]
