@@ -210,13 +210,19 @@
         "chairpersons":{
             "chairpersons-title": {
                 "en": "List of Chairpersons",
-                "tc": "主席名單"
+                "tc": "歷任主席名單"
             }
             },
         "members":{
             "members-title": {
                 "en": "List of Members",
-                "tc": "會員名單"
+                "tc": "歷任委員名單"
+            }
+            },
+        "stories":{
+            "stories-title": {
+                "en": "Our People Our Voices Our Mission at Work (Video)",
+                "tc": "人物誌 (視頻)"
             }
             }
         
