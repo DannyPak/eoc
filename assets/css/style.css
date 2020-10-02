@@ -72,28 +72,48 @@ footer {
     justify-content: space-between;
 }
 
+.dropdown:hover > .dropdown-menu{
+    display: block;
+    margin-top: -1px
+
+}
+
+
+#m4-4{
+
+    white-space: normal;
+}
+
 .main-menu li a:hover {
     text-decoration: underline;
+    
+}
+
+.main-menu li a:active {
+   background-color:#E8E4E4 !important;
+   color: white !important
+    
 }
 
 .main-menu li:nth-child(1) a:hover {
-    color: red !important;
+    color: #dc3545 !important;
+    
 }
 
 .main-menu li:nth-child(2) a:hover {
-    color: orange !important;
+   color: #FFC107 !important;
 }
 
 .main-menu li:nth-child(3) a:hover {
-    color: green !important;
+    color: #28A745 !important;
 }
 
 .main-menu li:nth-child(4) a:hover {
-    color: navy !important;
+    color: #17A2B8 !important;
 }
 
 .main-menu li:nth-child(5) a:hover {
-    color: blue !important;
+    color: #007BFF!important;
 }
 
 .main-menu li:nth-child(6) a:hover {
@@ -108,8 +128,23 @@ footer {
 .page-title {
     font-size: 2.5rem;
     font-weight: 500;
+}
+   
+/*  gallery*/
+.modal.dialog{
+   max-width:20000px;
+    max-height:100vh !important;
     
    
+
+}
+
+
+
+
+.carousel-item{
+    max-height:100vh !important;
+    width:100vw !important
 }
 
 /* milstone timeline */

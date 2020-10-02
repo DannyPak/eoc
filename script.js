@@ -30,7 +30,7 @@ function selectLang() {
 //back to top button
 var btn = $('#back-button');
 
-$(window).scroll(function() {
+$(window).scroll(function () {
   if ($(window).scrollTop() > 300) {
     btn.addClass('show');
   } else {
@@ -38,10 +38,27 @@ $(window).scroll(function() {
   }
 });
 
-btn.on('click', function(e) {
+btn.on('click', function (e) {
   e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '300');
+  $('html, body').animate({ scrollTop: 0 }, '300');
 });
+
+//breadcumb
+
+function breadcumb(menu, lang) {
+
+  document.getElementById("level-0").setAttribute("href", menu["m1"].link + "?lang=" + lang);
+  if (lang != "tc") {
+    document.getElementById("level-0").innerHTML = menu["m1"].en;
+    document.getElementById("level-1").innerHTML = document.getElementById("title-en").innerHTML;
+  }else{
+
+    document.getElementById("level-0").innerHTML = menu["m1"].tc;
+    document.getElementById("level-1").innerHTML = document.getElementById("title-tc").innerHTML;
+
+
+  }
+}
 
 
 
