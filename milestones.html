@@ -30,21 +30,14 @@
 
     <div id="header"></div>
     <!-- page banner -->
-    <div class="bg-light jumbotron ">
-        <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-sm-12 col-md-4">
-
-                    <h1 class="display-4 title-tc" id="title-tc"></h1>
-                    <h1 class="display-4 title-en" id="title-en"></h1>
-                </div>
-                <div class="col-sm-12 col-md-8">
-                    <img src="assets/img/eoc-page-banner.png" alt="Banner" class="img-fluid">
-                </div>
-            </div>
+    <div class="bg-light jumbotron text-md-left m-0">
+        <h3 class="display-5">承先啟後 穩步將來 | Inheriting the Past, Charting the Future.</h3>
+        <div class="title-container">
+            <h2 class="display-4" id="page-category"></h2>
+            <h1 class="display-1" id="page-title"></h1>
         </div>
+        <!-- <h1 class="display-5 page-title" id="page-title"></h1> -->
     </div>
-
     <!-- page banner end -->
 
 
@@ -54,7 +47,7 @@
     <!-- start of breadcumb -->
 
 
-    <nav aria-label="breadcrumb">
+    <nav aria-label="breadcrumb" class="breadcrumb-container">
         <ol class="breadcrumb bg-white container">
             <li class="breadcrumb-item"><a href="#" id="level-0"></a></li>
             <li class="breadcrumb-item" id="level-1"></li>
@@ -379,8 +372,8 @@
 
             //insert page title  
             var menu = data[0].menu;
-            document.getElementById("title-en").innerHTML = menu["m3"].en;
-            document.getElementById("title-tc").innerHTML = menu["m3"].tc;
+            //document.getElementById("title-en").innerHTML = menu["m3"].en;
+            //document.getElementById("title-tc").innerHTML = menu["m3"].tc;
 
             //insert breadcumb
             breadcumb(menu, lang);
@@ -392,16 +385,23 @@
                 if (lang != "tc") {
 
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].en;
+                    document.getElementById("level-1").innerHTML = menu["m3"].en; //breadcumb
                     document.getElementById("level-2").innerHTML = menu["m3-3"].en; //breadcumb
+                    document.getElementById("page-category").innerHTML = menu["m3"].en;
+                    document.getElementById("page-title").innerHTML = menu["m3-3"].en
                 }
 
                 else {
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].tc;
+                    document.getElementById("level-1").innerHTML = menu["m3"].tc; //breadcumb
                     document.getElementById("level-2").innerHTML = menu["m3-3"].tc; //breadcumb
+                    document.getElementById("page-category").innerHTML = menu["m3"].tc;
+                    document.getElementById("page-title").innerHTML = menu["m3-3"].tc
 
 
                 }
             }
+            document.getElementById("page-category").style.textTransform = "uppercase";
 
 
         });

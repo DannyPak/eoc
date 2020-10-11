@@ -15,7 +15,7 @@ function selectLang() {
   var searchParams = new URLSearchParams(window.location.search);
 
   
-      //Do stuff
+
   
 
 
