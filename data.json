@@ -7,9 +7,14 @@
                 "link":"https://www.eoc.org.hk"
             },
             "logo": {
-                "en": "<img src=\"assets/img/logo-horizontal.png\" alt=\"logo\" class=\"logo p-3 \">",
-                "tc": "<img src=\"assets/img/logo-horizontal.png\" alt=\"logo\" class=\"logo p-3 \">",
+                "en": "<img src=\"assets/img/logo-square.png\" alt=\"logo\" class=\"logo m-1 img-fluid\">",
+                "tc": "<img src=\"assets/img/logo-square.png\" alt=\"logo\" class=\"logo  m-1 img-fluid\">",
                 "link": "index.html"
+            },
+            "logo-25": {
+                "en": "<img src=\"assets/img/eoc_logo_150.png\" alt=\"logo\" class=\"logo m-1 img-fluid\">",
+                "tc": "<img src=\"assets/img/eoc_logo_150.png\" alt=\"logo\" class=\"logo  m-1 img-fluid\">",
+                "link": ""
             },
             "m1": {
                 "en": "Home",

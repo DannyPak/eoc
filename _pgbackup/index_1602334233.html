@@ -18,44 +18,26 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
     <link rel="manifest" href="assets/img/site.webmanifest">
-    <link rel="stylesheet" href="assets/css/fontawesome.all.css"
-        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
-        crossorigin="anonymous" />
-
-  
-
+    <link rel="stylesheet" href="assets/css/fontawesome.all.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" />
+    
 </head>
 
 <body>
     <a id="back-button"><i class="fas fa-arrow-circle-up fa-5x"></i></a>
     <div id="header"></div>
-
-    <!-- start of banner -->
-    <div class="bg-light jumbotron jumbotron-fluid mb-0">
+    <div class="bg-light jumbotron jumbotron-fluid ">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-12 text-center">
-                    <h1 class="display-1 title-tc">承先啟後 穩步將來</h1>
+                <div class="col-sm-12 col-md-12 text-center p-5">
+                    <h1 class="display-4 title-tc">承先啟後 穩步將來</h1>
                     <h1 class="display-4 title-en">Inheriting the Past Charting the Future</h1>
+                
+                
+                    <img src="assets/img/banner-1.png" alt="Banner" class="img-fluid">
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- end of banner -->
-    <!-- start of breadcumb -->
-
-
-    <nav aria-label="breadcrumb" class="breadcrumb-container">
-        <ol class="breadcrumb container">
-            <li class="breadcrumb-item active" id="level-0"></li>
-
-        </ol>
-    </nav>
-
-
-    <!-- end of breadcumb -->
-    <!--start of content-->
     <div class="container my-5">
         <div class="row">
             <div class="col-12 col-lg-10 offset-lg-1">
@@ -63,8 +45,6 @@
             </div>
         </div>
     </div>
-
-    <!-- end of content-->
     <div id="footer"></div>
     <script src="assets/js/fontawesome.all.js"></script>
     <script src="assets/js/jquery.min.js"></script>
@@ -78,11 +58,7 @@
             $("#footer").load("footer.html");
         });
 
-
-
-
         /*------------Fill content---------*/
-
 
 
         //insert Element's ID
@@ -97,13 +73,11 @@
             //insert page content
             var mydata = data[0].index;
             for (var i = 0; i < elementId.length; i++) {
-
-
+              
 
                 if (lang != "tc") {
 
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].en;
-
                 }
 
 
@@ -112,10 +86,8 @@
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].tc;
 
 
-
                 }
             }
-
 
 
         });

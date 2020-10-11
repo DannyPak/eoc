@@ -2,18 +2,23 @@
     background: #F1F3F4;
 }
 
-.jumbotron {
-    height: 55vh;
+.jumbotron{
+    height: 60vh;
     position: relative;
     text-align: center;
-    background-image: url('../img/banner-1.png');
-    background-size: cover;
-    color: white;
-    border-radius: 0;
+}
+.banner-container img{
+    width: 100%;
+}
+.banner-container h1{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .logo {
-    max-width: 160px;
+    max-width: 300px;
 }
 
 body {
@@ -22,38 +27,32 @@ body {
     font-family: "Segoe UI", "微軟正黑體", sans-serif !important;
 }
 
-.navbar-nav>li {
-    padding-left: 3px;
-    padding-right: 3px;
+.border-5 {
+    border-width: 5px !important;
 }
 
-.navbar-nav li a {
-    border-style: solid;
-    border-color: #76777B;
-    border-top-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 3px;
+.navbar-nav>li {
+    padding-left: 5px;
+    padding-right: 5px;
 }
+
+
 
 .title-tc,
-.title-en {
-    color: white;
-}
-
 .bio-name {
-    color: #E1261C;
+    color: #e4645d;
 }
 
+.title-en,
 .bio-title,
 .page-title {
     /* color: #118091; */
-    color: #76777B;
+    color: #01a6b9;
 }
 
 .btn-lang:hover {
-    background-color: #E1261C;
-    border-color: #E1261C
+    background-color: #01a6b9 ;
+    border-color: #01a6b9;
 }
 
 footer,
@@ -61,7 +60,10 @@ footer,
     font-size: 0.8rem;
 }
 
-
+footer {
+    /* background-color: #118091; */
+    background-color: #01a6b9;
+}
 
 @media only screen and (max-width:767px) {
     footer {
@@ -81,25 +83,19 @@ footer,
     margin-top: -1px;
 }
 
-.dropdown-item{
-    border-style: none;
-    border-width: 0px !important;
-}
-
 #m4-4 {
     white-space: normal;
 }
 
 .main-menu li a:hover {
     text-decoration: underline;
-    color:#E1261C;
 }
 
 .main-menu li a:active {
     background-color: #E8E4E4 !important;
     color: white !important;
 }
-/*
+
 .main-menu li:nth-child(1) a:hover {
     color: #dc3545 !important;
 }
@@ -123,7 +119,6 @@ footer,
 .main-menu li:nth-child(6) a:hover {
     color: black !important;
 }
-*/
 
 .gallery-row {
     margin: 15px;
@@ -572,7 +567,7 @@ footer,
 /* back to top button */
 #back-button {
     display: inline-block;
-    color: #76777B;
+    color: #01a6b9;
     width: 100px;
     height: 100px;
     text-align: center;
@@ -589,7 +584,7 @@ footer,
 
 #back-button:hover {
     cursor: pointer;
-    color: #E1261C;
+    color: #4CDBFF;
 }
 
 #back-button:active {
@@ -601,39 +596,11 @@ footer,
     visibility: visible;
 }
 
-.breadcrumb-container {
-    background-color: #76777B;
-    
-}
-
-.breadcrumb-container ol {
-    background-color: #76777B !important;
-}
-
-.breadcrumb-container ol li {
-    color: white !important;
-}
-
-.breadcrumb-container ol li a {
-    color: white !important;
-    text-decoration: underline;
-}
-
-.breadcrumb > li + li:before {
-    color: #fff !important;
-    
-}
-
 /* Styles for the content section */
 @media (min-width: 500px) {
     #back-button {
         margin: 30px;
     }
-}
-
-.title-container {
-    position: absolute;
-    bottom: 100px;
 }
 
 

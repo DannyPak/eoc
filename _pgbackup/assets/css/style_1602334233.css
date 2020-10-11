@@ -2,19 +2,12 @@
     background: #F1F3F4;
 }
 
-.jumbotron {
-    height: 55vh;
-    position: relative;
-    text-align: center;
-    background-image: url('../img/banner-1.png');
-    background-size: cover;
-    color: white;
-    border-radius: 0;
+.logo{
+    max-width:300px;
+    
 }
 
-.logo {
-    max-width: 160px;
-}
+
 
 body {
     overflow-x: hidden;
@@ -22,46 +15,49 @@ body {
     font-family: "Segoe UI", "微軟正黑體", sans-serif !important;
 }
 
-.navbar-nav>li {
-    padding-left: 3px;
-    padding-right: 3px;
+.border-5 {
+    border-width: 5px !important;
 }
 
-.navbar-nav li a {
-    border-style: solid;
-    border-color: #76777B;
-    border-top-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 3px;
+.navbar-nav>li {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.jumbotron {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
 }
 
 .title-tc,
-.title-en {
-    color: white;
-}
-
 .bio-name {
-    color: #E1261C;
+    color: #e4645d;
 }
 
-.bio-title,
-.page-title {
-    /* color: #118091; */
-    color: #76777B;
+.title-en,
+.bio-title, .page-title {
+    /* color: #118091;*/
+     color: #01a6b9 
+   
 }
 
-.btn-lang:hover {
-    background-color: #E1261C;
-    border-color: #E1261C
+.btn-lang:hover{
+    background-color:#01a6b9 ;
+    border-color:#01a6b9
 }
+
+
+
 
 footer,
 .top-menu {
     font-size: 0.8rem;
 }
 
-
+footer {
+    /* background-color: #118091;  */
+    background-color: #01a6b9
+}
 
 @media only screen and (max-width:767px) {
     footer {
@@ -76,36 +72,36 @@ footer,
     justify-content: space-between;
 }
 
-.dropdown:hover > .dropdown-menu {
+.dropdown:hover > .dropdown-menu{
     display: block;
-    margin-top: -1px;
+    margin-top: -1px
+
 }
 
-.dropdown-item{
-    border-style: none;
-    border-width: 0px !important;
-}
 
-#m4-4 {
+#m4-4{
+
     white-space: normal;
 }
 
 .main-menu li a:hover {
     text-decoration: underline;
-    color:#E1261C;
+    
 }
 
 .main-menu li a:active {
-    background-color: #E8E4E4 !important;
-    color: white !important;
+   background-color:#E8E4E4 !important;
+   color: white !important
+    
 }
-/*
+
 .main-menu li:nth-child(1) a:hover {
     color: #dc3545 !important;
+    
 }
 
 .main-menu li:nth-child(2) a:hover {
-    color: #FFC107 !important;
+   color: #FFC107 !important;
 }
 
 .main-menu li:nth-child(3) a:hover {
@@ -123,29 +119,37 @@ footer,
 .main-menu li:nth-child(6) a:hover {
     color: black !important;
 }
-*/
 
 .gallery-row {
     margin: 15px;
 }
 
+
 .page-title {
     font-size: 2.5rem;
     font-weight: 500;
 }
+   
+/*  gallery*/
+.modal.dialog{
+   max-width:20000px;
+    max-height:100vh !important;
+    
+   
 
-/* gallery */
-.modal.dialog {
-    max-width: 20000px;
-    max-height: 100vh !important;
 }
 
-.carousel-item {
-    max-height: 100vh !important;
-    width: 100vw !important;
+
+
+
+.carousel-item{
+    max-height:100vh !important;
+    width:100vw !important
 }
 
 /* milstone timeline */
+
+
 .main-timeline {
     overflow: hidden;
     position: relative;
@@ -227,6 +231,8 @@ footer,
     transform: rotate(45deg);
 }
 
+
+
 .main-timeline .title {
     font-size: 24px;
     font-weight: 600;
@@ -284,7 +290,7 @@ footer,
 .main-timeline .timeline:nth-child(even) {
     margin-bottom: 80px;
 }
-
+ 
 .main-timeline .timeline:first-child,
 .main-timeline .timeline:last-child:nth-child(even) {
     margin: 0;
@@ -441,11 +447,14 @@ footer,
 /* end of milestone timeline */
 /* milestone card */
 .card-box {
+    
     color: #fff;
     padding: 20px 10px 40px;
     margin: 20px 0px;
-    min-height: 320px;
-    position: relative;
+     min-height: 320px;
+    position: relative; 
+    
+    
 }
 
 .card-box:hover {
@@ -512,24 +521,27 @@ footer,
     background-color: #d9534f !important;
 }
 
-.card-number,
-.card-number-8,
-.card-number-16 {
+
+
+
+.card-number, .card-number-8, .card-number-16 {
+  
     position: absolute;
     top: auto;
     bottom: 20px;
     left: 20px;
     z-index: 0;
+       
 }
 
-.card-number,
-#card-title-2,
-#card-title-3 {
-    font-size: 3.2rem;
+.card-number,#card-title-2,#card-title-3 {
+    font-size: 3.2rem; 
+   
 }
 
 .card-content {
-    font-size: 2.5rem;
+    font-size: 2.5rem;    
+
 }
 
 .card-content-8 {
@@ -553,8 +565,11 @@ footer,
 }
 
 /* end of milestone card */
+
 /* messages page */
+
 .bio-image {
+    
     border-radius: 50%;
     border-color: #fff;
     border-width: 10px;
@@ -567,12 +582,14 @@ footer,
     padding-top: 120px;
     padding-bottom: 50px;
     border-radius: 10px;
+
 }
 
 /* back to top button */
+
 #back-button {
     display: inline-block;
-    color: #76777B;
+    color:#01a6b9;  
     width: 100px;
     height: 100px;
     text-align: center;
@@ -585,55 +602,30 @@ footer,
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
+  }
+  #back-button:hover{
+      cursor: pointer;
+      color:#4CDBFF
+  }
+
+  #back-button:active{
+    color:#888888
 }
 
-#back-button:hover {
-    cursor: pointer;
-    color: #E1261C;
-}
 
-#back-button:active {
-    color: #888888;
-}
-
-#back-button.show {
+  #back-button.show {
     opacity: 1;
     visibility: visible;
-}
-
-.breadcrumb-container {
-    background-color: #76777B;
-    
-}
-
-.breadcrumb-container ol {
-    background-color: #76777B !important;
-}
-
-.breadcrumb-container ol li {
-    color: white !important;
-}
-
-.breadcrumb-container ol li a {
-    color: white !important;
-    text-decoration: underline;
-}
-
-.breadcrumb > li + li:before {
-    color: #fff !important;
-    
-}
-
-/* Styles for the content section */
-@media (min-width: 500px) {
+  }
+  
+  /* Styles for the content section */
+  
+ 
+  @media (min-width: 500px) {
+   
     #back-button {
-        margin: 30px;
+      margin: 30px;
     }
-}
-
-.title-container {
-    position: absolute;
-    bottom: 100px;
-}
+  }
 
 

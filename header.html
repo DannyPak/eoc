@@ -4,7 +4,8 @@
     <div class="container p-0">
         <nav class="nav navbar navbar-expand-lg navbar-light p-0 navbar-fixed-top">
             <a href="" class="navbar-brand" id="logo">
-                
+                <a href="" class="navbar-brand" id="logo-25"></a>
+
             </a>
             <button type="button" class="btn navbar-toggler mx-3" data-toggle="collapse"
                 data-target="#navbarResponsive">
@@ -28,14 +29,14 @@
 
                 <ul class="navbar-nav main-menu my-3">
                     <li class="nav-item">
-                        <a href="" id="m1" class="border-5 border-bottom border-danger nav-link"></a>
-                    </li>                   
+                        <a href="" id="m1" class=" nav-link"></a>
+                    </li>
                     <li class="nav-item">
-                        <a href="" id="m2" class="border-5 border-bottom border-warning nav-link"></a>
+                        <a href="" id="m2" class=" nav-link"></a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="" id="m3" class="border-5 border-bottom border-success nav-link dropdown-toggle"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                        <a href="" id="m3" class=" nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"></a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#" id="m3-1"></a>
                             <a class="dropdown-item" href="#" id="m3-2"></a>
@@ -44,8 +45,8 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="" id="m4" class="border-5 border-bottom border-info nav-link dropdown-toggle"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                        <a href="" id="m4" class=" nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"></a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#" id="m4-1"></a>
                             <a class="dropdown-item" href="#" id="m4-2"></a>
@@ -55,7 +56,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a href="" id="m5" class="border-5 border-bottom border-primary nav-link"></a>
+                        <a href="" id="m5" class=" nav-link"></a>
                     </li>
                 </ul>
 
@@ -67,8 +68,11 @@
 </header>
 
 <script>
+
+
+
     //insert Element's ID
-    var menuId = ["btn-eoc", "logo", "m1", "m2", "m3", "m3-1", "m3-2", "m3-3", "m3-4", "m4", "m4-1", "m4-2", "m4-3", "m4-4", "m4-5", "m5"];
+    var menuId = ["btn-eoc", "logo", "logo-25", "m1", "m2", "m3", "m3-1", "m3-2", "m3-3", "m3-4", "m4", "m4-1", "m4-2", "m4-3", "m4-4", "m4-5", "m5"];
 
 
     $.getJSON('data.json', function (data) {
@@ -89,7 +93,7 @@
                 document.getElementById(menuId[j]).innerHTML = menu[menuId[j]].tc;
 
             }
-            
+
             document.getElementById(menuId[j]).setAttribute("href", menu[menuId[j]].link + "?lang=" + lang);
         }
 
@@ -97,4 +101,38 @@
 
 
     });
+//change active menu item border color
+    $(document).ready(function () {
+ 
+        var location = window.location.href;
+
+        function searchString(string) {
+            if (location.indexOf(string) > -1) {
+                return true;
+            };
+        }
+
+
+
+        if (searchString("index")) {
+            //if (location.indexOf("index") > -1) {
+            document.getElementById("m1").style.borderColor = "#E1261C";
+
+        } else if (searchString("message")) {
+            document.getElementById("m2").style.borderColor = "#E1261C";
+        } else if (searchString("gallery")) {
+            document.getElementById("m5").style.borderColor = "#E1261C";
+        }
+
+        else if (searchString("chairpersons") || searchString("members") || searchString("milestone") || searchString("stories")) {
+            document.getElementById("m3").style.borderColor = "#E1261C";
+        } else {
+            document.getElementById("m4").style.borderColor = "#E1261C";
+        }
+
+
+    });
+
+    //end
+
 </script>

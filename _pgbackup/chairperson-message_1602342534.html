@@ -19,33 +19,28 @@
     <body>
         <a id="back-button"><i class="fas fa-arrow-circle-up fa-5x"></i></a>
         <div id="header"></div>
-       
+        <!-- 
+        <div class="bg-light jumbotron ">
+            <div class="container py-4">
+                <div class="row align-items-center">
+                    <div class="col-12 text-center text-md-left">
+                        <h3>承先啟後 穩步將來 | Inheriting the Past Charting the Future</h3>
+                        <h1 class="display-4 title-tc" id="page-title">ChairPerson-message</h1>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+       -->
         <!-- page banner -->
-        <div class="bg-light jumbotron text-md-left m-0">
-            <h3 class="display-5">承先啟後 穩步將來 | Inheriting the Past, Charting the Future.</h3>
+        <div class="bg-light jumbotron jumbotron-fluid text-md-left">
+            <h3>承先啟後 穩步將來 | Inheriting the Past Charting the Future</h3>
             <div class="title-container">
-               
-                <h1 class="display-2" id="page-title"></h1>
+                <h1 class="display-4 title-tc" id="page-title"></h1>
             </div>
             <!-- <h1 class="display-5 page-title" id="page-title"></h1> -->
         </div>
         <!-- page banner end -->
-
-
- <!-- start of breadcumb -->
-
-
- <nav aria-label="breadcrumb" class="breadcrumb-container">
-    <ol class="breadcrumb container">
-        <li class="breadcrumb-item"><a href="#" id="level-0"></a></li>
-        <li class="breadcrumb-item active" aria-current="page" id="level-1"></li>
-       
-    </ol>
-</nav>
-
-
-<!-- end of breadcumb -->
-
         <div class="container">
             <!-- <h2 id="message-title" class="text-center py-5 messages-title"></h2> -->
             <div class="row">
@@ -79,16 +74,14 @@
 
         //insert Element's ID
         var elementId = ["page-title","cp-name","cp-title","cp-content"];
- 
+
 
         $.getJSON('data.json', function (data) {
             
             //insert page title  
-            var menu = data[0].menu;
+            //var menu = data[0].menu;
             //document.getElementById("title-en").innerHTML = menu.m2.en;
             //document.getElementById("title-tc").innerHTML = menu.m2.tc;
-            //insert breadcumb
-            breadcumb(menu, lang);
 
             //insert page content
             var mydata = data[0].message;
@@ -96,17 +89,14 @@
                 if (lang != "tc") {
 
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].en;
-                    document.getElementById("level-1").innerHTML = menu["m2"].en; //breadcumb
                 }
 
                 else {
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].tc;
-                    document.getElementById("level-1").innerHTML = menu["m2"].tc; //breadcumb
 
 
                 }
             }
-            
 
 
         });
