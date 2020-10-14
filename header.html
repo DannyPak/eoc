@@ -2,15 +2,18 @@
 
 <header>
     <div class="container p-1">
-        <nav class="nav navbar navbar-expand-lg navbar-light p-0 navbar-fixed-top">
-            <a href="" class="navbar-brand" id="logo"></a>
-                <img src="assets/img/eoc_logo_150.png" class="logo img-fuild">
+        <nav class="nav navbar navbar-expand-lg navbar-light p-0 navbar-fixed-top ">
+            <div class="d-flex justify-content-start align-items-center">
+                <a href="" class="navbar-brand" id="logo" class="logo img-fluid"></a>
+                <img src="assets/img/eoc_logo_150.png" class="logo img-fluid">
+            </div>
+            
             <button type="button" class="btn navbar-toggler mx-3" data-toggle="collapse"
                 data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"> </span>
             </button>
 
-            <div class="collapse nav-menu navbar-collapse pb-4 " id="navbarResponsive">
+            <div class="collapse nav-menu navbar-collapse pb-4 float-none" id="navbarResponsive">
 
 
                 <div class="my-3 mx-2">
@@ -35,7 +38,7 @@
                     <li class="nav-item dropdown">
                         <a href="" id="m3" class=" nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false"></a>
-                        <div class="dropdown-menu">
+                        <div class="dropdown-menu ">
                             <a class="dropdown-item" href="#" id="m3-1"></a>
                             <a class="dropdown-item" href="#" id="m3-2"></a>
                             <a class="dropdown-item" href="#" id="m3-3"></a>
@@ -46,11 +49,11 @@
                         <a href="" id="m4" class=" nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false"></a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#" id="m4-1"></a>
-                            <a class="dropdown-item" href="#" id="m4-2"></a>
-                            <a class="dropdown-item" href="#" id="m4-3"></a>
-                            <a class="dropdown-item" href="#" id="m4-4"></a>
-                            <a class="dropdown-item" href="#" id="m4-5"></a>
+                            <a class="dropdown-item " href="#" id="m4-1"></a>
+                            <a class="dropdown-item " href="#" id="m4-2"></a>
+                            <a class="dropdown-item " href="#" id="m4-3"></a>
+                            <a class="dropdown-item " href="#" id="m4-4"></a>
+                            <a class="dropdown-item " href="#" id="m4-5"></a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -99,9 +102,9 @@
 
 
     });
-//change active menu item border color
+    //change active menu item border color
     $(document).ready(function () {
- 
+
         var location = window.location.href;
 
         function searchString(string) {

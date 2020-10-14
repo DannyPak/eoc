@@ -6,10 +6,16 @@
     height: 55vh;
     position: relative;
     text-align: center;
+   
     
     background-size: cover;
     color: white;
    
+}
+
+.content{
+    position: relative;
+   top:200px
 }
 
 .banner-1{
@@ -22,12 +28,7 @@
 
 
 
-@media only screen and (max-width:767px) {
 
-    .logo{
-        max-width: 100px;
-    }
-}
 
 body {
     overflow-x: hidden;
@@ -46,7 +47,7 @@ body {
     border-top-width: 0px;
     border-left-width: 0px;
     border-right-width: 0px;
-    border-bottom-width: 3px;
+    border-bottom-width: 5px;
 }
 
 .title-tc,
@@ -58,10 +59,10 @@ body {
     color: #E1261C;
 }
 
-.bio-title,
-.page-title {
+.bio-title {
     /* color: #118091; */
     color: #76777B;
+
 }
 
 .btn-lang:hover {
@@ -76,12 +77,7 @@ footer,
 
 
 
-@media only screen and (max-width:767px) {
-    footer {
-        font-size: 0.7rem;
-    }
 
-}
 
 .nav-menu {
     flex-direction: column;
@@ -93,6 +89,8 @@ footer,
 .dropdown:hover > .dropdown-menu {
     display: block;
     margin-top: -1px;
+    margin-left: -15px;
+    
 }
 
 .dropdown-item{
@@ -638,10 +636,53 @@ footer,
     
 }
 
-/* Styles for the content section */
+
+header{
+    position:absolute;
+    z-index:1;
+    background-color:#fff;
+    width:100%
+}
+/* Styles for the mobile version */
 @media (min-width: 500px) {
     #back-button {
-        margin: 30px;
+        margin: 10px;
+        max-width:30px
     }
 }
+
+@media only screen and (max-width:767px) {
+    footer {
+        font-size: 0.7rem;
+    }
+
+    .logo{
+        max-width: 80px;
+    }
+
+    .page-title{
+        font-size:3rem;
+    }
+
+    .dropdown-item{
+        word-wrap:break-word;
+    }
+
+    .navbar-nav li a{
+        border-bottom-width:1px;
+        margin:0px 20px;
+    }
+
+    .title-tc{
+        font-size:3rem;
+    }
+    .title-en{
+        font-size:2rem;
+    }
+
+}
+
+
+
+
 
