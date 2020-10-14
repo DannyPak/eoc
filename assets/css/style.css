@@ -6,24 +6,23 @@
     height: 55vh;
     position: relative;
     text-align: center;
-   
-    
     background-size: cover;
     color: white;
-   
+
 }
 
-.content{
+.content {
     position: relative;
-   top:200px
+    top: 180px
 }
 
-.banner-1{
+.banner-1 {
     background-image: url('../img/banner-1.png');
 }
 
 .logo {
-    max-width: 160px;
+    max-width: 140px;
+
 }
 
 
@@ -70,30 +69,34 @@ body {
     border-color: #E1261C
 }
 
-footer,
+.footer,
 .top-menu {
     font-size: 0.8rem;
 }
 
+.footer {
+    margin-top: 150px;
+}
 
+.banner-1 h3::after {
+    content: " 承先啟後 穩步將來 | Inheriting the Past, Charting the Future.";
+}
 
-
-
-.nav-menu {
+rmmr .nav-menu {
     flex-direction: column;
     align-items: flex-end;
     align-self: stretch;
     justify-content: space-between;
 }
 
-.dropdown:hover > .dropdown-menu {
+.dropdown:hover>.dropdown-menu {
     display: block;
     margin-top: -1px;
     margin-left: -15px;
-    
+
 }
 
-.dropdown-item{
+.dropdown-item {
     border-style: none;
     border-width: 0px !important;
 }
@@ -104,13 +107,14 @@ footer,
 
 .main-menu li a:hover {
     text-decoration: underline;
-    color:#E1261C;
+    color: #E1261C;
 }
 
 .main-menu li a:active {
     background-color: #E8E4E4 !important;
     color: white !important;
 }
+
 /*
 .main-menu li:nth-child(1) a:hover {
     color: #dc3545 !important;
@@ -142,7 +146,7 @@ footer,
 }
 
 .page-title {
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
     font-weight: 500;
 }
 
@@ -582,22 +586,23 @@ footer,
 }
 
 /* back to top button */
-#back-button {
+ #back-button {
     display: inline-block;
     color: #76777B;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px; 
     text-align: center;
     border-radius: 4px;
     position: fixed;
-    bottom: 30px;
+    bottom: 20px;
     right: 30px;
-    transition: background-color .3s, 
-      opacity .5s, visibility .5s;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
-}
+    cursor: pointer;
+} 
 
 #back-button:hover {
     cursor: pointer;
@@ -615,7 +620,7 @@ footer,
 
 .breadcrumb-container {
     background-color: #76777B;
-    
+
 }
 
 .breadcrumb-container ol {
@@ -631,23 +636,30 @@ footer,
     text-decoration: underline;
 }
 
-.breadcrumb > li + li:before {
+.breadcrumb>li+li:before {
     color: #fff !important;
-    
+
 }
 
 
-header{
-    position:absolute;
-    z-index:1;
-    background-color:#fff;
-    width:100%
+header {
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    width: 100%
 }
+
+
+.collapse{
+    flex-direction: column;
+    align-items: end;
+}
+
 /* Styles for the mobile version */
 @media (min-width: 500px) {
     #back-button {
         margin: 30px;
-        max-width:30px
+        max-width: 30px
     }
 }
 
@@ -656,33 +668,43 @@ header{
         font-size: 0.7rem;
     }
 
-    .logo{
+    .logo {
         max-width: 80px;
+
     }
 
-    .page-title{
-        font-size:3rem;
+    .page-title {
+        font-size: 3rem;
     }
 
-    .dropdown-item{
-        word-wrap:break-word;
+    .dropdown-item {
+        word-wrap: break-word;
     }
 
-    .navbar-nav li a{
-        border-bottom-width:1px;
-        margin:0px 20px;
+    .navbar-nav li a {
+        border-bottom-width: 1px;
+        margin: 0px 20px;
     }
 
-    .title-tc{
-        font-size:3rem;
+    .title-tc {
+        font-size: 3rem;
     }
-    .title-en{
-        font-size:2rem;
+
+    .title-en {
+        font-size: 2rem;
     }
+
+    .content {
+        top: 100px;
+    }
+
+    .banner-1 h3::after {
+        content: "承先啟後 穩步將來 Inheriting the Past, Charting the Future.";
+    }
+
+    .jumbotron{
+        height:40vh;
+    }
+
 
 }
-
-
-
-
-
