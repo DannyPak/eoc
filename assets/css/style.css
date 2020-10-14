@@ -646,7 +646,7 @@ header{
 /* Styles for the mobile version */
 @media (min-width: 500px) {
     #back-button {
-        margin: 10px;
+        margin: 30px;
         max-width:30px
     }
 }
