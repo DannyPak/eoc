@@ -671,7 +671,11 @@ header {
     }
 
     .page-title {
-        font-size: 3rem;
+        font-size: 2.5rem;
+    }
+
+    #page-category {
+        font-size: 1.3rem;
     }
 
     .dropdown-item {
@@ -701,6 +705,7 @@ header {
 
     .banner-1 h3::after {
         content: "承先啟後 穩步將來 Inheriting the Past, Charting the Future.";
+        font-size:1.2rem
     }
 
     .jumbotron{
