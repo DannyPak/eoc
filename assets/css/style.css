@@ -652,6 +652,8 @@ header {
     background-color: white;
 }
 
+
+
 /* Styles for the mobile version */
 @media (min-width: 500px) {
     #back-button {
@@ -683,6 +685,8 @@ header {
     .dropdown-item {
         word-wrap: break-word;
     }
+
+
 
     .navbar-nav li a {
         border-bottom-width: 1px;
