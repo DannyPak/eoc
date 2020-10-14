@@ -10,6 +10,7 @@
                 "en": "<img src=\"assets/img/logo-square.png\" alt=\"logo\" class=\"logo m-1 img-fluid\">",
                 "tc": "<img src=\"assets/img/logo-square.png\" alt=\"logo\" class=\"logo  m-1 img-fluid\">",
                 "link": "index.html"
+                
             },
            
             "m1": {
@@ -20,7 +21,7 @@
             "m2": {
                 "en": "Chairperson's Message",
                 "tc": "主席的話",
-                "link": "chairperson-message.html"    
+                "link": "message.html"    
             },
             "m3": {
                 "en": "Our Stories",
@@ -83,6 +84,9 @@
                 "link": "gallery.html"
             }
         },
+
+       
+
 
 
         "index": {

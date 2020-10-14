@@ -6,10 +6,14 @@
     height: 55vh;
     position: relative;
     text-align: center;
-    background-image: url('../img/banner-1.png');
+    
     background-size: cover;
     color: white;
-    border-radius: 0;
+   
+}
+
+.banner-1{
+    background-image: url('../img/banner-1.png');
 }
 
 .logo {
@@ -630,10 +634,4 @@ footer,
         margin: 30px;
     }
 }
-
-.title-container {
-    position: absolute;
-    bottom: 100px;
-}
-
 
