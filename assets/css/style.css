@@ -3,7 +3,7 @@
 }
 
 .jumbotron {
-    height: 55vh;
+    height: 60vh;
     position: relative;
     text-align: center;
     background-size: cover;
@@ -13,7 +13,7 @@
 
 .content {
     position: relative;
-    top: 180px
+    top: 170px;
 }
 
 .banner-1 {
@@ -74,15 +74,13 @@ body {
     font-size: 0.8rem;
 }
 
-.footer {
-    margin-top: 150px;
-}
+
 
 .banner-1 h3::after {
     content: " 承先啟後 穩步將來 | Inheriting the Past, Charting the Future.";
 }
 
-rmmr .nav-menu {
+.nav-menu {
     flex-direction: column;
     align-items: flex-end;
     align-self: stretch;
@@ -645,14 +643,16 @@ rmmr .nav-menu {
 header {
     position: absolute;
     z-index: 1;
-    background-color: #fff;
-    width: 100%
+    background-color:white;
+    width: 100%;
+   
 }
 
 
-.collapse{
+.dropdown-item{
     flex-direction: column;
     align-items: end;
+    background-color: white;
 }
 
 /* Styles for the mobile version */
@@ -692,6 +692,10 @@ header {
 
     .title-en {
         font-size: 2rem;
+    }
+
+    header{
+        height:100px;
     }
 
     .content {
