@@ -1,7 +1,3 @@
-
-
-
-
 //get URL 
 
 const queryString = window.location.search;
@@ -13,10 +9,6 @@ var lang = urlParams.get('lang')
 function selectLang() {
   var href = new URL(window.location.href);
   var searchParams = new URLSearchParams(window.location.search);
-
-  
-
-  
 
 
 
@@ -52,22 +44,32 @@ btn.on('click', function (e) {
   $('html, body').animate({ scrollTop: 0 }, '300');
 });
 
-//breadcumb
+//breadcumb and title
 
-function breadcumb(menu, lang) {
+function bannerText(menu, lang, category, page) {
 
   document.getElementById("level-0").setAttribute("href", menu["m1"].link + "?lang=" + lang);
   if (lang != "tc") {
     document.getElementById("level-0").innerHTML = menu["m1"].en;
-    document.getElementById("level-1").innerHTML = document.getElementById("page-title").innerHTML;
+    document.getElementById("level-1").innerHTML = menu[category].en;
+    document.getElementById("page-category").innerHTML = menu[category].en;
+    document.getElementById("level-2").innerHTML = menu[page].en;
+    document.getElementById("page-title").innerHTML = menu[page].en
+    
   }else{
 
     document.getElementById("level-0").innerHTML = menu["m1"].tc;
-    document.getElementById("level-1").innerHTML = document.getElementById("page-title").innerHTML;
+    document.getElementById("level-1").innerHTML = menu[category].tc;
+    document.getElementById("page-category").innerHTML = menu[category].tc;
+    document.getElementById("level-2").innerHTML = menu[page].tc;
+    document.getElementById("page-title").innerHTML = menu[page].tc
+    
 
 
   }
 }
+
+
 
 
 

@@ -17,12 +17,18 @@
                 "en": "Home",
                 "tc": "主頁",
                 "link": "index.html"    
-            },            
+            },
             "m2": {
+                "en": "EOC 25th Anniversary",
+                "tc": "平機㑹25週年",
+                "link": " "    
+            },            
+            "m2-1": {
                 "en": "Chairperson's Message",
                 "tc": "主席的話",
                 "link": "message.html"    
             },
+            
             "m3": {
                 "en": "Our Stories",
                 "tc": "我們的故事",
@@ -77,8 +83,13 @@
                 "en": "25th Anniversary Reception",
                 "tc": "廿五週年慶祝聚會",
                 "link": "reception.html"
-            },                       
+            },  
             "m5": {
+                "en": "EOC 25th Anniversary",
+                "tc": "平機㑹25週年",
+                "link": " "    
+            },                     
+            "m5-1": {
                 "en": "Multimedia Gallery",
                 "tc": "多媒體資訊",
                 "link": "gallery.html"

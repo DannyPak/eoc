@@ -4,11 +4,11 @@
     <div class="container p-1">
         <nav class="nav navbar navbar-expand-lg navbar-light p-0 ">
             <div class="d-flex justify-content-start align-items-center px-2">
-                <a href="" class="navbar-brand  logo img-fluid" id="logo" ></a><span class="main-logo"></span>
-                
+                <a href="" class="navbar-brand  logo img-fluid" id="logo"></a><span class="main-logo"></span>
+
                 <img src="assets/img/eoc_logo_150.png" class="logo img-fluid">
             </div>
-            
+
             <button type="button" class="btn navbar-toggler mx-3" data-toggle="collapse"
                 data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"> </span>
@@ -34,7 +34,7 @@
                         <a href="" id="m1" class=" nav-link"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="" id="m2" class=" nav-link"></a>
+                        <a href="" id="m2-1" class=" nav-link"></a>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="" id="m3" class=" nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
@@ -58,7 +58,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a href="" id="m5" class=" nav-link"></a>
+                        <a href="" id="m5-1" class=" nav-link"></a>
                     </li>
                 </ul>
 
@@ -74,7 +74,7 @@
 
 
     //insert Element's ID
-    var menuId = ["btn-eoc", "logo", "m1", "m2", "m3", "m3-1", "m3-2", "m3-3", "m3-4", "m4", "m4-1", "m4-2", "m4-3", "m4-4", "m4-5", "m5"];
+    var menuId = ["btn-eoc", "logo", "m1", "m2-1", "m3", "m3-1", "m3-2", "m3-3", "m3-4", "m4", "m4-1", "m4-2", "m4-3", "m4-4", "m4-5", "m5-1"];
 
 
     $.getJSON('data.json', function (data) {
@@ -107,31 +107,34 @@
     $(document).ready(function () {
 
         var location = window.location.href;
-
         function searchString(string) {
             if (location.indexOf(string) > -1) {
                 return true;
             };
         }
 
+        function menuBorderColor(page) {
+            document.getElementById(page).style.borderColor = "#E1261C";
+        }
 
 
         if (searchString("index")) {
             //if (location.indexOf("index") > -1) {
-            document.getElementById("m1").style.borderColor = "#E1261C";
+            //document.getElementById("m1").style.borderColor = "#E1261C";
+            menuBorderColor("m1");
 
         } else if (searchString("message")) {
-            document.getElementById("m2").style.borderColor = "#E1261C";
+            menuBorderColor("m2-1");
+
         } else if (searchString("gallery")) {
-            document.getElementById("m5").style.borderColor = "#E1261C";
+            menuBorderColor("m5-1");
         }
 
         else if (searchString("chairpersons") || searchString("members") || searchString("milestone") || searchString("stories")) {
-            document.getElementById("m3").style.borderColor = "#E1261C";
+            menuBorderColor("m3");
         } else {
-            document.getElementById("m4").style.borderColor = "#E1261C";
+            menuBorderColor("m4");
         }
-
 
     });
 

@@ -145,6 +145,10 @@ body {
     font-weight: 500;
 }
 
+#page-category{
+    text-transform: uppercase;
+}
+
 /* gallery */
 .modal.dialog {
     max-width: 20000px;
@@ -680,6 +684,7 @@ header {
     #page-category {
         font-size: 1.3rem;
         text-align: left;
+        
     }
 
     .dropdown-item {

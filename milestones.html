@@ -300,9 +300,9 @@
             //insert page title  
             var menu = data[0].menu;
 
-
-            //insert breadcumb
-            breadcumb(menu, lang);
+           
+            //insert breadcumb and page title
+            bannerText(menu, lang, "m3","m3-3");
 
             //insert page content
             var mydata = data[0].milestone;
@@ -311,24 +311,18 @@
                 if (lang != "tc") {
 
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].en;
-                    document.getElementById("level-1").innerHTML = menu["m3"].en; //breadcumb
-                    document.getElementById("level-2").innerHTML = menu["m3-3"].en; //breadcumb
-                    document.getElementById("page-category").innerHTML = menu["m3"].en;
-                    document.getElementById("page-title").innerHTML = menu["m3-3"].en
+                    
                 }
 
                 else {
 
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].tc;
-                    document.getElementById("level-1").innerHTML = menu["m3"].tc; //breadcumb
-                    document.getElementById("level-2").innerHTML = menu["m3-3"].tc; //breadcumb
-                    document.getElementById("page-category").innerHTML = menu["m3"].tc;
-                    document.getElementById("page-title").innerHTML = menu["m3-3"].tc
+                    
 
 
                 }
             }
-            document.getElementById("page-category").style.textTransform = "uppercase";
+            
 
 
 
