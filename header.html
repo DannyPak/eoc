@@ -107,7 +107,7 @@
     $(document).ready(function () {
 
         var location = window.location.href;
-        
+
         function searchString(string) {
             if (location.indexOf(string) > -1) {
                 return true;
@@ -120,8 +120,7 @@
 
 
         if (searchString("index")) {
-            //if (location.indexOf("index") > -1) {
-            //document.getElementById("m1").style.borderColor = "#E1261C";
+      
             menuBorderColor("m1");
 
         } else if (searchString("message")) {
