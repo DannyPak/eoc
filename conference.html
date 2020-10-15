@@ -33,8 +33,11 @@
     <div class="content">
         <div
             class="banner-1 d-flex flex-column justify-content-between jumbotron jumbotron-fluid  m-0 px-5 py-3 text-md-left">
+            <div>
+                <h3 class="display-5"></h3>
+                <h3 class="display-5 "></h3>
+            </div>
 
-            <h3 class="display-5"></h3>
 
             <div class="align-self-stretch">
                 <h2 class="display-5 text-wrap" id="page-category"></h2>
@@ -116,7 +119,7 @@
                 if (lang == "en") {
 
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].en;
-                    
+
                     document.getElementById("level-1").innerHTML = menu["m4"].en; //breadcumb
                     document.getElementById("level-2").innerHTML = menu["m4-4"].en; //breadcumb
                     document.getElementById("page-category").innerHTML = menu["m4"].en;
@@ -125,7 +128,7 @@
 
                 else {
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].tc;
-                   
+
                     document.getElementById("level-1").innerHTML = menu["m4"].tc; //breadcumb
                     document.getElementById("level-2").innerHTML = menu["m4-4"].tc; //breadcumb
                     document.getElementById("page-category").innerHTML = menu["m4"].tc;

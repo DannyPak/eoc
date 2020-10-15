@@ -73,7 +73,7 @@ body {
 
 
 
-.banner-1 h3::after {
+.jumbotron h3:first-child::after {
     content: " 承先啟後 穩步將來 | Inheriting the Past, Charting the Future.";
 }
 
@@ -709,13 +709,22 @@ header {
         top: 100px;
     }
 
-    .banner-1 h3::after {
-        content: "承先啟後 穩步將來 Inheriting the Past, Charting the Future.";
+    .jumbotron h3{
+        text-align: left;
+    }
+
+    .jumbotron h3:first-child::after {
+        content: "承先啟後 穩步將來";
+        font-size:1.2rem
+    }
+    .jumbotron h3:nth-child(2)::after {
+        content: "Inheriting the Past, Charting the Future.";
         font-size:1.2rem
     }
 
     .jumbotron{
-        height:40vh;
+        height:60vh;
+        padding:5px;
     }
 
 
