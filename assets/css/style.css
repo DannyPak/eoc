@@ -220,7 +220,7 @@ body {
     width: 120px;
     height: 120px;
     line-height: 100px;
-    border-radius: 50%;
+    border-radius: 0;
     border: 10px solid #f54957;
     font-size: 30px;
     color: #f54957;
@@ -232,7 +232,7 @@ body {
 }
 
 .main-timeline .year:before {
-    content: "";
+    /*content: "";*/
     border-left: 20px solid #f54957;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
