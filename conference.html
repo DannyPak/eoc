@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Asia-Pacific Women Caregivers with Disabilities Conference</title>
+    <title>Visual Campaign</title>
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
@@ -26,48 +26,53 @@
 </head>
 
 <body>
-    <a id="back-button"><i class="fas fa-arrow-circle-up fa-4x"></i></a>
+    <a id="back-button"><i class="fas fa-arrow-circle-up fa-5x"></i></a>
     <div id="header"></div>
-
-    <!-- page banner -->
     <div class="content">
+        <!-- page banner -->
+    
         <div
-            class="banner-1 d-flex flex-column justify-content-between jumbotron jumbotron-fluid  m-0 px-5 py-3 text-md-left">
-            <div>
-                <h3 class="display-5"></h3>
-                <h3 class="display-5 "></h3>
-            </div>
-
-
-            <div class="align-self-stretch">
-                <h2 class="display-5 text-wrap" id="page-category"></h2>
-                <h1 class="display-2 text-wrap page-title" id="page-title"></h1>
-            </div>
-
+          class="banner-3 d-flex flex-column justify-content-between jumbotron jumbotron-fluid  m-0 px-5 pt-6 text-md-left">
+          <h2 class="display-3 text-wrap container" id="page-category"></h2>
+          <div>
+            <h3 class="display-4  text-left"></h3>
+            <h3 class="display-4  text-left"></h3>
+          </div>
+    
+    
         </div>
         <!-- page banner end -->
-
-        <!-- start of breadcumb -->
-        <nav aria-label="breadcrumb" class="breadcrumb-container px-5">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item">
-                    <a href="#" id="level-0"></a>
-                </li>
-                <li class="breadcrumb-item" id="level-1"></li>
-                <li class="breadcrumb-item active" aria-current="page" id="level-2"></li>
-            </ol>
-        </nav>
-        <!-- end of breadcumb -->
-        <!-- start of content -->
-
-        <h2 id="conference-title" class="py-5 page-title text-center"></h2>
-
-
-
-        <!-- end of content -->
-
+    
+       <!-- start of breadcumb -->
+            
+            <nav aria-label="breadcrumb" class="breadcrumb-container px-5">
+                <ol class="breadcrumb container">
+                    <li class="breadcrumb-item">
+                        <a href="#" id="level-0"></a>
+                    </li>
+                    <li class="breadcrumb-item" id="level-1"></li>
+                    <li class="breadcrumb-item active" aria-current="page" id="level-2"></li>
+                </ol>
+            </nav>
+            <!-- end of breadcumb -->
+        <!-- page title-->
+        <div class="align-self-stretch container">
+    
+          <h1 class="display-4 text-center text-wrap page-title" id="page-title"></h1>
+        </div>
+    
+        <!-- end of page title-->
+    
+        <div class="container text-center py-5 my-5 display-4">Coming Soon</div>
+    
+    
+    
+    
+    
+    
+    
         <div id="footer"></div>
-    </div>
+      </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -93,44 +98,35 @@
             $("#footer").load("footer.html");
         });
 
-        //insert Element's ID
-        var elementId = [];
+       
 
         /*------------Fill content---------*/
 
         //insert Element's ID
-        var titleId = ["level-1","level-2"]
-        var elementId = ["conference-title"];
+        var elementId = [""];
 
         $.getJSON('data.json', function (data) {
 
-   
-            var menu = data[0].menu;    
-            var mydata = data[0].conference;   
+            //insert page title  
+            var menu = data[0].menu;
+            
+//insert breadcumb and page title
+bannerText(menu, lang, "m4", "m4-4");         
 
-            //insert breadcumb and title
-
-            bannerText(menu, lang, "m4", "m4-4");
 
             //insert page content
-            
+            var mydata = data[0].conference;
             for (var i = 0; i < elementId.length; i++) {
-                if (lang != "tc") {
+                if (lang == "en") {
 
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].en;
-
-                   
-                }
+                     }
 
                 else {
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].tc;
-
                     
-
-
                 }
             }
-            document.getElementById("page-category").style.textTransform = "uppercase";
 
 
         });

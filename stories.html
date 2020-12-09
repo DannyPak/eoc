@@ -28,40 +28,52 @@
 <body>
     <a id="back-button"><i class="fas fa-arrow-circle-up fa-5x"></i></a>
     <div id="header"></div>
-
-        <!-- page banner -->         
-        <div class="banner-1 d-flex flex-column jumbotron jumbotron-fluid justify-content-between m-0 px-5 text-md-left"> 
-            <h3 class="align-self-stretch display-5" id="slogan">承先啟後 穩步將來 | Inheriting the Past, Charting the Future.</h3>
-            <div class="align-self-stretch"> 
-                <h2 class="display-4" id="page-category"></h2> 
-                <h1 class="display-1" id="page-title"></h1> 
-            </div>             
-                      
-        </div>         
-        <!-- page banner end -->   
-
-    <!-- start of breadcumb -->
-
-
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb bg-white container font-up-bold">
-            <li class="breadcrumb-item"><a href="#" id="level-0"></a></li>
-            <li class="breadcrumb-item" id="level-1"></li>
-            <li class="breadcrumb-item active" aria-current="page" id="level-2"></li>
-        </ol>
-    </nav>
-
-
-    <!-- end of breadcumb -->
-    <!-- start of content -->
-
-    <h2 id="stories-title" class="py-5 page-title text-center"></h2>
-
-
-
-    <!-- end of content -->
-
-    <div id="footer"></div>
+    <div class="content">
+        <!-- page banner -->
+    
+        <div
+          class="banner-2 d-flex flex-column justify-content-between jumbotron jumbotron-fluid  m-0 px-5 pt-6 text-md-left">
+          <h2 class="display-3 text-wrap container" id="page-category"></h2>
+          <div>
+            <h3 class="display-4  text-left"></h3>
+            <h3 class="display-4  text-left"></h3>
+          </div>
+    
+    
+        </div>
+        <!-- page banner end -->
+    
+       <!-- start of breadcumb -->
+            
+            <nav aria-label="breadcrumb" class="breadcrumb-container px-5">
+                <ol class="breadcrumb container">
+                    <li class="breadcrumb-item">
+                        <a href="#" id="level-0"></a>
+                    </li>
+                    <li class="breadcrumb-item" id="level-1"></li>
+                    <li class="breadcrumb-item active" aria-current="page" id="level-2"></li>
+                </ol>
+            </nav>
+            <!-- end of breadcumb -->
+        <!-- page title-->
+        <div class="align-self-stretch container">
+    
+          <h1 class="display-4 text-center text-wrap page-title" id="page-title"></h1>
+        </div>
+    
+        <!-- end of page title-->
+    
+        <div class="container text-center py-5 my-5 display-4">Coming Soon</div>
+    
+    
+    
+    
+    
+    
+    
+    
+        <div id="footer"></div>
+      </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -88,35 +100,19 @@
         });
 
         //insert Element's ID
-        var elementId = ["stories-title"];
+        var elementId = [""];
 
         /*------------Fill content---------*/
 
-        //insert Element's ID
-        var elementId = ["stories-title"];
+    
 
         $.getJSON('data.json', function (data) {
 
             //insert page title  
             var menu = data[0].menu;
-            document.getElementById("title-en").innerHTML = menu["m3"].en;
-            document.getElementById("title-tc").innerHTML = menu["m3"].tc;
-
-
-            //insert breadcumb content
-
-            document.getElementById("level-0").setAttribute("href", menu["m1"].link + "?lang=" + lang);
-            if (lang != "tc") {
-                document.getElementById("level-0").innerHTML = menu["m1"].en;
-                document.getElementById("level-2").innerHTML = menu["m3-4"].en;
-                document.getElementById("level-1").innerHTML = document.getElementById("title-en").innerHTML;
-            } else {
-
-                document.getElementById("level-0").innerHTML = menu["m1"].tc;
-                document.getElementById("level-2").innerHTML = menu["m3-4"].tc;
-                document.getElementById("level-1").innerHTML = document.getElementById("title-tc").innerHTML;
-
-            }
+            
+             //insert breadcumb and page title
+				bannerText(menu, lang, "m3", "m3-4");
 
             //insert page content
             var mydata = data[0].stories;

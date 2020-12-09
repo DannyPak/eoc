@@ -74,6 +74,8 @@
                 <div class="col-md-8 col-xs-12 messages-content bg-light mx-auto mb-5">
                     
                     <p class="col-12 text-justify" id="cp-content"></p>
+                    <blockquote class="text-justify" id="cp-quote"></blockquote>
+                    <p class="col-12 text-justify" id="cp-content2"></p>
                 </div>
             </div>
         </div>
@@ -104,7 +106,7 @@
         /*------------Fill content---------*/
 
         //insert Element's ID
-        var elementId = ["page-title", "cp-name", "cp-title", "cp-content"];
+        var elementId = ["page-title", "cp-name", "cp-title", "cp-content","cp-quote","cp-content2"];
 
         $.getJSON('data.json', function (data) {
 

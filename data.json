@@ -98,96 +98,7 @@
                 "tc": "平等機會委員會（平機會）是於1996年根據《性別歧視條例》（第480章）成立的一個獨立法定機構，負責執行本港反歧視條例。<br><br>過去二十年來，香港在平權事務上出現了很大變遷。隨著社會發展，市民對平等機會的期望及渴求亦與年俱增。與此同時，香港的反歧視條例保障範圍也相應擴大，由1996年生效的《性別歧視條例》及《殘疾歧視條例》（第487章）擴展至1997年的《家庭崗位歧視條例》（第527章），以及2009年生效的《種族歧視條例》（第602章）。<br><br>平機會一直與不同持份者及伙伴緊密合作，竭力履行我們監管法例執行的職能，並推動社會大眾加深認識平等機會。透過個案調查、調停及提供法律協助，還有進行研究、倡議政策和教育公眾等工作，我們的抱負是建設一個沒有歧視、崇尚多元、包容共濟的社會，人人共享平等機會。<br><br>這個網站提供關於平機會過去二十年發展的資訊，還有二十周年的活動和委員會對未來的抱負。在慶祝二十周年這個里程之際，平機會將繼續為本港未來的發展作出貢獻。我們期待與你合作建構一個人人享有尊嚴，並且互相尊重的共融社會。<br><br>平等機會委員會<br><br>2016年5月"
             }
         },
-        "milestone": {
-            "timeline-title": {
-                "en": "History of Hong Kong’s Anti-discrimination Legislation",
-                "tc": "香港反歧視條例歷史"
-            },
-            "1995": {
-                "en": "The Sex Discrimination Ordinance (SDO) and the Disability Discrimination Ordinance (DDO) were enacted",
-                "tc": "《性別歧視條例》和《殘疾歧視條例》制定"
-            },
-            "1996": {
-                "en": "The Equal Opportunities Commission (EOC) was established in May, and started offering services to the public in September The Code of Practice on Employment under the SDO and DDO respectively came into effect in December",
-                "tc": "平等機會委員會(平機會)於5月成立，並於9月開始向公眾提供服務《性別歧視條例僱傭實務守則》及《殘疾歧視條例僱傭實務守則》分別於12月生效"
-            },
-            "1997": {
-                "en": "The Family Status Discrimination Ordinance (FSDO) came into effect in June,The Family Status Discrimination Ordinance (FSDO) came into effect in June",
-                "tc": "《家庭崗位歧視條例》於6月生效,平等機會委員會(平機會)於5月成立，並於9月開始向公眾提供服務《性別歧視條例僱傭實務守則》及《殘疾歧視條例僱傭實務守則》分別於12月生效"
-            },
-            "1998": {
-                "en": "The Code of Practice on Employment under the FSDO came into effect. The EOC commenced review of the SDO and the DDO",
-                "tc": "《家庭崗位歧視條例僱傭實務守則》生效 <BR><BR><BR><BR><BR>"
-            },
-            "card-title-1": {
-                "en": "Key Facts and Figures (9/1996 - 6/2016)",
-                "tc": "重要數據 (9/1996 - 6/2016)"
-            },
-            "card-title-2": {
-                "en": "Enquires and Complaints",
-                "tc": "查詢及投訴"
-            },
-            "card-title-3": {
-                "en": "Legal Assistance",
-                "tc": "法律協助"
-            },
-            "card-1": {
-                "en": "Enquiries received",
-                "tc": "接獲查詢"
-            },
-            "card-2": {
-                "en": "Complaints received",
-                "tc": "接獲投訴"
-            },
-            "card-3": {
-                "en": "Cases initiated by the EOC",
-                "tc": "由平機會主動作出調查個案"
-            },
-            "card-4": {
-                "en": "Cases concluded",
-                "tc": "已完結的個案"
-            },
-            "card-5": {
-                "en": "Conciliation attempted",
-                "tc": "已進行調停"
-            },
-            "card-6": {
-                "en": "Conciliation successful",
-                "tc": "調停成功"
-            },
-            "card-7": {
-                "en": "Successful conciliation rate",
-                "tc": "調停成功率"
-            },
-            "card-8": {
-                "en": "Total monetary compensation for complaints settled through conciliation",
-                "tc": "投訴通過調停得到和解的金錢賠償總額"
-            },
-            "card-11": {
-                "en": "Number of applications for legal assistance",
-                "tc": "法律協助申請"
-            },
-            "card-12": {
-                "en": "Legal assistance granted",
-                "tc": "獲給予法律協助的個案"
-            },
-            "card-13": {
-                "en": "Settlement before commencement of legal proceedings",
-                "tc": "在展開法律程序前達成和解"
-            },
-            "card-14": {
-                "en": "Settlement after commencement of legal proceedings",
-                "tc": "在展開法律程序後達成和解"
-            },
-            "card-15": {
-                "en": "EOC assisted court cases",
-                "tc": "平機會協助的法庭個案"
-            },
-            "card-16": {
-                "en": "Total settlement(including damages awarded by the courts and out-of-court settlement)",
-                "tc": "和解金額總數(包括由法庭判決的賠償及庭外和解的個案)"
-            }
-        },
+        
         "message": {
             "page-title": {
                 "en": "Chairperson's Message",
@@ -206,10 +117,20 @@
                 "tc": "平機會主席"
             },
             "cp-content": {
-                "en": "On 20 May 1996, the Equal Opportunities Commission (EOC) came into establishment, following the enactment of the Sex Discrimination Ordinance (Chapter 480) in 1995. <br><br>The EOC was founded with a clear mission of implementing the anti-discrimination ordinances in Hong Kong – to work towards the elimination of discrimination on the grounds of gender, family status, disability and race. As Hong Kong’s equality body, we also monitor relevant developments and act to promote equality for all, irrespective of different characteristics. Indeed, our overall vision is to create a pluralistic and inclusive society where there is no barrier to equal opportunities. <br><br>Over the last 20 years, the EOC has strived to break down the longstanding hurdles faced by various disadvantaged and marginalised groups in society. In fulfilling our role and mission, we have strived to keep pace with the development of Hong Kong, as the city underwent significant social, economic and political changes. <br><br>We are pleased to see that the concepts of equal opportunities are taking root in Hong Kong, and there is much greater understanding of their importance among community members. This could not have happened without the vision and effort of our predecessors, the dedication of the EOC colleagues, and the support of different stakeholders and sectors of the community. <br><br>The momentous occasion of the 20th anniversary offers us an opportunity to express our appreciation to our former Chairpersons, our current and past Board Members, as well as our allies and friends, to present our vision for the future, and renew our commitment to advancing equal opportunities for all. Building on the foundation of our work, we are eager to make even greater contribution to Hong Kong in the years to come.<br><br> We have created this mini-site to highlight the major milestones of the EOC to the public, as well as the events and programmes we have devised for this special occasion. We cordially invite you to join in our celebrations, and we look forward to having you in our future journey, as we continue to forge a path to an inclusive society free of discrimination.",
+                "en": "Since its establishment under the Sex Discrimination Ordinance in May 1996, the Equal Opportunities Commission (EOC) has served the city for 25 years. <br><br>Over a quarter of a century, the EOC has been faithfully discharging its mandate of enforcing Hong Kong’s anti-discrimination ordinances to eliminate discrimination based on sex, pregnancy, family status and race; sexual harassment; as well as harassment and vilification on the grounds of disability and race. <br><br>Closely connected with the everyday life of citizens and the wellbeing of different communities, the EOC’s work serves to uproot ingrained prejudices and stereotypes. While this has proven to be an increasing challenge amid drastic and complex changes to our society in recent years, the EOC remains steadfast in its mission, professional in its duty, and proactive in its outlook. The poem below captures our sentiment:",
+                "tc": "隨著《性別歧視條例》(第480章)於 1995年獲制訂後，平等機會委員會(平機會)於1996年5月20日正式成立。平機會有明確的使命，致力推行香港的反歧視條例，以消除基於性別、家庭崗位、殘疾和種族的歧視為己任。平機會亦密切監察社會上的相關發展，推動人人享有平等，以保障市民不會因為上述特徵而遭到歧視。事實上，平機會的抱負就是建立一個人人得享平等機會的多元共融社會。過去二十年來，平機會致力移除社會上各弱勢社群和邊緣群體長久以來面對的種種障礙。在履行本身的角色和責任時，平機會一直緊隨香港的發展步伐，確保委員會的工作能配合香港在社會、經濟及政治各方面的轉變。對於平等機會的理念逐漸於香港扎根，市民更為認識平等機會的重要性，平機會感到十分鼓舞。這實在有賴前人的遠見和努力，平機會同事們的孜孜不倦，以及不同持份者和社區各界的支持，才能取得有關成果。適逢平機會二十周年，我們藉此向歷任主席、現任及歷屆委員，我們的工作夥伴和朋友衷心表達謝意，並重申我們致力促進人人平等的抱負和承諾。憑藉前人奠下的基礎，我們定將繼續努力，為香港作出更大的貢獻。平機會為二十周年特別設立了這個網頁，讓公眾認識平機會二十年來的重要工作，和二十周年的慶祝活動和計劃。在此，我們誠邀大家參與委員會的慶祝活動，亦期待日後與你同行平等路，攜手共建「零歧視」的共融社會。"
+            },
+            "cp-quote":{
+                "en":"To an equal world we all aspire, But never by chance does change transpire. Sown over twenty years in times good and dire, May our seeds bear fruit justly desired.",
+                "tc": "隨著《性別歧視條例》(第480章)於 1995年獲制訂後，平等機會委員會(平機會)於1996年5月20日正式成立。平機會有明確的使命，致力推行香港的反歧視條例，以消除基於性別、家庭崗位、殘疾和種族的歧視為己任。平機會亦密切監察社會上的相關發展，推動人人享有平等，以保障市民不會因為上述特徵而遭到歧視。事實上，平機會的抱負就是建立一個人人得享平等機會的多元共融社會。過去二十年來，平機會致力移除社會上各弱勢社群和邊緣群體長久以來面對的種種障礙。在履行本身的角色和責任時，平機會一直緊隨香港的發展步伐，確保委員會的工作能配合香港在社會、經濟及政治各方面的轉變。對於平等機會的理念逐漸於香港扎根，市民更為認識平等機會的重要性，平機會感到十分鼓舞。這實在有賴前人的遠見和努力，平機會同事們的孜孜不倦，以及不同持份者和社區各界的支持，才能取得有關成果。適逢平機會二十周年，我們藉此向歷任主席、現任及歷屆委員，我們的工作夥伴和朋友衷心表達謝意，並重申我們致力促進人人平等的抱負和承諾。憑藉前人奠下的基礎，我們定將繼續努力，為香港作出更大的貢獻。平機會為二十周年特別設立了這個網頁，讓公眾認識平機會二十年來的重要工作，和二十周年的慶祝活動和計劃。在此，我們誠邀大家參與委員會的慶祝活動，亦期待日後與你同行平等路，攜手共建「零歧視」的共融社會。"
+            
+            },
+            "cp-content2": {
+                "en": "Looking ahead, the EOC will continue to adopt a three-pronged approach – encompassing law enforcement, prevention and education – in removing the barriers facing marginalised communities, raising awareness of anti-discrimination laws, and reinvigorating public interest in concepts of equality and inclusion. “Equal rights for everyone” is, after all, a universal aspiration, and the EOC is determined to create positive change in Hong Kong and beyond. <br><br>I am indeed honoured by the opportunity to chart the EOC’s future roadmap at this historic moment in time. To mark our 25th anniversary, we have curated a series of activities, and I hope all of you will join us in this celebration. We have also set up this website to highlight some of the major milestones the EOC has made over the years. <br><br>A big thank-you is due to all the people who have believed in and stood by us through the past 25 years. We look forward to having the support of all sectors in society, as we keep on striving to break new ground and reach new heights.",
                 "tc": "隨著《性別歧視條例》(第480章)於 1995年獲制訂後，平等機會委員會(平機會)於1996年5月20日正式成立。平機會有明確的使命，致力推行香港的反歧視條例，以消除基於性別、家庭崗位、殘疾和種族的歧視為己任。平機會亦密切監察社會上的相關發展，推動人人享有平等，以保障市民不會因為上述特徵而遭到歧視。事實上，平機會的抱負就是建立一個人人得享平等機會的多元共融社會。過去二十年來，平機會致力移除社會上各弱勢社群和邊緣群體長久以來面對的種種障礙。在履行本身的角色和責任時，平機會一直緊隨香港的發展步伐，確保委員會的工作能配合香港在社會、經濟及政治各方面的轉變。對於平等機會的理念逐漸於香港扎根，市民更為認識平等機會的重要性，平機會感到十分鼓舞。這實在有賴前人的遠見和努力，平機會同事們的孜孜不倦，以及不同持份者和社區各界的支持，才能取得有關成果。適逢平機會二十周年，我們藉此向歷任主席、現任及歷屆委員，我們的工作夥伴和朋友衷心表達謝意，並重申我們致力促進人人平等的抱負和承諾。憑藉前人奠下的基礎，我們定將繼續努力，為香港作出更大的貢獻。平機會為二十周年特別設立了這個網頁，讓公眾認識平機會二十年來的重要工作，和二十周年的慶祝活動和計劃。在此，我們誠邀大家參與委員會的慶祝活動，亦期待日後與你同行平等路，攜手共建「零歧視」的共融社會。"
             }
         },
+
         "chairpersons": {
             "chairpersons-title": {
                 "en": "List of Chairpersons",
@@ -276,8 +197,8 @@
                 "tc": "陳章明教授, SBS, JP"
             },
             "cp8-title": {
-                "en": "Chairperson, Equal Opportunities Commission",
-                "tc": "平機會主席"
+                "en": "Former Chairperson of the EOC (2016-2019)",
+                "tc": "平等機會委員會前任主席 (2016-2019)"
             }
 
         },
@@ -285,6 +206,38 @@
             "members-title": {
                 "en": "List of Members",
                 "tc": "歷任委員名單"
+            },
+            "member1":{
+                "en":"Peter Chan",
+                "tc":"陳大文"
+            },
+            "member1-title":{
+                "en":"Member, Women’s Commission<br>Vice President, The Hong Kong Society for Rehabilitation",
+                "tc":"婦女事務委員會委員<br>香港復康會副會長"
+            },
+            "member2":{
+                "en":"Peter Chan",
+                "tc":"陳大文"
+            },
+            "member2-title":{
+                "en":"Member, Women’s Commission<br>Vice President, The Hong Kong Society for Rehabilitation",
+                "tc":"婦女事務委員會委員<br>香港復康會副會長"
+            },
+            "member3":{
+                "en":"Peter Chan",
+                "tc":"陳大文"
+            },
+            "member3-title":{
+                "en":"Member, Women’s Commission<br>Vice President, The Hong Kong Society for Rehabilitation",
+                "tc":"婦女事務委員會委員<br>香港復康會副會長"
+            },
+            "member4":{
+                "en":"Peter Chan",
+                "tc":"陳大文"
+            },
+            "member4-title":{
+                "en":"Member, Women’s Commission<br>Vice President, The Hong Kong Society for Rehabilitation",
+                "tc":"婦女事務委員會委員<br>香港復康會副會長"
             }
         },
         "stories": {
