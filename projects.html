@@ -29,20 +29,24 @@
     <a id="back-button"><i class="fas fa-arrow-circle-up fa-4x"></i></a>
     <div id="header"></div>
 
-    <!-- page banner -->
+    
     <div class="content">
-        <div class="banner-1 d-flex flex-column justify-content-between jumbotron jumbotron-fluid  m-0 px-5 pt-6 text-md-left">
-			<h2 class="display-3 text-wrap" id="page-category"></h2>
+
+		<!-- page banner -->
+		
+        <div class="banner-2 d-flex flex-column justify-content-between jumbotron jumbotron-fluid  m-0 px-5 pt-6 text-md-left">
+			<h2 class="display-3 text-wrap container" id="page-category"></h2>
 			<div>
-				<h3 class="display-1 text-center"></h3>
-				<h3 class="display-5 text-center"></h3>				
-				
+				<h3 class="display-4  text-left"></h3>
+				<h3 class="display-4  text-left"></h3>									
 			</div>
+			
 
         </div>
         <!-- page banner end -->
 
-        <!-- start of breadcumb -->
+		<!-- start of breadcumb -->
+		
         <nav aria-label="breadcrumb" class="breadcrumb-container px-5">
             <ol class="breadcrumb container">
                 <li class="breadcrumb-item">
@@ -52,24 +56,28 @@
                 <li class="breadcrumb-item active" aria-current="page" id="level-2"></li>
             </ol>
         </nav>
-        <!-- end of breadcumb -->
-       
+		<!-- end of breadcumb -->
+		
 
-
-        <div class="align-self-stretch container">
+		<!-- page title-->
+		<div class="align-self-stretch container">
             
-            <h1 class="display-4 text-left text-wrap page-title" id="page-title"></h1>
-        </div>
+            <h1 class="display-4 text-center text-wrap page-title" id="page-title"></h1>
+		</div>
+
+		<!-- end of page title-->
+
+      
 
         <!-- timeline https://github.com/juanbrujo/jQuery-Timelinr/blob/master/horizontal.html-->
       
 		<div id="timeline" style="background-color:#F8F9FA; padding:50px; border-radius:20px">
 			
 			<ul id="dates">
-			  <li><a href="#199605">May 1996</a></li>
-			  <li><a href="#199612">Dec 1996</a></li>
-			  <li><a href="#199706">Jun 1997</a></li>
-			  <li><a href="#1950">1950</a></li>
+			  <li><a href="#199605">May 96</a></li>
+			  <li><a href="#199612">Dec 96</a></li>
+			  <li><a href="#199706">Jun 97</a></li>
+			  <li><a href="#199711">Nov 97</a></li>
 			  <li><a href="#1971">1971</a></li>
 			  <li><a href="#1977">1977</a></li>
 			  <li><a href="#1989">1989</a></li>
@@ -89,7 +97,7 @@
 				</li>
 			  <li id="199612">
 				<img src="assets/img/1996.5_1B_Book by Fanny Cheung.jpg"  />
-				<h1>1930</h1>
+				<h1>Dec 1996</h1>
 				<p>The Code of Practice on Employment under the SDO and DDO came into effect, providing guidance to employers and employees on practices to prevent discrimination and implement equal opportunities in the workplace.</p>
 			  </li>
 			  <li id="199706">
@@ -97,10 +105,10 @@
 				<h1>Jun 1997</h1>
 				<p>The EOC commissioned a Feasibility Study on Equal Pay for Equal Value, the first study of its kind in Hong Kong. The EOC also embarked on four baseline surveys on gender and disability discrimination during the year.</p>
 			  </li>
-			  <li id="1944">
-				<img src="images/3.png" width="256" height="256" />
-				<h1>1944</h1>
-				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+			  <li id="199711">
+				<img src="assets/img/1997.11_FSDO.JPG"  />
+				<h1>Nov 1997</h1>
+				<p>The Family Status Discrimination Ordinance (FSDO) – the third anti-discrimination ordinance of Hong Kong – was enacted in mid-1997 and came into effect in November, providing protection from discrimination for those with responsibilities for the care of immediate family members. Preparation was also made for a Code of Practice under the ordinance, which became effective in March 1998.</p>
 			  </li>
 			  <li id="1950">
 				<img src="images/4.png" width="256" height="256" />
@@ -143,11 +151,12 @@
 			<a href="#" id="next">+</a>
 			<a href="#" id="prev">-</a>
 		  </div>
-		  
+		
 
 
 
 		  <div id="footer"></div>
+		</div>  
 		
 		<!-- Bootstrap core JavaScript
 		================================================== -->
@@ -213,7 +222,7 @@
 	
 		</script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-		<script src="js/jquery.timelinr-0.9.7.js"></script>
+		<script src="assets/js/jquery.timelinr-0.9.7.js"></script>
 		<script>
 		  $(function(){
 			$().timelinr({
