@@ -31,23 +31,24 @@
 
 
 
-        <div class="content">
+    <div class="content">
 
-		<!-- page banner -->
-		
-        <div class="banner-2 d-flex flex-column justify-content-between jumbotron jumbotron-fluid  m-0 px-5 pt-6 text-md-left">
-			<h2 class="display-3 text-wrap container" id="page-category"></h2>
-			<div>
-				<h3 class="display-4  text-left"></h3>
-				<h3 class="display-4  text-left"></h3>									
-			</div>
-			
+        <!-- page banner -->
+
+        <div
+            class="banner-2 d-flex flex-column justify-content-between jumbotron jumbotron-fluid  m-0 px-5 pt-6 text-md-left">
+            <h2 class="display-3 text-wrap container" id="page-category"></h2>
+            <div>
+                <h3 class="display-4  text-left"></h3>
+                <h3 class="display-4  text-left"></h3>
+            </div>
+
 
         </div>
         <!-- page banner end -->
 
-		<!-- start of breadcumb -->
-		
+        <!-- start of breadcumb -->
+
         <nav aria-label="breadcrumb" class="breadcrumb-container px-5">
             <ol class="breadcrumb container">
                 <li class="breadcrumb-item">
@@ -57,27 +58,72 @@
                 <li class="breadcrumb-item active" aria-current="page" id="level-2"></li>
             </ol>
         </nav>
-		<!-- end of breadcumb -->
-		
+        <!-- end of breadcumb -->
 
-		<!-- page title-->
-		<div class="align-self-stretch container">
-            
+
+        <!-- page title-->
+        <div class="align-self-stretch container">
+
             <h1 class="display-4 text-center text-wrap page-title" id="page-title"></h1>
-		</div>
+        </div>
 
-		<!-- end of page title-->
-    <!-- start of content -->
+        <!-- end of page title-->
+        <!-- start of content -->
+
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-3 col-xs-12">
+                    <img src="assets/img/Fanny Cheung.jpg" alt="Professor Fanny M CHEUNG, SBS, OBE, JP" class="img-fluid d-block">
+                    <h2 class="col-12 bio-name text-left" id="cp1"></h2>
+                    <h3 class="col-12 bio-title text-left" id="cp1-title"></h3>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <img src="assets/img/Ms Anna Wu.jpg" alt="The Hon Anna WU Hung-yuk, GBS, JP" class="img-fluid d-block">
+                    <h2 class="col-12 bio-name text-left" id="cp2"></h2>
+                    <h3 class="col-12 bio-title text-left" id="cp2-title"></h3>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <img src="assets/img/Fanny Cheung.jpg" alt="Chu Man-kin" class="img-fluid d-block">
+                    <h2 class="col-12 bio-name text-left" id="cp3"></h2>
+                    <h3 class="col-12 bio-title text-left" id="cp3-title"></h3>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <img src="assets/img/Fanny Cheung.jpg" alt="Chu Man-kin" class="img-fluid d-block">
+                    <h2 class="col-12 bio-name text-left" id="cp4"></h2>
+                    <h3 class="col-12 bio-title text-left" id="cp4-title"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-xs-12">
+                    <img src="assets/img/Fanny Cheung.jpg" alt="Chu Man-kin" class="img-fluid d-block">
+                    <h2 class="col-12 bio-name text-left" id="cp5"></h2>
+                    <h3 class="col-12 bio-title text-left" id="cp5-title"></h3>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <img src="assets/img/Fanny Cheung.jpg" alt="Chu Man-kin" class="img-fluid d-block">
+                    <h2 class="col-12 bio-name text-left" id="cp6"></h2>
+                    <h3 class="col-12 bio-title text-left" id="cp6-title"></h3>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <img src="assets/img/Fanny Cheung.jpg" alt="Chu Man-kin" class="img-fluid d-block">
+                    <h2 class="col-12 bio-name text-left" id="cp7"></h2>
+                    <h3 class="col-12 bio-title text-left" id="cp7-title"></h3>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <img src="assets/img/Fanny Cheung.jpg" alt="Chu Man-kin" class="img-fluid d-block">
+                    <h2 class="col-12 bio-name text-left" id="cp8"></h2>
+                    <h3 class="col-12 bio-title text-left" id="cp8-title"></h3>
+                </div>
+            </div>
+        </div>
 
 
 
-    <h2 id="chairpersons-title" class="py-5 page-title text-center"></h2>
 
 
 
-
-    <!-- end of content -->
-    <div id="footer"></div>
+        <!-- end of content -->
+        <div id="footer"></div>
     </div>
 
     <!-- Bootstrap core JavaScript
@@ -109,30 +155,30 @@
         /*------------Fill content---------*/
 
         //insert Element's ID
-        var elementId = ["chairpersons-title"];
+        var elementId = ["cp1", "cp1-title", "cp2", "cp2-title", "cp3", "cp3-title", "cp4", "cp4-title","cp5", "cp5-title", "cp6", "cp6-title", "cp7", "cp7-title", "cp8", "cp8-title"];
 
         $.getJSON('data.json', function (data) {
 
             //insert page title  
             var menu = data[0].menu;
-     
 
 
-        //insert breadcumb and page title
-				bannerText(menu, lang, "m3", "m3-1");
-           
+
+            //insert breadcumb and page title
+            bannerText(menu, lang, "m3", "m3-1");
+
 
             //insert page content
             var mydata = data[0].chairpersons;
             for (var i = 0; i < elementId.length; i++) {
                 if (lang != "tc") {
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].en;
-                    document.getElementById("level-2").innerHTML = menu["m3-1"].en;
+
                 }
 
                 else {
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].tc;
-                    document.getElementById("level-2").innerHTML = menu["m3-1"].tc;
+
 
                 }
             }

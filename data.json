@@ -1,34 +1,31 @@
 [
     {
         "menu": {
-            "btn-eoc":{
-                "en":"EOC Home",
-                "tc":"平機會主頁",
-                "link":"https://www.eoc.org.hk"
+            "btn-eoc": {
+                "en": "EOC Home",
+                "tc": "平機會主頁",
+                "link": "https://www.eoc.org.hk"
             },
             "logo": {
                 "en": "<img src=\"assets/img/logo-square.png\" alt=\"logo\" class=\"logo m-1 img-fluid\">",
                 "tc": "<img src=\"assets/img/logo-square.png\" alt=\"logo\" class=\"logo  m-1 img-fluid\">",
                 "link": "index.html"
-                
             },
-           
             "m1": {
                 "en": "Home",
                 "tc": "主頁",
-                "link": "index.html"    
+                "link": "index.html"
             },
             "m2": {
                 "en": "EOC 25th Anniversary",
                 "tc": "平機㑹25週年",
-                "link": " "    
-            },            
+                "link": " "
+            },
             "m2-1": {
                 "en": "Chairperson's Message",
                 "tc": "主席的話",
-                "link": "message.html"    
+                "link": "message.html"
             },
-            
             "m3": {
                 "en": "Our Stories",
                 "tc": "我們的故事",
@@ -53,7 +50,7 @@
                 "en": "Our People, Our Voices, Our Mission at Work",
                 "tc": "人物誌",
                 "link": "stories.html"
-            },         
+            },
             "m4": {
                 "en": "Events & Activities",
                 "tc": "慶祝活動",
@@ -78,41 +75,34 @@
                 "en": "Asia-Pacific Women Caregivers with Disabilities Conference",
                 "tc": "亞太區殘障女性照顧者會議",
                 "link": "conference.html"
-            }, 
+            },
             "m4-5": {
                 "en": "25th Anniversary Reception",
                 "tc": "廿五週年慶祝聚會",
                 "link": "reception.html"
-            },  
+            },
             "m5": {
                 "en": "EOC 25th Anniversary",
                 "tc": "平機㑹25週年",
-                "link": " "    
-            },                     
+                "link": " "
+            },
             "m5-1": {
                 "en": "Multimedia Gallery",
                 "tc": "多媒體資訊",
                 "link": "gallery.html"
             }
         },
-
-       
-
-
-
         "index": {
             "content": {
                 "en": "The Equal Opportunities Commission (EOC) was founded under the Sex Discrimination Ordinance (Cap. 480) in 1996 as an independent statutory body to implement the anti-discrimination ordinances in Hong Kong.<br><br>Throughout the last two decades, the equality landscape of Hong Kong has evolved significantly, as the society of Hong Kong progresses, and the aspirations and demands for equal opportunities among community members become stronger. Aptly, the anti-discrimination protection in Hong Kong has expanded accordingly, with the implementation of the Sex Discrimination Ordinance and the Disability Discrimination Ordinance (Cap. 487) in 1996, followed by the Family Status Discrimination Ordinance (Cap. 527) in 1997, and then the Race Discrimination Ordinance (Cap. 602) in 2009.<br><br>Working along with different stakeholders and partners, the EOC strives to discharge its regulatory functions and promote greater understanding of equality in society through complaint investigation, conciliation and legal assistance, and through research, policy advocacy and public education. The EOC’s mission is to create a pluralistic and inclusive society free of discrimination where there is no barrier to equal opportunities.<br><br>This site is meant to provide an information portal to the EOC’s milestones through the short span of the last 20 years, our anniversary programmes and vision for the future.<br><br>As the EOC celebrates its 20th anniversary, the Commission will continue to play a crucial part in the developments of Hong Kong in the coming years. We look forward to working with you towards fostering an inclusive society in which everyone is treated with dignity and respect.<br><br>Equal Opportunities Commission<br><br>May 2016 ",
                 "tc": "平等機會委員會（平機會）是於1996年根據《性別歧視條例》（第480章）成立的一個獨立法定機構，負責執行本港反歧視條例。<br><br>過去二十年來，香港在平權事務上出現了很大變遷。隨著社會發展，市民對平等機會的期望及渴求亦與年俱增。與此同時，香港的反歧視條例保障範圍也相應擴大，由1996年生效的《性別歧視條例》及《殘疾歧視條例》（第487章）擴展至1997年的《家庭崗位歧視條例》（第527章），以及2009年生效的《種族歧視條例》（第602章）。<br><br>平機會一直與不同持份者及伙伴緊密合作，竭力履行我們監管法例執行的職能，並推動社會大眾加深認識平等機會。透過個案調查、調停及提供法律協助，還有進行研究、倡議政策和教育公眾等工作，我們的抱負是建設一個沒有歧視、崇尚多元、包容共濟的社會，人人共享平等機會。<br><br>這個網站提供關於平機會過去二十年發展的資訊，還有二十周年的活動和委員會對未來的抱負。在慶祝二十周年這個里程之際，平機會將繼續為本港未來的發展作出貢獻。我們期待與你合作建構一個人人享有尊嚴，並且互相尊重的共融社會。<br><br>平等機會委員會<br><br>2016年5月"
             }
         },
-
-        
         "milestone": {
             "timeline-title": {
                 "en": "History of Hong Kong’s Anti-discrimination Legislation",
                 "tc": "香港反歧視條例歷史"
-            },     
+            },
             "1995": {
                 "en": "The Sex Discrimination Ordinance (SDO) and the Disability Discrimination Ordinance (DDO) were enacted",
                 "tc": "《性別歧視條例》和《殘疾歧視條例》制定"
@@ -128,7 +118,7 @@
             "1998": {
                 "en": "The Code of Practice on Employment under the FSDO came into effect. The EOC commenced review of the SDO and the DDO",
                 "tc": "《家庭崗位歧視條例僱傭實務守則》生效 <BR><BR><BR><BR><BR>"
-            },            
+            },
             "card-title-1": {
                 "en": "Key Facts and Figures (9/1996 - 6/2016)",
                 "tc": "重要數據 (9/1996 - 6/2016)"
@@ -136,7 +126,7 @@
             "card-title-2": {
                 "en": "Enquires and Complaints",
                 "tc": "查詢及投訴"
-            }, 
+            },
             "card-title-3": {
                 "en": "Legal Assistance",
                 "tc": "法律協助"
@@ -152,27 +142,26 @@
             "card-3": {
                 "en": "Cases initiated by the EOC",
                 "tc": "由平機會主動作出調查個案"
-            }, 
+            },
             "card-4": {
                 "en": "Cases concluded",
                 "tc": "已完結的個案"
-            }, 
+            },
             "card-5": {
                 "en": "Conciliation attempted",
                 "tc": "已進行調停"
-            },   
+            },
             "card-6": {
                 "en": "Conciliation successful",
                 "tc": "調停成功"
-            }, 
+            },
             "card-7": {
                 "en": "Successful conciliation rate",
                 "tc": "調停成功率"
-            },  
+            },
             "card-8": {
                 "en": "Total monetary compensation for complaints settled through conciliation",
                 "tc": "投訴通過調停得到和解的金錢賠償總額"
-            
             },
             "card-11": {
                 "en": "Number of applications for legal assistance",
@@ -185,29 +174,28 @@
             "card-13": {
                 "en": "Settlement before commencement of legal proceedings",
                 "tc": "在展開法律程序前達成和解"
-            }, 
+            },
             "card-14": {
                 "en": "Settlement after commencement of legal proceedings",
                 "tc": "在展開法律程序後達成和解"
-            }, 
+            },
             "card-15": {
                 "en": "EOC assisted court cases",
                 "tc": "平機會協助的法庭個案"
-            },   
+            },
             "card-16": {
                 "en": "Total settlement(including damages awarded by the courts and out-of-court settlement)",
-                "tc": "和解金額總數(包括由法庭判決的賠償及庭外和解的個案)"    
-            }   
+                "tc": "和解金額總數(包括由法庭判決的賠償及庭外和解的個案)"
+            }
         },
-
         "message": {
-            "page-title":{
-                "en":"Chairperson's Message",
-                "tc":"主席的話"
+            "page-title": {
+                "en": "Chairperson's Message",
+                "tc": "主席的話"
             },
-            "message-title":{
-                "en":"MESSAGE from the CHAIRPERSON",
-                "tc":"平機會主席的話"
+            "message-title": {
+                "en": "MESSAGE from the CHAIRPERSON",
+                "tc": "平機會主席的話"
             },
             "cp-name": {
                 "en": "Mr Ricky CHU Man-kin, I.D.S.",
@@ -222,55 +210,118 @@
                 "tc": "隨著《性別歧視條例》(第480章)於 1995年獲制訂後，平等機會委員會(平機會)於1996年5月20日正式成立。平機會有明確的使命，致力推行香港的反歧視條例，以消除基於性別、家庭崗位、殘疾和種族的歧視為己任。平機會亦密切監察社會上的相關發展，推動人人享有平等，以保障市民不會因為上述特徵而遭到歧視。事實上，平機會的抱負就是建立一個人人得享平等機會的多元共融社會。過去二十年來，平機會致力移除社會上各弱勢社群和邊緣群體長久以來面對的種種障礙。在履行本身的角色和責任時，平機會一直緊隨香港的發展步伐，確保委員會的工作能配合香港在社會、經濟及政治各方面的轉變。對於平等機會的理念逐漸於香港扎根，市民更為認識平等機會的重要性，平機會感到十分鼓舞。這實在有賴前人的遠見和努力，平機會同事們的孜孜不倦，以及不同持份者和社區各界的支持，才能取得有關成果。適逢平機會二十周年，我們藉此向歷任主席、現任及歷屆委員，我們的工作夥伴和朋友衷心表達謝意，並重申我們致力促進人人平等的抱負和承諾。憑藉前人奠下的基礎，我們定將繼續努力，為香港作出更大的貢獻。平機會為二十周年特別設立了這個網頁，讓公眾認識平機會二十年來的重要工作，和二十周年的慶祝活動和計劃。在此，我們誠邀大家參與委員會的慶祝活動，亦期待日後與你同行平等路，攜手共建「零歧視」的共融社會。"
             }
         },
-
-        "chairpersons":{
+        "chairpersons": {
             "chairpersons-title": {
                 "en": "List of Chairpersons",
                 "tc": "歷任主席名單"
-            }
             },
-        "members":{
+            "cp1": {
+                "en": "Professor Fanny M CHEUNG, SBS, OBE, JP",
+                "tc": "朱敏健, I.D.S."
+            },
+            "cp1-title": {
+                "en": "Founding Chairperson of the EOC (1996-1999)",
+                "tc": "平機會主席"
+            },
+            "cp2": {
+                "en": "Mr Ricky CHU Man-kin, I.D.S.",
+                "tc": "朱敏健, I.D.S."
+            },
+            "cp2-title": {
+                "en": "Chairperson, Equal Opportunities Commission",
+                "tc": "平機會主席"
+            },
+            "cp3": {
+                "en": "Mr Ricky CHU Man-kin, I.D.S.",
+                "tc": "朱敏健, I.D.S."
+            },
+            "cp3-title": {
+                "en": "Chairperson, Equal Opportunities Commission",
+                "tc": "平機會主席"
+            },
+            "cp4": {
+                "en": "Mr Ricky CHU Man-kin, I.D.S.",
+                "tc": "朱敏健, I.D.S."
+            },
+            "cp4-title": {
+                "en": "Chairperson, Equal Opportunities Commission",
+                "tc": "平機會主席"
+            },
+            "cp5": {
+                "en": "Mr Ricky CHU Man-kin, I.D.S.",
+                "tc": "朱敏健, I.D.S."
+            },
+            "cp5-title": {
+                "en": "Chairperson, Equal Opportunities Commission",
+                "tc": "平機會主席"
+            },
+            "cp6": {
+                "en": "Mr Ricky CHU Man-kin, I.D.S.",
+                "tc": "朱敏健, I.D.S."
+            },
+            "cp6-title": {
+                "en": "Chairperson, Equal Opportunities Commission",
+                "tc": "平機會主席"
+            },
+            "cp7": {
+                "en": "Mr Ricky CHU Man-kin, I.D.S.",
+                "tc": "朱敏健, I.D.S."
+            },
+            "cp7-title": {
+                "en": "Chairperson, Equal Opportunities Commission",
+                "tc": "平機會主席"
+            },
+            "cp8": {
+                "en": "Mr Ricky CHU Man-kin, I.D.S.",
+                "tc": "朱敏健, I.D.S."
+            },
+            "cp8-title": {
+                "en": "Chairperson, Equal Opportunities Commission",
+                "tc": "平機會主席"
+            }
+
+        },
+        "members": {
             "members-title": {
                 "en": "List of Members",
                 "tc": "歷任委員名單"
             }
-            },
-        "stories":{
+        },
+        "stories": {
             "stories-title": {
                 "en": "Our People Our Voices Our Mission at Work",
                 "tc": "人物誌"
             }
-            },
-        "competition":{
+        },
+        "competition": {
             "competition-title": {
                 "en": "Children’s Painting and Colouring Competition",
                 "tc": "兒童填色及繪畫比賽"
             }
-            },
-        "campaign":{
+        },
+        "campaign": {
             "campaign-title": {
                 "en": "Visual Campaign",
                 "tc": "視覺藝術活動"
             }
-            },        
-        "award":{
+        },
+        "award": {
             "award-title": {
                 "en": "EO Employer Recognition Award",
                 "tc": "平等機會僱主嘉許計劃"
             }
-            }, 
-        "conference":{
+        },
+        "conference": {
             "conference-title": {
                 "en": "Asia-Pacific Women Caregivers with Disabilities Conference",
                 "tc": "亞太區殘障女性照顧者會議"
             }
-            }, 
-        "reception":{
+        },
+        "reception": {
             "reception-title": {
                 "en": "25th Anniversary Reception",
                 "tc": "廿五週年慶祝聚會"
             }
-            } 
-            
+        }
     }
 ]
