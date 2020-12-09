@@ -636,18 +636,18 @@ header {
   /* Fading animation */
   .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.0s;
+    -webkit-animation-duration: 8.0s;
     animation-name: fade;
-    animation-duration: 1.0s;
+    animation-duration: 8.0s;
   }
   
   @-webkit-keyframes fade {
-    from {opacity: .4}
+    from {opacity: .8}
     to {opacity: 1}
   }
   
   @keyframes fade {
-    from {opacity: .4}
+    from {opacity: .8}
     to {opacity: 1}
   }
 
