@@ -52,7 +52,7 @@ function bannerText(menu, lang, category, page) {
   if (lang != "tc") {
     document.getElementById("level-0").innerHTML = menu["m1"].en;
     document.getElementById("level-1").innerHTML = menu[category].en;
-    document.getElementById("page-category").innerHTML = menu[category].en;
+    //document.getElementById("page-category").innerHTML = menu[category].en;
     document.getElementById("level-2").innerHTML = menu[page].en;
     document.getElementById("page-title").innerHTML = menu[page].en
     
@@ -60,7 +60,7 @@ function bannerText(menu, lang, category, page) {
 
     document.getElementById("level-0").innerHTML = menu["m1"].tc;
     document.getElementById("level-1").innerHTML = menu[category].tc;
-    document.getElementById("page-category").innerHTML = menu[category].tc;
+    //document.getElementById("page-category").innerHTML = menu[category].tc;
     document.getElementById("level-2").innerHTML = menu[page].tc;
     document.getElementById("page-title").innerHTML = menu[page].tc
     

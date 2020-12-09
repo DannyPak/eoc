@@ -71,8 +71,8 @@ body {
 }
 
 .btn-lang:hover {
-    background-color: #E1261C;
-    border-color: #E1261C;
+    background-color: #0F93AB;
+    border-color: #0F93AB   ;
 }
 
 .footer,
@@ -84,6 +84,8 @@ body {
 .jumbotron h3:first-child::after {
     content: " 承先啟後  穩步將來";
     font-weight: 900;
+    
+   
 }
 
 .jumbotron h3:nth-child(2)::after {
@@ -116,7 +118,7 @@ body {
 
 .main-menu li a:hover {
     text-decoration: underline;
-    color: #E1261C;
+    color: #0F93AB;
 }
 
 .main-menu li a:active {
@@ -154,6 +156,9 @@ body {
 .page-title {
     /* font-size: 2.5rem; */
     font-weight: 500;
+    color:#0F93AB;
+    text-transform: uppercase;
+    margin-top:50px
 }
 
 #page-category {
@@ -492,124 +497,7 @@ body {
 }
 
 /* end of milestone timeline */
-/* milestone card */
-.card-box {
-    color: #fff;
-    padding: 20px 10px 40px;
-    margin: 20px 0px;
-    min-height: 320px;
-    position: relative;
-}
 
-.card-box:hover {
-    text-decoration: none;
-    color: #f1f1f1;
-}
-
-.card-box .inner {
-    padding: 5px 10px 0 10px;
-}
-
-.card-box h3 {
-    font-size: 27px;
-    font-weight: bold;
-    margin: 0 0 8px 0;
-    white-space: nowrap;
-    padding: 0;
-    text-align: left;
-}
-
-.card-box p {
-    font-size: 15px;
-}
-
-.card-box .icon {
-    position: absolute;
-    top: auto;
-    bottom: 5px;
-    right: 20px;
-    z-index: 0;
-    font-size: 72px;
-    color: rgba(0, 0, 0, 0.1);
-}
-
-.card-box .card-box-footer {
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    text-align: center;
-    padding: 3px 0;
-    color: rgba(255, 255, 255, 0.8);
-    background: rgba(0, 0, 0, 0.1);
-    width: 100%;
-    text-decoration: none;
-}
-
-.card-box:hover .card-box-footer {
-    background: rgba(0, 0, 0, 0.3);
-}
-
-.bg-blue {
-    background-color: #00c0ef !important;
-}
-
-.bg-green {
-    background-color: #00a65a !important;
-}
-
-.bg-orange {
-    background-color: #f39c12 !important;
-}
-
-.bg-red {
-    background-color: #d9534f !important;
-}
-
-.card-number,
-
-.card-number-8,
-
-.card-number-16 {
-    position: absolute;
-    top: auto;
-    bottom: 20px;
-    left: 20px;
-    z-index: 0;
-}
-
-.card-number,
-
-#card-title-2,
-
-#card-title-3 {
-    font-size: 3.2rem;
-}
-
-.card-content {
-    font-size: 2.5rem;
-}
-
-.card-content-8 {
-    font-size: 1.5rem;
-}
-
-.card-number-8 {
-    font-size: 1.9rem;
-}
-
-.card-content-13 {
-    font-size: 1.8rem;
-}
-
-.card-content-16 {
-    font-size: 1.5rem;
-}
-
-.card-number-16 {
-    font-size: 1.9rem;
-}
-
-/* end of milestone card */
 /* messages page */
 .bio-image {
     border-radius: 50%;
@@ -660,11 +548,11 @@ body {
 }
 
 .breadcrumb-container {
-    background-color: #76777B;
+    background-color: #0F93AB;
 }
 
 .breadcrumb-container ol {
-    background-color: #76777B !important;
+    background-color: #0F93AB !important;
 }
 
 .breadcrumb-container ol li {
@@ -775,7 +663,7 @@ header {
 
   
   #timeline a {
-    color: black;
+    color: #0F93AB;
     text-decoration: none;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -786,7 +674,7 @@ header {
   
   #timeline a:hover,
   #timeline a.selected {
-    color: black;
+    color: #00556C
   }
   
   #timeline h1,
@@ -820,7 +708,7 @@ header {
     overflow: hidden;
     margin: 100px auto;
     position: relative;
-    background: url('../images/dot.gif') left 45px repeat-x;
+    
   }
   
   #dates {
@@ -832,11 +720,12 @@ header {
   #dates li {
     list-style: none;
     float: left;
-    width: 120px;
+    width: 150px;
     height: 50px;
     font-size: 16px;
+    font-weight: 700;
     text-align: center;
-    background: url('../images/biggerdot.png') center bottom no-repeat;
+    
   }
   
   #dates a {
@@ -845,7 +734,7 @@ header {
   }
   
   #dates .selected {
-    font-size: 38px;
+    font-size: 28px;
   }
   
   #issues {
@@ -868,17 +757,16 @@ header {
     -o-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
     transform: scale(1, 1);
+    width: 400px;
+    height: auto;
   }
+  
   
   #issues li img {
     float: left;
     margin: 10px 30px 10px 0px;
     background: transparent;
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
-    /* IE 8 */
-    
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF);
-    /* IE 6 & 7 */
+
     
     zoom: 1;
     -webkit-transition: all 0s ease-in-out;
@@ -893,8 +781,9 @@ header {
     transform: scale(1, 1);
   }
   
+  
   #issues li h1 {
-    color: grey;
+    color: #76777B;
     font-size: 48px;
     margin: 20px 0;
     
@@ -908,6 +797,7 @@ header {
     margin-left: 20px;
     font-weight: normal;
     line-height: 22px;
+    text-align: justify;
 
   }
   

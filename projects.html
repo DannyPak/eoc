@@ -20,9 +20,7 @@
     <link rel="manifest" href="assets/img/site.webmanifest">
     <link rel="stylesheet" href="assets/css/fontawesome.all.css"
         integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
-		crossorigin="anonymous" />
-
-		
+		crossorigin="anonymous" />		
 
 </head>
 
@@ -33,16 +31,20 @@
 
     <!-- page banner -->
     <div class="content">
-        <div
-            class="banner-1 d-flex flex-column justify-content-between jumbotron jumbotron-fluid  m-0 px-5 pt-6 text-md-left">
-            
+        <div class="banner-1 d-flex flex-column justify-content-between jumbotron jumbotron-fluid  m-0 px-5 pt-6 text-md-left">
+			<h2 class="display-3 text-wrap" id="page-category"></h2>
+			<div>
+				<h3 class="display-1 text-center"></h3>
+				<h3 class="display-5 text-center"></h3>				
+				
+			</div>
 
         </div>
         <!-- page banner end -->
 
         <!-- start of breadcumb -->
         <nav aria-label="breadcrumb" class="breadcrumb-container px-5">
-            <ol class="breadcrumb">
+            <ol class="breadcrumb container">
                 <li class="breadcrumb-item">
                     <a href="#" id="level-0"></a>
                 </li>
@@ -51,24 +53,22 @@
             </ol>
         </nav>
         <!-- end of breadcumb -->
-        <div>
-            <h3 class="display-5"></h3>
-            <h3 class="display-5"></h3>
-        </div>
+       
 
 
-        <div class="align-self-stretch pb-5">
-            <h2 class="display-5 text-wrap" id="page-category"></h2>
-            <h1 class="display-1 text-wrap page-title" id="page-title"></h1>
+        <div class="align-self-stretch container">
+            
+            <h1 class="display-4 text-left text-wrap page-title" id="page-title"></h1>
         </div>
 
         <!-- timeline https://github.com/juanbrujo/jQuery-Timelinr/blob/master/horizontal.html-->
       
-		<div id="timeline">
+		<div id="timeline" style="background-color:#F8F9FA; padding:50px; border-radius:20px">
+			
 			<ul id="dates">
-			  <li><a href="#199605">1996/05</a></li>
-			  <li><a href="#1930">1930</a></li>
-			  <li><a href="#1944">1944</a></li>
+			  <li><a href="#199605">May 1996</a></li>
+			  <li><a href="#199612">Dec 1996</a></li>
+			  <li><a href="#199706">Jun 1997</a></li>
 			  <li><a href="#1950">1950</a></li>
 			  <li><a href="#1971">1971</a></li>
 			  <li><a href="#1977">1977</a></li>
@@ -77,18 +77,25 @@
 			  <li><a href="#2001">2001</a></li>
 			  <li><a href="#2011">2011</a></li>
 			</ul>
+			<hr>
 			<ul id="issues">
 			  <li id="199605">
-				<img src="assets/img/1996.5_1.1_EOC Member 1996.97.jpg" style="width:500px; height:auto"/>	
+				<img src="assets/img/1996.5_1.1_EOC Member 1996.97.jpg" />	
 				<h1>May 1996</h1>
 				<p>To implement the Sex Discrimination Ordinance (SDO) and the Disability Discrimination Ordinance (DDO) – Hong Kong’s first two anti-discrimination ordinances – the Equal Opportunities Commission (EOC) was established in May 1996, with Prof Fanny CHEUNG Mui-ching as the Commission’s first Chairperson. 
-					<br>The employment-related provisions of the SDO and DDO later came into effect on 20 September 1996, while the non-employment-related provisions became effective on 20 December 1996.
+					</p>
+					<p>The employment-related provisions of the SDO and DDO later came into effect on 20 September 1996, while the non-employment-related provisions became effective on 20 December 1996.
 					
 				</li>
-			  <li id="1930">
-				<img src="images/2.png" width="256" height="256" />
+			  <li id="199612">
+				<img src="assets/img/1996.5_1B_Book by Fanny Cheung.jpg"  />
 				<h1>1930</h1>
-				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+				<p>The Code of Practice on Employment under the SDO and DDO came into effect, providing guidance to employers and employees on practices to prevent discrimination and implement equal opportunities in the workplace.</p>
+			  </li>
+			  <li id="199706">
+				<img src="assets/img/1997.6_A baseline Survey of EO on the Basis of Gender in HK.jpg"  />
+				<h1>Jun 1997</h1>
+				<p>The EOC commissioned a Feasibility Study on Equal Pay for Equal Value, the first study of its kind in Hong Kong. The EOC also embarked on four baseline surveys on gender and disability discrimination during the year.</p>
 			  </li>
 			  <li id="1944">
 				<img src="images/3.png" width="256" height="256" />
@@ -169,14 +176,9 @@
 	
 	
 			//insert Element's ID (content only, not for breadcumb)
-			var elementId = ["timeline-title", "1995", "1996", "1997", "1998", "card-title-1", "card-title-2", "card-title-3",
-				"card-1", "card-2", "card-3", "card-4", "card-5", "card-6", "card-7", "card-8",
-				"card-11", "card-12", "card-13", "card-14", "card-15", "card-16"];
+			var elementId = ["timeline-title"];	
 	
-	
-			$.getJSON('data.json', function (data) {
-	
-	
+			$.getJSON('data.json', function (data) {	
 	
 	
 				//insert page title  
@@ -198,15 +200,10 @@
 	
 					else {
 	
-						document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].tc;
-	
-	
+						document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].tc;	
 	
 					}
 				}
-	
-	
-	
 	
 			});
 	
