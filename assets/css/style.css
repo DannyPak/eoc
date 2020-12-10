@@ -282,7 +282,7 @@ body {
 
 #back-button:hover {
     cursor: pointer;
-    color: #E1261C;
+    color: #0F93AB;
 }
 
 #back-button:active {
@@ -545,7 +545,7 @@ header {
   
   
   #issues li h1 {
-    color: #76777B;
+    color: #00556C;
     font-size: 48px;
     margin: 20px 0;
     
