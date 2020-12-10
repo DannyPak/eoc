@@ -204,41 +204,49 @@
         },
         "members": {
             "members-title": {
-                "en": "List of Members",
-                "tc": "歷任委員名單"
+                "en": "Members",
+                "tc": "歷任委員"
             },
-            "member1":{
-                "en":"Peter Chan",
-                "tc":"陳大文"
+            "co-opted":{
+                "en":"Co-opted Members",
+                "tc":"增選委員"
             },
-            "member1-title":{
-                "en":"Member, Women’s Commission<br>Vice President, The Hong Kong Society for Rehabilitation",
-                "tc":"婦女事務委員會委員<br>香港復康會副會長"
+            "mb1":{
+                "en":"Mr Peter CHAN Fuk-sing",
+                "tc":"陳福成先生"
             },
-            "member2":{
-                "en":"Peter Chan",
-                "tc":"陳大文"
+            "mb2":{
+                "en":"Ms Elsie LEUNG Oi-sie, GBM, JP ",
+                "tc":"梁愛詩女士 "
             },
-            "member2-title":{
-                "en":"Member, Women’s Commission<br>Vice President, The Hong Kong Society for Rehabilitation",
-                "tc":"婦女事務委員會委員<br>香港復康會副會長"
+           
+            "mb3":{
+                "en":"Mr Linus CHEUNG Wing-lam, JP ",
+                "tc":"張永霖先生"
             },
-            "member3":{
-                "en":"Peter Chan",
-                "tc":"陳大文"
+            "mb4":{
+                "en":"Ms CHEUNG Yuet-lan ",
+                "tc":"蔣月蘭女士"
             },
-            "member3-title":{
-                "en":"Member, Women’s Commission<br>Vice President, The Hong Kong Society for Rehabilitation",
-                "tc":"婦女事務委員會委員<br>香港復康會副會長"
+
+            "mb83":{
+                "en":"Ms Betty LEE ",
+                "tc":"李靜雲女士 "
             },
-            "member4":{
-                "en":"Peter Chan",
-                "tc":"陳大文"
+            "mb84":{
+                "en":"Dr Catherine NG  ",
+                "tc":"吳華孔博士  "
             },
-            "member4-title":{
-                "en":"Member, Women’s Commission<br>Vice President, The Hong Kong Society for Rehabilitation",
-                "tc":"婦女事務委員會委員<br>香港復康會副會長"
+           
+            "mb85":{
+                "en":"Ms Linda WONG",
+                "tc":"王秀容女士"
+            },
+            "mb86":{
+                "en":"Ms Virginia CHAN, JP ",
+                "tc":"陳彩英女士"
             }
+            
         },
         "stories": {
             "stories-title": {

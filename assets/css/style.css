@@ -3,11 +3,13 @@
 }
 
 .jumbotron {
-    height: 450px;
+    height: 550px;
     position: relative;
     text-align: center;
     background-size: cover;
+    background-repeat: no-repeat;
     color: white;
+    background-position: center top;
 
    
 }
@@ -32,6 +34,7 @@
         rgba(0, 0, 0, 0.3), 
         rgba(0, 0, 0, 0.3)
       ),url('../img/slide2.jpg')
+      
 }
 
 .banner-3 {
@@ -82,12 +85,14 @@ body {
     margin-top:20px;
     font-size:20px;
     color: #0F93AB;
+    text-align: left;
 }
 
 .bio-title {
     /* color: #118091; */
     color: #76777B;
     font-size:16px;
+    text-align: left;
 }
 
 .btn-lang:hover {
@@ -673,8 +678,8 @@ header {
 
 }
 
-.cp .col-md-6{
-  padding:30px;
+.mb .col-md-3{
+  padding:20px;
   background-color:#F8F9FA;
   border-radius: 10px;
   border-width:5px;
