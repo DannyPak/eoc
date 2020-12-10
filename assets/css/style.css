@@ -121,9 +121,21 @@ body {
     
 }
 
+.carousel img{
+  filter:brightness(80%)
+}
+
+.index-content{
+  position:relative;
+  top:-150px;
+  text-align:justify
+}
+
+
+
 .slogan{
   position: relative;
-  top:-250px;  
+  bottom:300px; 
   color:white;    
 }
 
