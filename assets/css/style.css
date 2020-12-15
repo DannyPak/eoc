@@ -1,196 +1,186 @@
 .banner {
-    background: #F1F3F4;
+  background: #F1F3F4;
 }
 
 .jumbotron {
-    height: 500px;
-    position: relative;
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    background-position: center bottom;
+  height: 500px;
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  background-position: center bottom;
 
-   
+
 }
 
 .content {
-    position: relative;
-    top: 170px;
+  position: relative;
+  top: 170px;
 }
 
 .banner-1 {
-    background:  linear-gradient(
-        rgba(0, 0, 0, 0.3), 
-        rgba(0, 0, 0, 0.3)
-      ),url('../img/slide1.jpg')
-
+  background: linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)), url('../img/slide1.jpg')
     /*background-image: url('../img/slide1.jpg');*/
 
 }
 
 .banner-2 {
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.3), 
-        rgba(0, 0, 0, 0.3)
-      ),url('../img/slide2.jpg')
-      
+  background: linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)), url('../img/slide2.jpg')
 }
 
 .banner-3 {
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.3), 
-        rgba(0, 0, 0, 0.3)
-      ),url('../img/slide3.jpg')
+  background: linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)), url('../img/slide3.jpg')
 }
 
 .banner-4 {
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.3), 
-        rgba(0, 0, 0, 0.3)
-      ),url('../img/slide4.jpg')
+  background: linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)), url('../img/slide4.jpg')
 }
 
 .logo {
-    max-width: 140px;
+  max-width: 140px;
 }
 
 body {
-    overflow-x: hidden;
-    overflow-y: scroll;
-    font-family: "Segoe UI", "微軟正黑體", sans-serif !important;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: "Segoe UI", "微軟正黑體", sans-serif !important;
 }
 
 .navbar-nav>li {
-    padding-left: 3px;
-    padding-right: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .navbar-nav li a {
-    border-style: solid;
-    border-color: #76777B;
-    border-top-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 5px;
+  border-style: solid;
+  border-color: #76777B;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 5px;
 }
 
 .title-tc,
 
 .title-en {
-    color: white;
+  color: white;
 }
 
 .bio-name {
-    margin-top:20px;
-    font-size:20px;
-    color: #0F93AB;
-    text-align: left;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #0F93AB;
+  text-align: left;
 }
 
 .bio-title {
-    /* color: #118091; */
-    color: #76777B;
-    font-size:16px;
-    text-align: left;
+  /* color: #118091; */
+  color: #76777B;
+  font-size: 16px;
+  text-align: left;
 }
 
 .btn-lang:hover {
-    background-color: #0F93AB;
-    border-color: #0F93AB;
+  background-color: #0F93AB;
+  border-color: #0F93AB;
 }
 
 .footer,
 
 .top-menu {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .jumbotron h3:first-child::after {
-    content: " 承先啟後 穩步將來";
-    white-space: pre;
-    font-weight: 100;
-    
-   
+  content: " 承先啟後 穩步將來";
+  white-space: pre;
+  font-weight: 100;
+
+
 }
 
 .jumbotron h3:nth-child(2)::after {
-    content: "Inheriting the Past  Charting the Future";
-    white-space: pre;
-    font-weight: 100;
-    
-}
-
-.carousel img{
-  filter:brightness(80%)
-}
-
-.index-content{
-  position:relative;
-  top:-200px;
-  text-align:justify
-}
-
-
-
-.slogan{
-  position: relative;
-  bottom:300px; 
-  color:white;    
-}
-
-.slogan h3{
-  
-  white-space: pre;
-  
-  
-}
-
-.slogan h3:first-child::after{
-  content: " 承先啟後 穩步將來";
-  font-size:8vw;
-  font-weight:900;
-  
-}
-
-.slogan h3:nth-child(2)::after{
   content: "Inheriting the Past  Charting the Future";
-  font-size:4vw;
-  font-weight:500;
+  white-space: pre;
+  font-weight: 100;
+
+}
+
+.carousel img {
+  filter: brightness(80%)
+}
+
+.index-content {
+  position: relative;
+  top: -200px;
+  text-align: justify
+}
+
+
+
+.slogan {
+  position: relative;
+  bottom: 300px;
+  color: white;
+}
+
+.slogan h3 {
+
+  white-space: pre;
+
+
+}
+
+.slogan h3:first-child::after {
+  content: " 承先啟後 穩步將來";
+  font-size: 8vw;
+  font-weight: 900;
+
+}
+
+.slogan h3:nth-child(2)::after {
+  content: "Inheriting the Past  Charting the Future";
+  font-size: 4vw;
+  font-weight: 500;
 }
 
 
 
 .nav-menu {
-    flex-direction: column;
-    align-items: flex-end;
-    align-self: stretch;
-    justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-end;
+  align-self: stretch;
+  justify-content: space-between;
 }
 
 .dropdown:hover>.dropdown-menu {
-    display: block;
-    margin-top: -1px;
-    margin-left: -15px;
+  display: block;
+  margin-top: -1px;
+  margin-left: -15px;
 }
 
 .dropdown-item {
-    border-style: none;
-    border-width: 0px !important;
+  border-style: none;
+  border-width: 0px !important;
 }
 
 #m4-4 {
-    white-space: normal;
+  white-space: normal;
 }
 
 .main-menu li a:hover {
-    text-decoration: underline;
-    color: #0F93AB;
+  text-decoration: underline;
+  color: #0F93AB;
 }
 
 .main-menu li a:active {
-    background-color: #E8E4E4 !important;
-    color: white !important;
+  background-color: #E8E4E4 !important;
+  color: white !important;
 }
 
 /* .main-menu li:nth-child(1) a:hover {
@@ -217,372 +207,382 @@ body {
     color: black !important;
 } */
 .gallery-row {
-    margin: 15px;
+  margin: 15px;
 }
 
 .page-title {
-    /* font-size: 2.5rem; */
-    font-weight: 500;
-    color:#0F93AB;
-    text-transform: uppercase;
-    margin: 50px 0;
-    text-align:left;
-    font-size:50px;
+  /* font-size: 2.5rem; */
+  font-weight: 500;
+  color: #0F93AB;
+  text-transform: uppercase;
+  margin: 50px 0;
+  text-align: left;
+  font-size: 50px;
 
-    
+
 }
 
 #page-category {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 /* gallery */
 .modal.dialog {
-    max-width: 20000px;
-    max-height: 100vh !important;
+  max-width: 20000px;
+  max-height: 100vh !important;
 }
 
 .carousel-item {
-    max-height: 100vh !important;
-    width: 100vw !important;
+  max-height: 100vh !important;
+  width: 100vw !important;
 }
 
 
 /* messages page */
 .bio-image {
-    border-radius: 50%;
-    border-color: #fff;
-    border-width: 10px;
-    border-style: solid;
-    margin-bottom: -100px;
-    z-index: 1;
+  border-radius: 50%;
+  border-color: #fff;
+  border-width: 10px;
+  border-style: solid;
+  margin-bottom: -100px;
+  z-index: 1;
 }
 
 .messages-content {
-    padding-top:20px;
-    padding-bottom: 50px;
-    border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  border-radius: 10px;
 }
 
 /* back to top button */
 #back-button {
-    display: inline-block;
-    color: #76777B;
-    width: 70px;
-    height: 70px;
-    text-align: center;
-    border-radius: 4px;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    transition: background-color .3s,
-        opacity .5s, visibility .5s;
-    opacity: 0;
-    visibility: hidden;
-    z-index: 1000;
-    cursor: pointer;
+  display: inline-block;
+  color: #76777B;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  transition: background-color .3s,
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  cursor: pointer;
 }
 
 #back-button:hover {
-    cursor: pointer;
-    color: #0F93AB;
+  cursor: pointer;
+  color: #0F93AB;
 }
 
 #back-button:active {
-    color: #888888;
+  color: #888888;
 }
 
 #back-button.show {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 
 .breadcrumb-container {
-    background-color: #0F93AB;
+  background-color: #0F93AB;
 }
 
 .breadcrumb-container ol {
-    background-color: #0F93AB !important;
+  background-color: #0F93AB !important;
 }
 
 .breadcrumb-container ol li {
-    color: white !important;
+  color: white !important;
 }
 
 .breadcrumb-container ol li a {
-    color: white !important;
-    text-decoration: underline;
+  color: white !important;
+  text-decoration: underline;
 }
 
 .breadcrumb>li+li:before {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 header {
-    position: absolute;
-    z-index: 1;
-    background-color: white;
-    width: 100%;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  width: 100%;
 }
 
 .dropdown-item {
-    flex-direction: column;
-    align-items: end;
-    background-color: white;
+  flex-direction: column;
+  align-items: end;
+  background-color: white;
 }
 
 /* Styles for the mobile version */
 @media (min-width: 500px) {
-    #back-button {
-        margin: 30px;
-        max-width: 30px;
-    }
+  #back-button {
+    margin: 30px;
+    max-width: 30px;
+  }
 }
 
 @media only screen and (max-width:767px) {
-    footer {
-        font-size: 0.7rem;
-    }
-
-    .logo {
-        max-width: 80px;
-    }
-
-    .page-title {
-        font-size: 2.5rem;
-        text-align: left;
-    }
-
-    #page-category {
-        font-size: 1.3rem;
-        text-align: left;
-    }
-
-    .dropdown-item {
-        word-wrap: break-word;
-    }
-
-    .navbar-nav li a {
-        border-bottom-width: 1px;
-        margin: 0px 20px;
-    }
-
-    .title-tc {
-        font-size: 3rem;
-    }
-
-    .title-en {
-        font-size: 2rem;
-    }
-
-    header {
-        height: 100px;
-    }
-
-    .content {
-        top: 100px;
-    }
-
-    .jumbotron h3 {
-        text-align: left;
-    }
-
-    .jumbotron h3:first-child::after, .carousel h3:first-child::after  {
-        content: "承先啟後 穩步將來";
-        font-size: 1.2rem;
-    }
-
-    .jumbotron h3:nth-child(2)::after, .carousel .h3:first-child::after {
-        content: "Inheriting the Past, Charting the Future.";
-        font-size: 1.2rem;
-    }
-
-    .jumbotron {
-        height: 60vh;
-        padding: 5px;
-    }
-    
-    .slogan{
-      top:-150px
-    }
-    .slogan h3:first-child::after{
-      
-      font-size:10vw;
-      
-      
-    }
-    
-    .slogan h3:nth-child(2)::after{
-      
-      font-size:5vw;
-      font-weight:500;
-    }
+  footer {
+    font-size: 0.7rem;
   }
+
+  .logo {
+    max-width: 80px;
+  }
+
+  .page-title {
+    font-size: 2.5rem;
+    text-align: left;
+  }
+
+  #page-category {
+    font-size: 1.3rem;
+    text-align: left;
+  }
+
+  .dropdown-item {
+    word-wrap: break-word;
+  }
+
+  .navbar-nav li a {
+    border-bottom-width: 1px;
+    margin: 0px 20px;
+  }
+
+  .title-tc {
+    font-size: 3rem;
+  }
+
+  .title-en {
+    font-size: 2rem;
+  }
+
+  header {
+    height: 100px;
+  }
+
+  .content {
+    top: 100px;
+  }
+
+  .jumbotron h3 {
+    text-align: left;
+  }
+
+  .jumbotron h3:first-child::after,
+  .carousel h3:first-child::after {
+    content: "承先啟後 穩步將來";
+    font-size: 1.2rem;
+  }
+
+  .jumbotron h3:nth-child(2)::after,
+  .carousel .h3:first-child::after {
+    content: "Inheriting the Past, Charting the Future.";
+    font-size: 1.2rem;
+  }
+
+  .jumbotron {
+    height: 60vh;
+    padding: 5px;
+  }
+
+  .slogan {
+    top: -150px
+  }
+
+  .slogan h3:first-child::after {
+
+    font-size: 10vw;
+
+
+  }
+
+  .slogan h3:nth-child(2)::after {
+
+    font-size: 5vw;
+    font-weight: 500;
+  }
+}
+
 /* Events & Projects timeline */
 
 * {
-    margin: 0;
-    padding: 0;
-  }
-  #timeline{
-    background-color:#f2f2f2; 
-    padding:50px; 
-    border-radius:20px
-  }
+  margin: 0;
+  padding: 0;
+}
 
+#timeline {
+  background-color:#f2f2f2; 
   
-  #timeline a {
-    color: #0F93AB;
-    text-decoration: none;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
-    -ms-transition: 0.5s;
-    transition: 0.5s;
-  }
+  padding: 50px;
+  border-radius: 20px;
+  width: 1100px;
+min-height:1800px;
   
-  #timeline a:hover,
-  #timeline a.selected {
-    color: #00556C
-  }
-  
-  #timeline h1,
-  #timeline h2,
-  #timeline h4,
-  #timeline h5,
-  #timeline h6 {
-    text-align: center;
-    color: #ccc;
-
-    margin-bottom: 5px;
-  }
-  
-  h1 {
-    font-size: 18px;
-  }
-  
-  h2 {
-    font-size: 14px;
-  }
-  
-  .sociales {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  #timeline {
-    width: 1100px;
-height:auto;
-overflow:hidden;
-
-    margin: 0 auto;
-    position: relative;
-    
-  }
-  
-  #dates {
-    width: 1100px;
-    height: 60px;
-    overflow: hidden;
-  }
-  
-  #dates li {
-    list-style: none;
-    float: left;
-    width: 100px;
-    height: 50px;
-    font-size: 16px;
-    font-weight: 700;
-    text-align: center;
-    
-  }
-  
-  #dates a {
-    line-height: 38px;
-    padding-bottom: 10px;
-  }
-  
-  #dates .selected {
-    font-size: 28px;
-  }
-  
-  #issues {
-    width: 1000px;
-    /*height: 500px;*/
-  height:auto;
-    /*overflow: hidden;*/
-  }
-  
-  #issues .row{
-    background-color: white;
-    padding:20px 0;
-    margin:20px 0;
-  }
-  #issues li {
-    width: 1000px;
-
-    list-style: none;
-    float: left;
-  }
-  
-  #issues li.selected img {
-    -webkit-transform: scale(1, 1);
-    -moz-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
-    -ms-transform: scale(1, 1);
-    transform: scale(1, 1);
-    width: 350px;
-    height: auto;
-  }
-  
-  
-  #issues li img {
-    float: left;
-    margin: 10px 30px 10px 0px;
-    background: transparent;
-
-    
-    zoom: 1;
-    -webkit-transition: all 0s ease-in-out;
-    -moz-transition: all 0s ease-in-out;
-    -o-transition: all 0s ease-in-out;
-    -ms-transition: all 0s ease-in-out;
-    transition: all 0s ease-in-out;
-    -webkit-transform: scale(1, 1);
-    -moz-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
-    -ms-transform: scale(1, 1);
-    transform: scale(1, 1);
-  }
-  
+  overflow:hidden;
+  height:800px;
 
 
-  #issues h2{
-    font-size:26px;
-    text-align:left;
-    color:black;
-    padding-top:10px;
-  }
-  
-  #issues li h1 {
-    color: #00556C;
-    font-size: 48px;
-    margin: 20px 0;
-    
-    text-align: left;
-    padding-left: 70px;
-  }
-  
-  #issues li p {
-    font-size: 16px;
-    margin-right: px;
-    margin-left: 0px;
-    font-weight: normal;
-    line-height: 22px;
-    text-align: justify;
 
-  }
-  
+
+  margin: 0 auto;
+  position: relative;
+}
+
+
+
+#timeline a {
+  color: #0F93AB;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#timeline a:hover,
+#timeline a.selected {
+  color: #00556C
+}
+
+#timeline h1,
+#timeline h2,
+#timeline h4,
+#timeline h5,
+#timeline h6 {
+  text-align: center;
+  color: #ccc;
+
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+.sociales {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+#dates {
+  width: 1100px;
+  height: 60px;
+  overflow: hidden;
+}
+
+#dates li {
+  list-style: none;
+  float: left;
+  width: 100px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+#dates a {
+  line-height: 38px;
+  padding-bottom: 10px;
+}
+
+#dates .selected {
+  font-size: 28px;
+}
+
+#issues {
+  width: 1000px;
+
+  overflow: hidden;
+}
+
+#issues .row {
+  background-color: white;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+
+#issues li {
+  width: 1000px;
+
+  list-style: none;
+  float: left;
+}
+
+#issues li.selected img {
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  width: 350px;
+  height: auto;
+}
+
+
+#issues li img {
+  float: left;
+  margin: 10px 30px 10px 0px;
+  background: transparent;
+
+
+  zoom: 1;
+  -webkit-transition: all 0s ease-in-out;
+  -moz-transition: all 0s ease-in-out;
+  -o-transition: all 0s ease-in-out;
+  -ms-transition: all 0s ease-in-out;
+  transition: all 0s ease-in-out;
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+
+
+
+#issues h2 {
+  font-size: 26px;
+  text-align: left;
+  color: black;
+  padding-top: 10px;
+}
+
+#issues li h1 {
+  color: #00556C;
+  font-size: 48px;
+  margin: 20px 0;
+
+  text-align: left;
+  padding-left: 70px;
+}
+
+#issues li p {
+  font-size: 16px;
+  margin-right: px;
+  margin-left: 0px;
+  font-weight: normal;
+  line-height: 22px;
+  text-align: justify;
+
+}
+
+/*
   #grad_left,
   #grad_right {
     width: 100px;
@@ -590,52 +590,53 @@ overflow:hidden;
     position: absolute;
     top: 0;
   }
-  
-  #grad_left {
-    left: 0;
-    background: url('../images/grad_left.png') repeat-y;
-  }
-  
-  #grad_right {
-    right: 0;
-    background: url('../images/grad_right.png') repeat-y;
-  }
-  
-  #next,
-  #prev {
-    position: absolute;
-    top: 0;
-    font-size: 70px;
-    top: 170px;
-    width: 22px;
-    height: 38px;
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    text-indent: -9999px;
-    overflow: hidden;
-  }
-  
-  #next:hover,
-  #prev:hover {
-    background-position: 0 -76px;
-  }
-  
-  #next {
-    right: 0;
-    background: red;
-  }
-  
-  #prev {
-    left: 0;
-    background: blue;
-  }
-  
-  #next.disabled,
-  #prev.disabled {
-    opacity: 0.2;
-  }
+  */
 
-  
+#grad_left {
+  left: 0;
+  background: url('../images/grad_left.png') repeat-y;
+}
+
+#grad_right {
+  right: 0;
+  background: url('../images/grad_right.png') repeat-y;
+}
+
+#next,
+#prev {
+  position: absolute;
+  top: 0;
+  font-size: 70px;
+  top: 170px;
+  width: 22px;
+  height: 38px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+#next:hover,
+#prev:hover {
+  background-position: 0 -76px;
+}
+
+#next {
+  right: 0;
+  background: red;
+}
+
+#prev {
+  left: 0;
+  background: blue;
+}
+
+#next.disabled,
+#prev.disabled {
+  opacity: 0.2;
+}
+
+
 
 
 
@@ -646,33 +647,35 @@ overflow:hidden;
 
 
 
-.cp img{
-  
-  max-width:183px;
-  height:auto;
+.cp img {
+
+  max-width: 183px;
+  height: auto;
 }
-.cp .col-md-2{
-  padding:0
+
+.cp .col-md-2 {
+  padding: 0
 }
+
 .cp .col-md-4 {
-  padding:30px;
-  background-color:#F8F9FA;
+  padding: 30px;
+  background-color: #F8F9FA;
 
 }
 
-.mb .col-md-3{
-  padding:20px;
-  background-color:#F8F9FA;
+.mb .col-md-3 {
+  padding: 20px;
+  background-color: #F8F9FA;
   border-radius: 10px;
-  border-width:5px;
-  border-color:white;
-  border-style:solid;
+  border-width: 5px;
+  border-color: white;
+  border-style: solid;
 }
 
-blockquote{
-  font-style:italic;
- font-weight: 700;
- 
+blockquote {
+  font-style: italic;
+  font-weight: 700;
+
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -682,7 +685,7 @@ blockquote{
 
 
 
-  /* Index page Image slider 
+/* Index page Image slider 
   * {box-sizing:border-box}
 
   /* Slideshow container 

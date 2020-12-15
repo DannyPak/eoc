@@ -1,0 +1,79 @@
+html { 
+    scroll-behavior: smooth;
+}
+
+
+.tl-nav { 
+   position: absolute;
+    right: 0px; 
+    font-size: 16px; 
+    min-width: 100px; 
+    padding: 0; 
+    
+
+}
+
+.fixedPos {
+    position:fixed !important;  
+    top: 0;
+    transform: translateY(0);
+
+}
+
+
+.tl-nav li { 
+    border: 0px solid #cacaca; 
+    min-width: 70px; 
+    list-style: none; 
+    padding-right:20px; 
+    margin-left:0px; 
+    text-align: right; 
+
+}
+ 
+.tl-nav li:hover { 
+    background-color: #0F93AB; 
+    
+    font-size:22px;
+} 
+
+.tl-nav li:hover a{
+    color: white; 
+}
+
+
+
+.tl h1{ 
+    font-size: 90px; 
+    color:#76777B;
+    margin-top: 30px;
+    
+} 
+
+.tl-month{
+    min-height:100%;
+    background-color:#0F93AB; 
+    margin:1px 0;  
+    border-right: solid white 2px; 
+}
+
+
+.tl-month h2 { 
+    font-size: 30px;
+    text-align: center;
+    color:white;
+    padding:20px 0;   
+    
+} 
+.tl-content { 
+    font-size: 16px; 
+    padding:30px;
+    margin:1px 0;
+    background:#f0efef;
+} 
+
+.tl-content p { 
+    text-align: justify; 
+} 
+
+
