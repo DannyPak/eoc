@@ -1,79 +1,88 @@
-html { 
+html {
     scroll-behavior: smooth;
 }
 
 
-.tl-nav { 
-   position: absolute;
-    right: 0px; 
+
+
+.tl-nav {
+    position:absolute;
+    right: 0px;    
     font-size: 16px; 
-    min-width: 100px; 
-    padding: 0; 
-    
+    font-weight:500;   
+    padding: 0;
+margin-top:10px
 
 }
 
 .fixedPos {
-    position:fixed !important;  
+    position: fixed !important;
     top: 0;
     transform: translateY(0);
 
 }
 
 
-.tl-nav li { 
-    border: 0px solid #cacaca; 
-    min-width: 70px; 
-    list-style: none; 
-    padding-right:20px; 
-    margin-left:0px; 
-    text-align: right; 
+.tl-nav li {
+    border: 0px solid #cacaca;   
+    list-style: none;
+    padding-right: 10px;
+    margin-left: 0px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    transform: translateX(0px);
 
 }
- 
-.tl-nav li:hover { 
-    background-color: #0F93AB; 
-    
-    font-size:22px;
-} 
 
-.tl-nav li:hover a{
-    color: white; 
+.tl-nav li:hover {
+    background-color: #0F93AB;
+    font-size: 22px;
+    transform: translateX(-10px);
 }
 
 
+.tl-nav li a{
+    color:#0F93AB;
+}
 
-.tl h1{ 
-    font-size: 90px; 
-    color:#76777B;
-    margin-top: 30px;
-    
-} 
-
-.tl-month{
-    min-height:100%;
-    background-color:#0F93AB; 
-    margin:1px 0;  
-    border-right: solid white 2px; 
+.tl-nav li:hover a {
+    color: white;
+    text-decoration: none;
 }
 
 
-.tl-month h2 { 
+
+.tl h1 {
+    font-size: 90px;
+    color: #76777B;
+   
+
+}
+
+.tl-month {
+    min-height: 100%;
+
+    margin: 1px 0;
+
+    border-right: solid #0f93ab 5px;
+}
+
+
+.tl-month h2 {
     font-size: 30px;
     text-align: center;
-    color:white;
-    padding:20px 0;   
-    
-} 
-.tl-content { 
-    font-size: 16px; 
-    padding:30px;
-    margin:1px 0;
-    background:#f0efef;
-} 
+    color: #0f93ab;
+    padding: 20px 0;
 
-.tl-content p { 
-    text-align: justify; 
-} 
+}
 
+.tl-content {
+    font-size: 16px;
+    padding: 30px;
+    margin: 1px 0;
+    background: #f0efef;
+}
 
+.tl-content p {
+    text-align: justify;
+}
