@@ -96,7 +96,44 @@
             "content": {
                 "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet luctus velit. Maecenas ac dui sed diam varius rutrum eget in sapien. Sed tincidunt risus ut leo luctus sodales. Vestibulum pharetra lectus ac pharetra auctor. Quisque elementum nulla et condimentum ultricies. Donec sodales ligula non convallis condimentum. Proin orci nunc, sodales non tempor eu, venenatis et nulla. Nulla a suscipit risus, ac scelerisque felis. Nam vitae ante pellentesque, dapibus nibh ut, tincidunt justo. Ut dignissim velit odio, sed blandit nulla rutrum non. Curabitur eu consequat ipsum. Etiam accumsan laoreet tempus. Fusce hendrerit sit amet felis vitae porta. Sed vel diam neque.<br><br>Phasellus scelerisque sollicitudin pharetra. Ut sed arcu vel lectus egestas venenatis sed id lacus. Donec dictum orci non pellentesque dictum. Cras fringilla purus id lectus ornare, sit amet venenatis ante commodo. Proin faucibus, risus ut maximus sodales, purus mauris bibendum sapien, in consectetur tellus odio vitae nunc. Pellentesque in metus lacus. Sed sodales eros ut neque condimentum consequat. Duis vestibulum rutrum lectus in luctus. Praesent eu nunc suscipit, hendrerit quam ut, suscipit risus.<br><br>Duis congue placerat hendrerit. Pellentesque eu lectus at lorem pretium ornare. Aenean elementum volutpat dignissim. Sed euismod ipsum et enim tincidunt, non bibendum mi dignissim. Mauris vehicula viverra dapibus. Cras ut dapibus neque, a posuere felis. Cras elementum sapien ut viverra luctus. Aenean vel porttitor velit, nec dapibus massa. Aenean ultricies vestibulum libero, ut egestas lorem semper sed. Donec vestibulum fermentum tellus at feugiat. Proin sollicitudin sit amet diam vitae maximus. Curabitur ornare eros dapibus ultrices mattis. Nulla varius nec lectus sodales auctor. Vestibulum dignissim ultricies feugiat. Morbi fermentum risus nec lectus tempus, a cursus ante aliquam.<br><br>Ut a congue augue, sit amet dignissim ex. Aenean ultricies odio interdum, interdum orci sed, commodo neque. Nullam et eleifend nibh, vel convallis nunc. Vivamus interdum volutpat turpis. Mauris dui tortor, vulputate sed augue non, condimentum viverra nulla. Integer tempor, tortor et pretium ultrices, justo lacus aliquam orci, a sollicitudin dolor dui vel quam. Pellentesque cursus leo quis dui blandit semper. Ut sit amet neque est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis rhoncus nisi, in facilisis odio mattis non. Sed nec nisi mollis velit euismod auctor eu sed eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus elementum elit leo, a egestas orci laoreet at.<br><br>Integer nec eros sed neque congue aliquam. Pellentesque euismod nulla non ultrices consequat. Integer gravida placerat quam, sed fermentum orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent ultrices pulvinar turpis, et facilisis purus consectetur a. Morbi tincidunt pretium est, ut porta libero. Ut cursus justo nec dapibus interdum. Sed non vehicula ante. Fusce eget nunc eget ipsum ultricies tristique.",
                 "tc": "平等機會委員會（平機會）是於1996年根據《性別歧視條例》（第480章）成立的一個獨立法定機構，負責執行本港反歧視條例。<br><br>過去二十年來，香港在平權事務上出現了很大變遷。隨著社會發展，市民對平等機會的期望及渴求亦與年俱增。與此同時，香港的反歧視條例保障範圍也相應擴大，由1996年生效的《性別歧視條例》及《殘疾歧視條例》（第487章）擴展至1997年的《家庭崗位歧視條例》（第527章），以及2009年生效的《種族歧視條例》（第602章）。<br><br>平機會一直與不同持份者及伙伴緊密合作，竭力履行我們監管法例執行的職能，並推動社會大眾加深認識平等機會。透過個案調查、調停及提供法律協助，還有進行研究、倡議政策和教育公眾等工作，我們的抱負是建設一個沒有歧視、崇尚多元、包容共濟的社會，人人共享平等機會。<br><br>這個網站提供關於平機會過去二十年發展的資訊，還有二十周年的活動和委員會對未來的抱負。在慶祝二十周年這個里程之際，平機會將繼續為本港未來的發展作出貢獻。我們期待與你合作建構一個人人享有尊嚴，並且互相尊重的共融社會。<br><br>平等機會委員會<br><br>2016年5月"
+            },
+            "collage1":{
+                "en":"Home",
+                "tc":"1996年12月",
+                "link":"projects.html"
+
+            },
+            "collage2":{
+                "en":"Home",
+                "tc":"1996年12月",
+                "link":"projects.html"
+
+            },
+            "collage3":{
+                "en":"Home",
+                "tc":"1996年12月",
+                "link":"projects.html"
+
+            },
+            "collage4":{
+                "en":"Home",
+                "tc":"1996年12月",
+                "link":"projects.html"
+
+            },
+            "collage5":{
+                "en":"Home",
+                "tc":"1996年12月",
+                "link":"projects.html"
+
+            },
+            "collage6":{
+                "en":"Home",
+                "tc":"1996年12月",
+                "link":"projects.html"
+
             }
+            
         },
         
         "message": {
