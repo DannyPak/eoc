@@ -7,11 +7,13 @@ html {
 
 .tl-nav {
     position:absolute;
+    background-color:#0F93AB;
     right: 0px;    
     font-size: 16px; 
     font-weight:500;   
     padding: 0;
-margin-top:10px
+margin-top:10px;
+
 
 }
 
@@ -20,11 +22,15 @@ margin-top:10px
     top: 0;
     transform: translateY(0);
 
+
+
+
+
 }
 
 
 .tl-nav li {
-    border: 0px solid #cacaca;   
+    border: 1px solid white;   
     list-style: none;
     padding-right: 10px;
     margin-left: 0px;
@@ -35,18 +41,18 @@ margin-top:10px
 }
 
 .tl-nav li:hover {
-    background-color: #0F93AB;
+    background-color: white;
     font-size: 22px;
-    transform: translateX(-10px);
+    transform: translateX(10px);
 }
 
 
 .tl-nav li a{
-    color:#0F93AB;
+    color:white
 }
 
 .tl-nav li:hover a {
-    color: white;
+    color: #0f93ab;
     text-decoration: none;
 }
 
