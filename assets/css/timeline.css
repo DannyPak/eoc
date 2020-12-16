@@ -7,7 +7,9 @@ html {
 
 .tl-nav {
     position:absolute;
-    background-color:#0F93AB;
+    
+    border-left: solid 2px;
+    border-color:rgb(201, 201, 201);
     right: 0px;    
     font-size: 16px; 
     font-weight:500;   
@@ -16,43 +18,41 @@ margin-top:10px;
 
 
 }
+.tl-nav:hover{
+    border-color: #0f93ab
+}
 
 .fixedPos {
     position: fixed !important;
     top: 0;
     transform: translateY(0);
-
-
-
-
-
 }
 
 
 .tl-nav li {
-    border: 1px solid white;   
+     
     list-style: none;
-    padding-right: 10px;
-    margin-left: 0px;
-    text-align: center;
+    padding-left: 10px;
+    margin-left: 10px;
+    text-align: left;
     transition: transform 0.3s ease;
     transform: translateX(0px);
 
 }
 
 .tl-nav li:hover {
-    background-color: white;
+    background-color: #0f93ab;
     font-size: 22px;
     transform: translateX(10px);
 }
 
 
 .tl-nav li a{
-    color:white
+    color:rgb(201, 201, 201)
 }
 
 .tl-nav li:hover a {
-    color: #0f93ab;
+    color: white;
     text-decoration: none;
 }
 

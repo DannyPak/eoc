@@ -31,12 +31,11 @@
 
 
     <div id="header"></div>
-    
+
     <div class="content">
-       
+
         <!-- bootstrap carousel-->
-        <div id="carouselExampleSlidesOnly" class="carousel slide"
-            data-ride="carousel" data-pause="false" data-interval="4000">
+        <div class="carousel slide" data-ride="carousel" data-pause="false" data-interval="4000">
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -59,18 +58,56 @@
             </div>
         </div>
 
-       
+
 
         <!-- end of banner -->
 
 
         <!--start of content-->
-        <div class="container index-content">
-            <div class="row">
-                <div class="col-12 col-lg-10 offset-lg-1">
-                    <span id="content"></span>
+        <div class="container">
+
+            <div class="d-flex flex-row">
+
+                <div class="d-flex flex-column">
+                    <img src="assets/img/Visual Campaign.png" class="img-fluid">
+                    <a href="www.google.com" target="_blank"><span> Visual Campaign</span></a>
+                    
+                   
+                    <img src="assets/img/fanny-cheung.jpg" class="img-fluid">
+                    <a href="www.google.com" target="_blank"><span> Visual Campaign</span></a>
                 </div>
+
+                
+                <div class="d-flex flex-column">
+                    
+                    <img src="assets/img/employer scheme.png" class="img-fluid">
+                    <a href="www.google.com" target="_blank"><span> Visual Campaign</span></a>
+                    <img src="assets/img/colouring competition.jpg" class="img-fluid">
+                    <a href="www.google.com" target="_blank"><span> Visual Campaign</span></a>
+                    
+                    
+                </div>
+                <div class="d-flex flex-column">
+                   
+                    <img src="assets/img/fanny-cheung.jpg" class="img-fluid">
+                    <a href="www.google.com" target="_blank"><span> Visual Campaign</span></a>
+                    <img src="assets/img/2004.9_2004-RDO Consultation Paper-chi.jpg" class="img-fluid">
+                    <a href="www.google.com" target="_blank"><span> Visual Campaign</span></a>
+                </div>
+                
+
             </div>
+            <div class="d-flex flex-row">
+                
+
+               
+
+               
+                
+
+            </div>
+
+
         </div>
 
         <!-- end of content-->
@@ -97,7 +134,7 @@
 
 
         //insert Element's ID
-        var elementId = ["content"];
+        var elementId = [""];
 
 
         $.getJSON('data.json', function (data) {
