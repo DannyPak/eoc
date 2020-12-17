@@ -43,7 +43,7 @@ margin-top:10px;
 .tl-nav li:hover {
     background-color: #0f93ab;
     font-size: 22px;
-    transform: translateX(10px);
+    transform: translateX(-10px);
 }
 
 
