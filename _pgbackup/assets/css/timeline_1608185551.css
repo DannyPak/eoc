@@ -76,8 +76,8 @@ html {
     text-align: justify;
 }
 
-@media only screen and (max-width:767px) {
+@media (max-width:575px) {
     .tl h1 {
-        text-align: center;
+        text-align:center
     }
 }
