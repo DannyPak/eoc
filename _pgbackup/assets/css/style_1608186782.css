@@ -371,9 +371,8 @@ header {
     }
 
     .jumbotron {
-        height: 30vh;
-        padding: 0px;
-        background-size: cover;
+        height: 60vh;
+        padding: 5px;
     }
 
     .slogan {
