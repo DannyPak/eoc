@@ -58,22 +58,21 @@
             </div>
         </div>
 
-
-
         <!-- end of banner -->
 
 
         <!--start of content-->
-        <div class="container">
+        <div class="container pt-5">
             <div class="d-flex flex-row">
                 <div class="d-flex flex-column">
 
                     <div class="collage">
                         <img src="assets/img/index-campaign.png" class="img-fluid">
                         <div class="overlay">
-                            <div class="collage-text"> Visual Campaign
-                                <a href="" id="collage1" class="btn btn-primary btn-sm"
-                                    role="button" aria-pressed="true"></a>
+                            <div class="collage-text" > 
+                              <span id="collage1"></span>
+                                <a href="" id="collage1-link" class="btn btn-primary btn-sm collage-link" role="button"
+                                    aria-pressed="true"></a>
                             </div>
                         </div>
                     </div>
@@ -81,8 +80,8 @@
                         <img src="assets/img/index-people.jpg" class="img-fluid">
                         <div class="overlay">
                             <div class="collage-text"> Projects and Events
-                                <a href="" id="collage2" class="btn btn-primary btn-sm"
-                                    role="button" aria-pressed="true"></a>
+                                <a href="" id="collage2" class="btn btn-primary btn-sm" role="button"
+                                    aria-pressed="true"></a>
                             </div>
                         </div>
                     </div>
@@ -91,8 +90,8 @@
                         <img src="assets/img/index-competition.jpg" class="img-fluid">
                         <div class="overlay">
                             <div class="collage-text"> Competition
-                                <a href="" id="collage3" class="btn btn-primary btn-sm"
-                                    role="button" aria-pressed="true"></a>
+                                <a href="" id="collage3" class="btn btn-primary btn-sm" role="button"
+                                    aria-pressed="true"></a>
                             </div>
                         </div>
                     </div>
@@ -103,11 +102,11 @@
                         <img src="assets/img/index-projects.jpg" class="img-fluid">
                         <div class="overlay">
                             <div class="collage-text"> Projects and Events
-                                <a href="" id="collage4" class="btn btn-primary btn-sm"
-                                    role="button" aria-pressed="true"></a>
+                                <a href="" id="collage4" class="btn btn-primary btn-sm" role="button"
+                                    aria-pressed="true"></a>
                             </div>
                         </div>
-                    </div>            
+                    </div>
 
 
                 </div>
@@ -119,8 +118,8 @@
                         <img src="assets/img/index-scheme.png" class="img-fluid">
                         <div class="overlay">
                             <div class="collage-text">
-                                <a href="" id="collage5" class="btn btn-primary btn-sm"
-                                    role="button" aria-pressed="true"></a>
+                                <a href="" id="collage5" class="btn btn-primary btn-sm" role="button"
+                                    aria-pressed="true"></a>
                             </div>
                         </div>
                     </div>
@@ -128,8 +127,8 @@
                         <img src="assets/img/index-conference.jpg" class="img-fluid">
                         <div class="overlay">
                             <div class="collage-text">
-                                <a href="" id="collage6" class="btn btn-primary btn-sm"
-                                    role="button" aria-pressed="true"></a>
+                                <a href="" id="collage6" class="btn btn-primary btn-sm" role="button"
+                                    aria-pressed="true"></a>
                             </div>
                         </div>
                     </div>
@@ -167,7 +166,7 @@
 
 
         //insert Element's ID
-        var elementId = ["collage1","collage2","collage3","collage4","collage5","collage6"];
+        var elementId = ["collage1","collage1-link", "collage2", "collage3", "collage4", "collage5", "collage6"];
 
 
         $.getJSON('data.json', function (data) {
@@ -184,6 +183,10 @@
                 if (lang != "tc") {
 
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].en;
+                    document.getElementsByClassName("collage-link")[0].innerHTML = "More";
+                    document.getElementById(elementId[i]).setAttribute("href", mydata[elementId[i]].en);
+                    
+                    
 
                 }
 
@@ -191,12 +194,15 @@
 
                 else {
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].tc;
+                    document.getElementsByClassName("collage-link")[0].innerHTML = "了解更多";
+                    document.getElementById(elementId[i]).setAttribute("href", mydata[elementId[i]].tc);
+                   
 
 
 
                 }
 
-                document.getElementById(elementId[i]).setAttribute("href", mydata[elementId[i]].link + "?lang=" + lang);
+                
 
             }
 
