@@ -63,76 +63,92 @@
 
         <!--start of content-->
         <div class="container pt-5">
-            <div class="d-flex flex-row">
-                <div class="d-flex flex-column">
+            <div class="d-flex flex-row no-gutters">
 
+                <div class="d-flex flex-column col-3">
                     <div class="collage">
-                        <img src="assets/img/index-campaign.png" class="img-fluid">
+                        <img src="assets/img/index-message.jpg" class="img-fluid">
                         <div class="overlay">
-                            <div class="collage-text" > 
-                              <span id="collage1"></span>
-                                <a href="" id="collage1-link" class="btn btn-primary btn-sm collage-link" role="button"
+                            <div class="collage-text">                            
+                                <a href="" id="collage1" class="btn btn-primary btn-lg" role="button"
                                     aria-pressed="true"></a>
                             </div>
                         </div>
                     </div>
-                    <div class="collage">
-                        <img src="assets/img/index-people.jpg" class="img-fluid">
-                        <div class="overlay">
-                            <div class="collage-text"> Projects and Events
-                                <a href="" id="collage2" class="btn btn-primary btn-sm" role="button"
-                                    aria-pressed="true"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="collage">
-                        <img src="assets/img/index-competition.jpg" class="img-fluid">
-                        <div class="overlay">
-                            <div class="collage-text"> Competition
-                                <a href="" id="collage3" class="btn btn-primary btn-sm" role="button"
-                                    aria-pressed="true"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex flex-column">
 
                     <div class="collage">
                         <img src="assets/img/index-projects.jpg" class="img-fluid">
                         <div class="overlay">
-                            <div class="collage-text"> Projects and Events
-                                <a href="" id="collage4" class="btn btn-primary btn-sm" role="button"
+                            <div class="collage-text">                            
+                                <a href="" id="collage2" class="btn btn-primary btn-lg" role="button"
                                     aria-pressed="true"></a>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
 
-
-
-                <div class="d-flex flex-column">
+                <div class="d-flex flex-column col-5">
                     <div class="collage">
                         <img src="assets/img/index-scheme.png" class="img-fluid">
                         <div class="overlay">
-                            <div class="collage-text">
-                                <a href="" id="collage5" class="btn btn-primary btn-sm" role="button"
-                                    aria-pressed="true"></a>
+                            <div class="collage-text">                            
+                                <a href="" id="collage3" class="btn btn-primary btn-lg" role="button"
+                                    aria-pressed="true" target="_blank"></a>
                             </div>
                         </div>
                     </div>
                     <div class="collage">
                         <img src="assets/img/index-conference.jpg" class="img-fluid">
                         <div class="overlay">
-                            <div class="collage-text">
-                                <a href="" id="collage6" class="btn btn-primary btn-sm" role="button"
+                            <div class="collage-text">                            
+                                <a href="" id="collage4" class="btn btn-primary btn-lg" role="button"
                                     aria-pressed="true"></a>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
+
+
+
+                <div class="d-flex flex-column col-4">
+                    <div class="collage">
+                        <img src="assets/img/index-people.jpg" class="img-fluid">
+                        <div class="overlay">
+                            <div class="collage-text">                            
+                                <a href="" id="collage5" class="btn btn-primary btn-lg" role="button"
+                                    aria-pressed="true"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="collage">
+                        <img src="assets/img/index-campaign.png" class="img-fluid">
+                        <div class="overlay">
+                            <div class="collage-text">                            
+                                <a href="" id="collage6" class="btn btn-primary btn-lg" role="button"
+                                    aria-pressed="true"></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="collage">
+                        <img src="assets/img/index-competition.jpg" class="img-fluid">
+                        <div class="overlay">
+                            <div class="collage-text">                            
+                                <a href="" id="collage7" class="btn btn-primary btn-lg" role="button"
+                                    aria-pressed="true" target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
 
 
 
@@ -166,7 +182,14 @@
 
 
         //insert Element's ID
-        var elementId = ["collage1","collage1-link", "collage2", "collage3", "collage4", "collage5", "collage6"];
+        var elementId = [
+            "collage1",
+            "collage2",
+            "collage3",
+            "collage4",
+            "collage5",
+            "collage6",
+            "collage7"];
 
 
         $.getJSON('data.json', function (data) {
@@ -177,34 +200,21 @@
             //insert page content
             var mydata = data[0].index;
             for (var i = 0; i < elementId.length; i++) {
-
-
-
                 if (lang != "tc") {
-
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].en;
-                    document.getElementsByClassName("collage-link")[0].innerHTML = "More";
-                    document.getElementById(elementId[i]).setAttribute("href", mydata[elementId[i]].en);
-                    
-                    
-
-                }
+                    document.getElementById(elementId[i]).setAttribute("href", mydata[elementId[i]].linken);                  
 
 
+                } else {
 
-                else {
                     document.getElementById(elementId[i]).innerHTML = mydata[elementId[i]].tc;
-                    document.getElementsByClassName("collage-link")[0].innerHTML = "了解更多";
-                    document.getElementById(elementId[i]).setAttribute("href", mydata[elementId[i]].tc);
-                   
-
-
+                    document.getElementById(elementId[i]).setAttribute("href", mydata[elementId[i]].linktc);
+                    
 
                 }
-
-                
 
             }
+        
 
 
 

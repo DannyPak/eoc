@@ -794,7 +794,7 @@ blockquote {
   display: block;
   width: 100%;
   height: auto;
-  padding:5px;
+  padding: 5px ;
 
 }
 
@@ -827,4 +827,6 @@ blockquote {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+
 
