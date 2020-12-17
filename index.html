@@ -70,7 +70,7 @@
                         <img src="assets/img/index-message.jpg" class="img-fluid">
                         <div class="overlay">
                             <div class="collage-text">                            
-                                <a href="" id="collage1"  role="button"
+                                <a href="" id="collage-message"  role="button"
                                     aria-pressed="true"></a>
                             </div>
                         </div>
@@ -80,7 +80,7 @@
                         <img src="assets/img/index-projects.jpg" class="img-fluid">
                         <div class="overlay">
                             <div class="collage-text">                            
-                                <a href="" id="collage2"    role="button"
+                                <a href="" id="collage-projects"    role="button"
                                     aria-pressed="true"></a>
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                         <img src="assets/img/index-scheme.png" class="img-fluid">
                         <div class="overlay">
                             <div class="collage-text">                            
-                                <a href="" id="collage3"    role="button"
+                                <a href="" id="collage-scheme"    role="button"
                                     aria-pressed="true" target="_blank"></a>
                             </div>
                         </div>
@@ -101,23 +101,19 @@
                         <img src="assets/img/index-conference.jpg" class="img-fluid">
                         <div class="overlay">
                             <div class="collage-text">                            
-                                <a href="" id="collage4"    role="button"
+                                <a href="" id="collage-conference"    role="button"
                                     aria-pressed="true"></a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-
-
-
-
                 <div class="d-flex flex-column col-4">
                     <div class="collage">
                         <img src="assets/img/index-people.jpg" class="img-fluid">
                         <div class="overlay">
                             <div class="collage-text">                            
-                                <a href="" id="collage5"    role="button"
+                                <a href="" id="collage-stories"    role="button"
                                     aria-pressed="true"></a>
                             </div>
                         </div>
@@ -127,7 +123,7 @@
                         <img src="assets/img/index-campaign.png" class="img-fluid">
                         <div class="overlay">
                             <div class="collage-text">                            
-                                <a href="" id="collage6"    role="button"
+                                <a href="" id="collage-campaign"    role="button"
                                     aria-pressed="true" target="_black"></a>
                             </div>
                         </div>
@@ -138,7 +134,7 @@
                         <img src="assets/img/index-competition.jpg" class="img-fluid">
                         <div class="overlay">
                             <div class="collage-text">                            
-                                <a href="" id="collage7"    role="button"
+                                <a href="" id="collage-competition"    role="button"
                                     aria-pressed="true" target="_blank"></a>
                             </div>
                         </div>
@@ -183,13 +179,13 @@
 
         //insert Element's ID
         var elementId = [
-            "collage1",
-            "collage2",
-            "collage3",
-            "collage4",
-            "collage5",
-            "collage6",
-            "collage7"];
+            "collage-message",
+            "collage-projects",
+            "collage-scheme",
+            "collage-conference",
+            "collage-stories",
+            "collage-campaign",
+            "collage-competition"];
 
 
         $.getJSON('data.json', function (data) {

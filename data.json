@@ -93,7 +93,7 @@
             }
         },
         "index": {
-            "collage1":{
+            "collage-message":{
                 "en":"Chairperson's Message",
                 "tc":"主席的話",
                 "linken":"message.html?lang=en",
@@ -102,15 +102,15 @@
 
             },
            
-            "collage2":{
-                "en":"Major Projects & Events 1996-2020",
+            "collage-projects":{
+                "en":"Major Events & Projects  1996-2020",
                 "tc":"大事回顧 1996-2020",
                 "linken":"projects.html?lang=en",
                 "linktc":"projects.html?lang=tc" 
             },
 
             
-            "collage3":{
+            "collage-scheme":{
                 "en":"Equal Opportunity Employer Recognition Scheme",
                 "tc":"平等機會僱主嘉許計劃",
                 "linken":"https://www.eoc.org.hk/s/eoemployer/en/index.html",
@@ -120,7 +120,7 @@
             },
 
             
-            "collage4":{
+            "collage-conference":{
                 "en":"Asia-Pacific Women Caregivers with Disabilities Conference",
                 "tc":"亞太區殘疾女性照顧者會議",
                 "linken":"conference.html?lang=en",
@@ -130,7 +130,7 @@
             },
 
             
-            "collage5":{
+            "collage-stories":{
                 "en":"Our People, Our Voices, Our Mission at Work",
                 "tc":"人物誌",
                 "linken":"stories.html?lang=en",
@@ -139,7 +139,7 @@
             },
 
             
-            "collage6":{
+            "collage-campaign":{
                 "en":"Visual Campaign",
                 "tc":"視覺藝術活動",
                 "linken":"https://www.eoc.org.hk/s/thewayweare/en/photos.asp",
@@ -148,7 +148,7 @@
             },
           
 
-            "collage7":{
+            "collage-competition":{
                 "en":"Children’s Painting and Colouring Competition",
                 "tc":"兒童填色及繪畫比賽",
                 "linken":"https://www.eoc.org.hk/s/genievent/contact_en.php",
