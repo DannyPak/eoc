@@ -64,7 +64,9 @@ body {
 }
 
 .title-tc,
-.title-en {
+
+
+.title-en {
     color: white;
 }
 
@@ -88,7 +90,9 @@ body {
 }
 
 .footer,
-.top-menu {
+
+
+.top-menu {
     font-size: 0.8rem;
 }
 
@@ -359,15 +363,17 @@ header {
     }
 
     .jumbotron h3:first-child::after,
-      .carousel h3:first-child::after {
+    
+  .carousel h3:first-child::after {
         content: "承先啟後 穩步將來";
-        font-size: 1.2rem;
+        
     }
 
     .jumbotron h3:nth-child(2)::after,
-      .carousel .h3:first-child::after {
+    
+  .carousel .h3:first-child::after {
         content: "Inheriting the Past, Charting the Future.";
-        font-size: 1.2rem;
+        
     }
 
     .jumbotron {
@@ -419,15 +425,20 @@ header {
 }
 
 #timeline a:hover,
-#timeline a.selected {
+
+#timeline a.selected {
     color: #00556C;
 }
 
 #timeline h1,
-#timeline h2,
-#timeline h4,
-#timeline h5,
-#timeline h6 {
+
+#timeline h2,
+
+#timeline h4,
+
+#timeline h5,
+
+#timeline h6 {
     text-align: center;
     color: #ccc;
     margin-bottom: 5px;
@@ -559,7 +570,8 @@ h2 {
 }
 
 #next,
-#prev {
+
+#prev {
     position: absolute;
     top: 0;
     font-size: 70px;
@@ -573,7 +585,8 @@ h2 {
 }
 
 #next:hover,
-#prev:hover {
+
+#prev:hover {
     background-position: 0 -76px;
 }
 
@@ -588,7 +601,8 @@ h2 {
 }
 
 #next.disabled,
-#prev.disabled {
+
+#prev.disabled {
     opacity: 0.2;
 }
 
@@ -744,16 +758,16 @@ blockquote {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #3d3d3d;
+    background-color: #00556C;
+    
 }
 
 .collage:hover .overlay {
-    opacity: 0.95;
+    opacity: 0.9;
 }
 
 .collage-text {
-    color: white;
-    font-size: 20px;
+    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -761,6 +775,17 @@ blockquote {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    padding:0;
+    width:80%;
+}
+
+.collage-text a{
+    font-size:28px;
+    padding:10px;
+    font-weight: 500px;
+    color:white;
+text-decoration: none;
+   
 }
 
 
