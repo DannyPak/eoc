@@ -901,6 +901,11 @@
                 "en": "<p>The Government announced the appointment of Mr Raymond Tang Yee-bong as Chairperson of the EOC for five years with effect from 12 January 2005.</p>",
                 "tc": "<p>政府宣布委任鄧爾邦先生擔任平機會主席，任期五年，由2005年1月12日起生效。</p>"
             },
+            "200412-image": {
+                "en": "<img class=\"img-fluid\" src=\"assets/img/2004.9_2004-RDO Consultation Paper-eng.jpg\" />",
+                "tc": "<img class=\"img-fluid\" src=\"assets/img/2004.9_2004-RDO Consultation Paper-chi.jpg\" />"
+                
+            },
             "200504-date": {
                 "en": "Apr 2005",
                 "tc": "2005年4月"
@@ -1037,6 +1042,10 @@
             "200907-text": {
                 "en": "<p>The Race Discrimination Ordinance (RDO) and its Code of Practice on Employment came into full effect on 10 July. The EOC introduced a series of training workshops on the Ordinance for different sectors. Since the RDO became operative in July, the EOC progressively translated its key information leaflets and guides in six ethnic minority languages, and uploaded these onto the EOC website.</p>",
                 "tc": "<p>《種族歧視條例》及其僱傭實務守則於7月10日全面生效，平機會為不同界別舉辦一系列有關《種族歧視條例》的培訓工作坊。自從《種族歧視條例》於7月生效後，平機會逐步把其主要資料單張及指引翻譯成六種少數族裔語文並將之上載至平機會網站。</p>"
+            },
+            "200907-image": {
+                "en": "<img class=\"img-fluid\" src=\"assets/img/2009.7_RDO-e.jpg\" />",
+                "tc": "<img class=\"img-fluid\" src=\"assets/img/2009.7_RDO-c.jpg\" />"
             },
             "201001-date": {
                 "en": "Jan 2010",
