@@ -77,7 +77,8 @@ body {
 
 @media (max-width:767px) {
     .bio-name {
-  
+        margin-top: 0px;
+        font-size: 20px;
         text-align: center;
     }
 }
@@ -102,13 +103,11 @@ body {
 .jumbotron h3:first-child::after {
     content: " 承先啟後 穩步將來";
     font-weight: 100;
-    font-size: 60px;
 }
 
 .jumbotron h3:nth-child(2)::after {
     content: "Inheriting the Past, Charting the Future";
     font-weight: 100;
-    font-size: 45px;
 }
 
 .carousel img {
@@ -328,7 +327,6 @@ header {
     .page-title {
         font-size: 1.3rem;
         text-align: center;
-        margin: 20px 0;
     }
 
     /* #page-category {
@@ -396,29 +394,219 @@ header {
     padding: 0;
 }
 
+#timeline {
+    background-color: #f2f2f2;
+    padding: 50px;
+    border-radius: 20px;
+    width: 1100px;
+    min-height: 1800px;
+    overflow: hidden;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#timeline a {
+    color: #0F93AB;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#timeline a:hover,
+#timeline a.selected {
+    color: #00556C;
+}
+
+#timeline h1,
+#timeline h2,
+#timeline h4,
+#timeline h5,
+#timeline h6 {
+    text-align: center;
+    color: #ccc;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width:575px) {
+    h1 {
+        font-size: 18px;
+    }
+}
+
+h2 {
+    font-size: 14px;
+}
+
+.sociales {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#dates {
+    width: 1100px;
+    height: 60px;
+    overflow: hidden;
+}
+
+#dates li {
+    list-style: none;
+    float: left;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#dates a {
+    line-height: 38px;
+    padding-bottom: 10px;
+}
+
+#dates .selected {
+    font-size: 28px;
+}
+
+#issues {
+    width: 1000px;
+    overflow: hidden;
+}
+
+#issues .row {
+    background-color: white;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+#issues li {
+    width: 1000px;
+    list-style: none;
+    float: left;
+}
+
+#issues li.selected img {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+    width: 350px;
+    height: auto;
+}
+
+#issues li img {
+    float: left;
+    margin: 10px 30px 10px 0px;
+    background: transparent;
+    zoom: 1;
+    -webkit-transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    -o-transition: all 0s ease-in-out;
+    -ms-transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+#issues h2 {
+    font-size: 26px;
+    text-align: left;
+    color: black;
+    padding-top: 10px;
+}
+
+#issues li h1 {
+    color: #00556C;
+    font-size: 48px;
+    margin: 20px 0;
+    text-align: left;
+    padding-left: 70px;
+}
+
+#issues li p {
+    font-size: 16px;
+    margin-right: px;
+    margin-left: 0px;
+    font-weight: normal;
+    line-height: 22px;
+    text-align: justify;
+}
+
+/* #grad_left,
+  #grad_right {
+    width: 100px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+  } */
+#grad_left {
+    left: 0;
+    background: url('../images/grad_left.png') repeat-y;
+}
+
+#grad_right {
+    right: 0;
+    background: url('../images/grad_right.png') repeat-y;
+}
+
+#next,
+#prev {
+    position: absolute;
+    top: 0;
+    font-size: 70px;
+    top: 170px;
+    width: 22px;
+    height: 38px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+#next:hover,
+#prev:hover {
+    background-position: 0 -76px;
+}
+
+#next {
+    right: 0;
+    background: red;
+}
+
+#prev {
+    left: 0;
+    background: blue;
+}
+
+#next.disabled,
+#prev.disabled {
+    opacity: 0.2;
+}
 
 /* end of events and projects timeline */
 /* chairpersons */
 @media (max-width:767px) {
     .cp img {
         height: auto;
-        padding: 0 50px;
+        padding: 50px;
     }
 }
 
 .cp .col-md-2 {
     padding: 0;
 }
-.cp .col-md-4 {
-    padding: 10px;
-    background-color: #F8F9FA;
-}
 
 @media (max-width:767px) {
     .cp .col-md-4 {
         padding: 10px;
-        background-color: white;
-   
+        background-color: #F8F9FA;
     }
 }
 
@@ -495,19 +683,6 @@ blockquote {
     .bio-title {
         text-align: center;
     }
-
-    .jumbotron h2 {
-        display: none;
-    }
-
-    
-
-    .breadcrumb-container ol {
-        font-size: 10px;
-        padding: 5px;
-    }
-
-    
 }
 
 
