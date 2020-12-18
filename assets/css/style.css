@@ -364,11 +364,13 @@ header {
     .jumbotron h3:first-child::after,
     .carousel h3:first-child::after {
         font-size: 8vw;
+        font-weight:500;
     }
 
     .jumbotron h3:nth-child(2)::after,
     .carousel .h3:first-child::after {
         font-size: 5vw;
+        font-weight:500;
     }
 
     .jumbotron {
