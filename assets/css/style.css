@@ -310,10 +310,7 @@ header {
 
 /* Styles for the mobile version */
 @media (min-width: 500px) {
-    #back-button {
-        margin: 30px;
-        max-width: 30px;
-    }
+  
 }
 
 @media only screen and (max-width:767px) {
@@ -506,6 +503,20 @@ blockquote {
         font-size: 10px;
         padding: 5px;
     }
+
+    #back-button {
+        margin: 30px;
+        max-width: 30px;
+
+ 
+
+        bottom: 50px;
+        right: 10px;
+ 
+   
+    }
+
+    
 
     
 }
