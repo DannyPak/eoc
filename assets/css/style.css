@@ -507,11 +507,8 @@ blockquote {
     #back-button {
         margin: 30px;
         max-width: 30px;
-
- 
-
-        bottom: 50px;
-        right: 10px;
+        bottom: 0px;
+        right: 25px;
  
    
     }
