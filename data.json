@@ -118,6 +118,13 @@
 
 
             },
+            "index-scheme":{
+                "en":" <img src=\"assets/img/index-scheme-e.png\" class=\"img-fluid\"> ",
+                "tc":" <img src=\"assets/img/index-scheme-c.png\" class=\"img-fluid\"> "
+     
+
+
+            },
 
             
             "collage-conference":{
@@ -144,6 +151,12 @@
                 "tc":"視覺藝術活動",
                 "linken":"https://www.eoc.org.hk/s/thewayweare/en/photos.asp",
                 "linktc":"https://www.eoc.org.hk/s/thewayweare/ch/photos.asp" 
+
+            },
+            "index-campaign":{
+                "en":"<img src=\"assets/img/index-campaign-e.png\" class=\"img-fluid\"> ",
+                "tc":"<img src=\"assets/img/index-campaign-c.png\" class=\"img-fluid\"> "
+
 
             },
           
