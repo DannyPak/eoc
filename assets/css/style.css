@@ -231,6 +231,10 @@ body {
     width: 100vw !important;
 }
 
+.carousel img{
+    width:100%;
+}
+
 /* messages page */
 .bio-image {
     border-radius: 50%;
@@ -384,14 +388,8 @@ header {
         padding: 0px;
         background-size: cover;
     }
-
-    .carousel-item{
-        background-position:cover
-    }
-
     .carousel img{
-        max-height:30vh;
-    
+        max-height:50vh;
         background-position:cover;
     }
 
