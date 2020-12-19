@@ -380,10 +380,23 @@ header {
     }
 
     .jumbotron {
-        height: 20vh;
+        height: 25vh;
         padding: 0px;
         background-size: cover;
     }
+
+    .carousel-item{
+        background-position:cover
+    }
+
+    .carousel img{
+        max-height:30vh;
+    
+        background-position:cover;
+    }
+
+   
+    
 
     .slogan h3:first-child::after {
         font-size: 10vw;
