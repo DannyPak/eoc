@@ -85,7 +85,7 @@ body {
     .bio-name {
   
         text-align: center;
-    }
+        }
 }
 
 .bio-title {
@@ -558,8 +558,20 @@ blockquote {
  
    
     }
+ 
+
 
     
+
+    
+}
+
+@media (max-width:1024px) {
+
+
+    .tl-month h2{
+        font-size:1.2rem
+    }
 
     
 }
