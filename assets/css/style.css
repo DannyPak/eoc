@@ -6,7 +6,7 @@ body {
 
 .banner {
    
-    height: 500px;
+    height: 550px;
     overflow:hidden;
     position:relative
 }
@@ -432,14 +432,7 @@ header {
    
     
 
-    .slogan h3:first-child::after {
-        font-size: 10vw;
-    }
-
-    .slogan h3:nth-child(2)::after {
-        font-size: 5vw;
-        font-weight: 500;
-    }
+    
 }
 
 /* Events & Projects timeline */
@@ -567,19 +560,6 @@ blockquote {
  
    
     }
-    .slogan .row:first-child h3 {
-    
-        font-size: 1em;
-        font-weight: 900;
-    }
-    
-    .slogan .row:nth-child(2) h3 {
-    
-        font-size: 4vw;
-        font-weight: 500;
-    }
- 
-
 
     
 
@@ -599,7 +579,7 @@ blockquote {
 
     .slogan .row:first-child h3 {
     
-        font-size: 2em;
+        font-size: 2.2em;
         font-weight: 900;
     }
     
@@ -612,6 +592,7 @@ blockquote {
     .banner {
    
         height: auto;
+        max-height:500px;
         overflow:hidden
     }
 
