@@ -5,11 +5,18 @@ body {
 
 
 .banner {
-    background: #F1F3F4;
+   
+    height: 500px;
+    overflow:hidden;
+    position:relative
+}
+
+.banner img{
+    max-height:auto;
 }
 
 .jumbotron {
-    height: 450px;
+    max-height: 350px;
     position: relative;
     text-align: center;
     background-size: cover;
@@ -600,6 +607,12 @@ blockquote {
     
         font-size: 1em;
         font-weight: 500;
+    }
+
+    .banner {
+   
+        height: auto;
+        overflow:hidden
     }
 
     
