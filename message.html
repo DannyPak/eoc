@@ -25,16 +25,37 @@
     <div id="header"></div>
     <div class="content">
         <!-- page banner -->
-        <div
-            class="banner-1 d-flex flex-column align-items-start jumbotron jumbotron-fluid  m-0 px-5 pt-6 text-md-left">
-            
-            <div class="mt-auto">
-                <h3></h3>
-                <h3></h3>
+        <!--
+        <div class=" d-flex flex-column banner-1 align-items-start jumbotron jumbotron-fluid  m-0 px-5 pt-6 text-md-left">
+         </div>
+         -->
+        
+         <div style="position:relative">
+            <img class="d-block w-100" src="assets/img/slide1.jpg">
+            <div class="slogan container-fluid" style="position:absolute">
+                <div class="row">
+                    <div class="col-6">
+                        <h3 class="text-right">承先啟後&nbsp;&nbsp;</h3>
+                    </div>
+                    <div class="col-6">
+                        <h3 class="text-left">&nbsp;穩步將來</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <h3 class="text-right">Inheriting the Past&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                    </div>
+                    <div class="col-6">
+                        <h3 class="text-left">&nbsp;&nbsp;Charting the Future</h3>
+                    </div>
+                </div>
             </div>
 
-
         </div>
+
+       
+        
+
         <!-- page banner end -->
         <!-- start of breadcumb -->
         <nav aria-label="breadcrumb" class="breadcrumb-container">
@@ -70,7 +91,7 @@
                 </div>
 
                 <div class="col-md-8 col-xs-12 messages-content bg-light mx-auto mb-5">
-                    
+
                     <p class="col-12 text-justify" id="cp-content"></p>
                     <blockquote class="text-justify" id="cp-quote"></blockquote>
                     <p class="col-12 text-justify" id="cp-content2"></p>
@@ -104,7 +125,7 @@
         /*------------Fill content---------*/
 
         //insert Element's ID
-        var elementId = ["page-title", "cp-name", "cp-title", "cp-content","cp-quote","cp-content2"];
+        var elementId = ["page-title", "cp-name", "cp-title", "cp-content", "cp-quote", "cp-content2"];
 
         $.getJSON('data.json', function (data) {
 

@@ -23,6 +23,7 @@ body {
     top: 170px;
 }
 
+
 .banner-1 {
     background: linear-gradient(rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)), url('../img/slide1.jpg');
@@ -104,18 +105,18 @@ body {
 .top-menu {
     font-size: 0.8rem;
 }
-
+/*
 .jumbotron h3:first-child::after {
-    content: " 承先啟後 穩步將來";
+    content: " 承先啟後 &nbsp;&nbsp; 穩步將來";
     font-weight: 100;
     font-size: 60px;
 }
 
 .jumbotron h3:nth-child(2)::after {
-    content: "Inheriting the Past, Charting the Future";
+    content: "Inheriting the Past  &nbsp;&nbsp; Charting the Future";
     font-weight: 100;
     font-size: 45px;
-}
+}*/
 
 .carousel img {
     filter: brightness(80%);
@@ -136,15 +137,16 @@ body {
     white-space: pre;
 }
 
-.slogan h3:first-child::after {
-    content: " 承先啟後 穩步將來";
-    font-size: 8vw;
+.slogan .row:first-child h3 {
+    
+    
+    font-size: 9.5em;
     font-weight: 900;
 }
 
-.slogan h3:nth-child(2)::after {
-    content: "Inheriting the Past  Charting the Future";
-    font-size: 4vw;
+.slogan .row:nth-child(2) h3 {
+
+    font-size: 4em;
     font-weight: 500;
 }
 
@@ -566,7 +568,7 @@ blockquote {
     
 }
 
-@media (max-width:1024px) {
+@media (max-width:1200px) {
 
 
     .tl-month h2{
@@ -575,6 +577,18 @@ blockquote {
 
     .tl h1{
         font-size:2.2rem
+    }
+
+    .slogan .row:first-child h3 {
+    
+        font-size: 3em;
+        font-weight: 900;
+    }
+    
+    .slogan .row:nth-child(2) h3 {
+    
+        font-size: 4vw;
+        font-weight: 500;
     }
 
     
