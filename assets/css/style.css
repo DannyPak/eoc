@@ -15,15 +15,6 @@ body {
     max-height:auto;
 }
 
-.jumbotron {
-    max-height: 350px;
-    position: relative;
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    background-position: center bottom;
-}
 
 .content {
     position: relative;
