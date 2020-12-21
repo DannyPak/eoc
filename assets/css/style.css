@@ -560,6 +560,17 @@ blockquote {
  
    
     }
+    .slogan .row:first-child h3 {
+    
+        font-size: 1em;
+        font-weight: 900;
+    }
+    
+    .slogan .row:nth-child(2) h3 {
+    
+        font-size: 4vw;
+        font-weight: 500;
+    }
  
 
 
@@ -581,13 +592,13 @@ blockquote {
 
     .slogan .row:first-child h3 {
     
-        font-size: 3em;
+        font-size: 2em;
         font-weight: 900;
     }
     
     .slogan .row:nth-child(2) h3 {
     
-        font-size: 4vw;
+        font-size: 1em;
         font-weight: 500;
     }
 
