@@ -28,7 +28,15 @@
     <div id="header"></div>
     <div class="content">
         <!-- bootstrap carousel-->
-        <div class="carousel slide" data-ride="carousel" data-pause="false" data-interval="4000">
+        <div class="carousel slide" data-ride="carousel" data-pause="false" data-interval="4000"  id="carouselExampleIndicators" >
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              </ol>
+
+
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block" src="assets/img/slide1.jpg" alt="First slide">
@@ -43,6 +51,12 @@
                     <img class="d-block" src="assets/img/slide4.jpg" alt="Forth slide">
                 </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+               
+              </a>
             <div class="slogan container-fluid">
                 <div class="row">
                     <div class="col-6">
