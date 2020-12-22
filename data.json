@@ -94,21 +94,35 @@
         },
         "index": {
             "collage-message":{
-                "en":"Chairperson's Message",
-                "tc":"主席的話",
+                "en": "<i class=\"far fa-arrow-alt-circle-right fa-4x\"></i>",
+                "tc":"<i class=\"far fa-arrow-alt-circle-right fa-4x\"></i> ",
                 "linken":"message.html?lang=en",
                 "linktc":"message.html?lang=tc"  
                           
 
             },
+            "collage-message-text":{
+                "en":"<img src=\"assets/img/index-message-en.png\" class=\"img-fluid\">",
+                "tc":"<img src=\"assets/img/index-message-tc.png\" class=\"img-fluid\">",
+                "linken":" ",
+                "linktc":" "  
+                          
+
+            },
            
             "collage-projects":{
-                "en":"Major Events & Projects  1996-2020",
-                "tc":"大事回顧 1996-2020",
+                "en": "<i class=\"far fa-arrow-alt-circle-right fa-4x\"></i>",
+                "tc":"<i class=\"far fa-arrow-alt-circle-right fa-4x\"></i> ",
                 "linken":"projects.html?lang=en",
                 "linktc":"projects.html?lang=tc" 
             },
-
+            
+            "collage-projects-text":{
+                "en":"<img src=\"assets/img/index-projects-en.png\" class=\"img-fluid\">",
+                "tc":"<img src=\"assets/img/index-projects-tc.png\" class=\"img-fluid\">",
+                "linken":" ",
+                "linktc":" " 
+            },
             
             "collage-scheme":{
                 "en":"Equal Opportunity Employer Recognition Scheme",
@@ -128,20 +142,33 @@
 
             
             "collage-conference":{
-                "en":"Asia-Pacific Women Caregivers with Disabilities Conference",
-                "tc":"亞太區殘疾女性照顧者會議",
+                "en": "<i class=\"far fa-arrow-alt-circle-right fa-4x\"></i>",
+                "tc":"<i class=\"far fa-arrow-alt-circle-right fa-4x\"></i> ",  
                 "linken":"conference.html?lang=en",
                 "linktc":"conference.html?lang=tc" 
 
 
             },
+            "collage-conference-text":{
+                "en":"<img src=\"assets/img/index-conference-en.png\" class=\"img-fluid\">",
+                "tc":"<img src=\"assets/img/index-conference-tc.png\" class=\"img-fluid\">",
+                "linken":" ",
+                "linktc":" " 
+            },
 
             
             "collage-stories":{
-                "en":"Our People, Our Voices, Our Mission at Work",
-                "tc":"人物誌",
+                "en": "<i class=\"far fa-arrow-alt-circle-right fa-4x\"></i>",
+                "tc":"<i class=\"far fa-arrow-alt-circle-right fa-4x\"></i> ",
                 "linken":"stories.html?lang=en",
                 "linktc":"stories.html?lang=tc" 
+
+            },
+            "collage-stories-text":{
+                "en":"<img src=\"assets/img/index-stories-en.png\" class=\"img-fluid\">",
+                "tc":"<img src=\"assets/img/index-stories-tc.png\" class=\"img-fluid\">",
+                "linken":" ",
+                "linktc":" " 
 
             },
 

@@ -20,9 +20,13 @@
     <link rel="manifest" href="assets/img/site.webmanifest">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js"></script>
+
+
 </head>
 
 <body>
+   
+
     <a id="back-button"><i class="fas fa-arrow-circle-up fa-4x"></i></a>
     <div id="header"></div>
     <div class="content">
@@ -35,6 +39,8 @@
                 <li data-target="#carouselIndicators" data-slide-to="2"></li>
                 <li data-target="#carouselIndicators" data-slide-to="3"></li>
             </ol>
+
+
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block" src="assets/img/slide1.jpg" alt="First slide">
@@ -49,8 +55,12 @@
                     <img class="d-block" src="assets/img/slide4.jpg" alt="Forth slide">
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev"> </a>
-            <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next"> </a>
+            <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+
+            </a>
+            <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+
+            </a>
             <div class="slogan container-fluid">
                 <div class="row">
                     <div class="col-6">
@@ -72,20 +82,30 @@
         </div>
         <!-- end of banner -->
         <!--start of content-->
+        <span class="fa-stack fa-2x">
+            <i class="fas fa-square fa-stack-2x"></i>
+            <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+        </span>
 
         <div class="container pt-5">
-            <div class="collage-container no-gutters row">
-                <div class="col-12 col-md-3 flex-col px-2">
-                    <div class="collage">
-                        <span id="collage-message-text"> </span>
+
+            <div class="d-flex flex-row no-gutters row">
+                <div class="col-12 col-md-3 d-flex flex-column">
+                    <div class="collage text-center p-5 m-1 text-white font-weight-bold"
+                        style="background-color:#9D8312">
+
+                        <h3 id="collage-message-text">
+                        </h3>
                         <div class="overlay">
                             <div class="collage-text">
                                 <a href="" id="collage-message" role="button" aria-pressed="true"></a>
+
                             </div>
                         </div>
                     </div>
                     <div class="collage">
-                        <span id="collage-projects-text"></span>
+                        <h3 id="collage-projects-text" class="text-center p-5 m-1 text-white font-weight-bold"
+                            style="background-color:#d6b41b"></h3>
                         <div class="overlay">
                             <div class="collage-text">
                                 <a href="" id="collage-projects" role="button" aria-pressed="true"></a>
@@ -93,9 +113,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-5 flex-col">
+                <div class="col-12 col-md-5 d-flex flex-column">
                     <div class="collage">
                         <span id="index-scheme"></span>
+
                         <div class="overlay">
                             <div class="collage-text">
                                 <a href="" id="collage-scheme" role="button" aria-pressed="true" target="_blank"></a>
@@ -104,17 +125,17 @@
                     </div>
                     <div class="collage">
                         <span id="index-campaign"></span>
+
                         <div class="overlay">
                             <div class="collage-text">
-                                <a href="" id="collage-campaign" role="button" aria-pressed="true" target="_blank"></a>
+                                <a href="" id="collage-campaign" role="button" aria-pressed="true" target="_black"></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 flex-col">
+                <div class="col-12 col-md-4 d-flex flex-column">
                     <div class="collage">
-
-                        <span id="collage-stories-text"></span>
+                        <img src="assets/img/index-people.jpg" class="img-fluid">
                         <div class="overlay">
                             <div class="collage-text">
                                 <a href="" id="collage-stories" role="button" aria-pressed="true"></a>
@@ -131,7 +152,7 @@
                         </div>
                     </div>
                     <div class="collage">
-                        <span id="collage-conference-text"></span>
+                        <img src="assets/img/index-conference.jpg" class="img-fluid">
                         <div class="overlay">
                             <div class="collage-text">
                                 <a href="" id="collage-conference" role="button" aria-pressed="true"></a>
@@ -147,6 +168,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"
         integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ=="
         crossorigin="anonymous"></script>
+
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="script.js"></script>
     <script src="assets/js/slide.js"></script>
@@ -175,9 +198,7 @@
             "collage-scheme",
             "index-scheme",
             "collage-conference",
-            "collage-conference-text",
             "collage-stories",
-            "collage-stories-text",
             "collage-campaign",
             "index-campaign",
             "collage-competition"];
@@ -216,7 +237,6 @@
         /*------------end of Fill content---------*/
 
     </script>
-    <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
 </body>
 
 </html>

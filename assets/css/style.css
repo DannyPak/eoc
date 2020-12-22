@@ -8,7 +8,7 @@ body {
    
     max-height: 530px;
     overflow:hidden;
-    position:relative
+    position:relative;
 }
 
 .banner img{
@@ -17,7 +17,7 @@ body {
 
 
 .content {
-    position: relative;
+    position: relative; 
     top: 170px;
 }
 
@@ -478,9 +478,25 @@ blockquote {
 }
 
 /* index collage */
+
+.collage-contaier{
+    display: flex;
+    width: 100%;
+}
+.flex-col {
+    flex:1;
+    padding: 16px;
+  }
+
+
 .collage {
     position: relative;
     width: 100%;
+    text-align: center;
+    color:white;
+    font-weight:500;
+    
+
 }
 
 .collage img {
@@ -488,6 +504,14 @@ blockquote {
     width: 100%;
     height: auto;
     padding: 5px ;
+}
+
+.fa-rotate-45 {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .overlay {
@@ -500,7 +524,7 @@ blockquote {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #00556C;
+    background-color: #6a6a6a;
 }
 
 .collage:hover .overlay {
@@ -561,11 +585,11 @@ blockquote {
 
 
     .tl-month h2{
-        font-size:1rem
+        font-size:1rem;
     }
 
     .tl h1{
-        font-size:2.2rem
+        font-size:2.2rem;
     }
 
     .slogan .row:first-child h3 {
@@ -584,7 +608,7 @@ blockquote {
    
         height: auto;
         max-height:500px;
-        overflow:hidden
+        overflow:hidden;
     }
 
     
