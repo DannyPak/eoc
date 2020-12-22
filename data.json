@@ -125,8 +125,8 @@
             },
             
             "collage-scheme":{
-                "en":"Equal Opportunity Employer Recognition Scheme",
-                "tc":"平等機會僱主嘉許計劃",
+                "en": "<i class=\"far fa-arrow-alt-circle-right fa-4x\"></i>",
+                "tc":"<i class=\"far fa-arrow-alt-circle-right fa-4x\"></i> ",
                 "linken":"https://www.eoc.org.hk/s/eoemployer/en/index.html",
                 "linktc":"https://www.eoc.org.hk/s/eoemployer/hk/index.html" 
 
@@ -277,7 +277,7 @@
                 "tc": "平等機會委員會前任主席 (2005-2010)"
             },
             "cp6": {
-                "en": "The Hon LAM Woon-kwong, GBS, JP",
+                "en": "Mr LAM Woon-kwong, GBS, JP",
                 "tc": "林煥光議員, GBS, JP"
             },
             "cp6-title": {
