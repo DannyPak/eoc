@@ -189,8 +189,8 @@
           
 
             "collage-competition":{
-                "en":"Children’s Painting and Colouring Competition",
-                "tc":"兒童填色及繪畫比賽",
+                "en": "<i class=\"far fa-arrow-alt-circle-right fa-4x\"></i>",
+                "tc":"<i class=\"far fa-arrow-alt-circle-right fa-4x\"></i> ",
                 "linken":"https://www.eoc.org.hk/s/genievent/contact_en.php",
                 "linktc":"https://www.eoc.org.hk/s/genievent/contact.php?lang=tc" 
             }              
@@ -218,7 +218,7 @@
             },
             "cp-content": {
                 "en": "Since its establishment under the Sex Discrimination Ordinance in May 1996, the Equal Opportunities Commission (EOC) has served the city for 25 years. <br><br>Over a quarter of a century, the EOC has been faithfully discharging its mandate of enforcing Hong Kong’s anti-discrimination ordinances to eliminate discrimination based on sex, pregnancy, family status and race; sexual harassment; as well as harassment and vilification on the grounds of disability and race. <br><br>Closely connected with the everyday life of citizens and the wellbeing of different communities, the EOC’s work serves to uproot ingrained prejudices and stereotypes. While this has proven to be an increasing challenge amid drastic and complex changes to our society in recent years, the EOC remains steadfast in its mission, professional in its duty, and proactive in its outlook. The poem below captures our sentiment:",
-                "tc": "平等機會委員會(平機會)於1996年5月依據《性別歧視條例》成立，時光荏苒，平機會至今已運作近25年。<br>在過去四份一個世紀，平機會一直秉持使命，致力推行本港反歧視條例，消除基於性別、懷孕、殘疾、家庭崗位及種族的歧視，並打擊性騷擾，以及基於殘疾及種族的騷擾和中傷。<br>平機會的工作與社會群體和個人生活可謂息息相關，更肩負改變社會偏見和定型觀念的責任。近年香港社會愈趨複雜多變，平機會的工作亦愈具挑戰。但縱有幾許風雨，我們仍是抱持積極專業的態度、堅守崗位，履行我們的法定責任。以下幾句可概括平機會25年來的歲月： "
+                "tc": "平等機會委員會(平機會)於1996年5月依據《性別歧視條例》成立，時光荏苒，平機會至今已運作近25年。<br><br>在過去四份一個世紀，平機會一直秉持使命，致力推行本港反歧視條例，消除基於性別、懷孕、殘疾、家庭崗位及種族的歧視，並打擊性騷擾，以及基於殘疾及種族的騷擾和中傷。<br><br>平機會的工作與社會群體和個人生活可謂息息相關，更肩負改變社會偏見和定型觀念的責任。近年香港社會愈趨複雜多變，平機會的工作亦愈具挑戰。但縱有幾許風雨，我們仍是抱持積極專業的態度、堅守崗位，履行我們的法定責任。以下幾句可概括平機會25年來的歲月： "
             },
             "cp-quote":{
                 "en":"To an equal world we all aspire,<br> But never by chance does change transpire.<br> Sown over twenty years in times good and dire,<br> May our seeds bear fruit justly desired.",
@@ -227,7 +227,7 @@
             },
             "cp-content2": {
                 "en": "Looking ahead, the EOC will continue to adopt a three-pronged approach – encompassing law enforcement, prevention and education – in removing the barriers facing marginalised communities, raising awareness of anti-discrimination laws, and reinvigorating public interest in concepts of equality and inclusion. “Equal rights for everyone” is, after all, a universal aspiration, and the EOC is determined to create positive change in Hong Kong and beyond. <br><br>I am indeed honoured by the opportunity to chart the EOC’s future roadmap at this historic moment in time. To mark our 25th anniversary, we have curated a series of activities, and I hope all of you will join us in this celebration. We have also set up this website to highlight some of the major milestones the EOC has made over the years. <br><br>A big thank-you is due to all the people who have believed in and stood by us through the past 25 years. We look forward to having the support of all sectors in society, as we keep on striving to break new ground and reach new heights.",
-                "tc": "展望未來，平機會將繼續透過執法、預防及教育的工作，為社會上的弱勢群體移除不平等的障礙，協助大眾認識反歧視法例和平等共融的理念，為香港社會以至區內及世界帶來正向改變，實現「人人生而平等」的普世價值。<br>我能在此歷史時刻帶領平機會開拓未來藍圖，實在與有榮焉。為了慶祝平機會25周年，我們籌劃了一系列活動和這個網站，向大眾展示平機會25年來的工作及成果，我誠意邀請大家參與這些活動。<br>我謹此衷心感謝與平機會一起走過這25年的夥伴，並期望社會各界繼續鼎力支持我們，與平機會攜手邁向新里程，繼往開來、續創輝煌。"
+                "tc": "展望未來，平機會將繼續透過執法、預防及教育的工作，為社會上的弱勢群體移除不平等的障礙，協助大眾認識反歧視法例和平等共融的理念，為香港社會以至區內及世界帶來正向改變，實現「人人生而平等」的普世價值。<br><br>我能在此歷史時刻帶領平機會開拓未來藍圖，實在與有榮焉。為了慶祝平機會25周年，我們籌劃了一系列活動和這個網站，向大眾展示平機會25年來的工作及成果，我誠意邀請大家參與這些活動。<br>我謹此衷心感謝與平機會一起走過這25年的夥伴，並期望社會各界繼續鼎力支持我們，與平機會攜手邁向新里程，繼往開來、續創輝煌。"
                 }
         },
 
