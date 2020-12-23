@@ -758,12 +758,12 @@
                 "tc": "1998年1月"
             },
             "199803-text": {
-                "en": "<p>The EOC conducted a Survey on Public Perception of the EOC, which showed that awareness of the EOC reached 87%. This was significantly higher than the survey in September 1996, with only 35% of the participants having heard of the EOC.</p><p>The first two complaint cases assisted by the EOC – on sexual harassment (Yuen Sha Sha v Tse Chi Pan DCEO 1/1998) and on disability discrimination and harassment (Ma Bik Yung v Ko Chuen DCEO 1/1997) – were heard in the District Court respectively. The Court ruled in favour of the plaintiff in both cases.</p>",
-                "tc": "<p>平機會進行「公眾對平等機會委員會的認識」調查，顯示公眾對委員會的認識達87%，較1996年9月的調查時只有35%的參與者聽說過平機會，大幅上升。</p><p>平機會給予協助的首兩宗性騷擾個案( 阮莎莎 訴 謝智斌 DCEO 1/1998)及殘疾歧視和騷擾個案(馬碧容 訴 高泉 DCEO 1/1997)分別在區域法院聆訊，兩宗個案的原告人均獲判勝訴。</p>"
+                "en": "<p>The EOC conducted a Survey on Public Perception of the EOC, which showed that awareness of the EOC reached 87%. This was significantly higher than the survey in September 1996, with only 35% of the participants having heard of the EOC.</p>",
+                "tc": "<p>平機會進行「公眾對平等機會委員會的認識」調查，顯示公眾對委員會的認識達87%，較1996年9月的調查時只有35%的參與者聽說過平機會，大幅上升。</p>"
             },
             "199803-2-text": {
-                "en": "<p>The EOC conducted a Survey on Public Perception of the EOC, which showed that awareness of the EOC reached 87%. This was significantly higher than the survey in September 1996, with only 35% of the participants having heard of the EOC.</p><p>The first two complaint cases assisted by the EOC – on sexual harassment (Yuen Sha Sha v Tse Chi Pan DCEO 1/1998) and on disability discrimination and harassment (Ma Bik Yung v Ko Chuen DCEO 1/1997) – were heard in the District Court respectively. The Court ruled in favour of the plaintiff in both cases.</p>",
-                "tc": "<p>平機會進行「公眾對平等機會委員會的認識」調查，顯示公眾對委員會的認識達87%，較1996年9月的調查時只有35%的參與者聽說過平機會，大幅上升。</p><p>平機會給予協助的首兩宗性騷擾個案( 阮莎莎 訴 謝智斌 DCEO 1/1998)及殘疾歧視和騷擾個案(馬碧容 訴 高泉 DCEO 1/1997)分別在區域法院聆訊，兩宗個案的原告人均獲判勝訴。</p>"
+                "en": "<p>The first two complaint cases assisted by the EOC – on sexual harassment (Yuen Sha Sha v Tse Chi Pan DCEO 1/1998) and on disability discrimination and harassment (Ma Bik Yung v Ko Chuen DCEO 1/1997) – were heard in the District Court respectively. The Court ruled in favour of the plaintiff in both cases.</p>",
+                "tc": "<p>平機會給予協助的首兩宗性騷擾個案( 阮莎莎 訴 謝智斌 DCEO 1/1998)及殘疾歧視和騷擾個案(馬碧容 訴 高泉 DCEO 1/1997)分別在區域法院聆訊，兩宗個案的原告人均獲判勝訴。</p>"
             },
             "199902-date": {
                 "en": "Feb 1999",
@@ -826,8 +826,12 @@
                 "tc": "2000年9月"
             },
             "200009-text": {
-                "en": "<p>The EOC’s landmark case of disability discrimination (K & Ors v Secretary for Justice DCEO 3, 4 and 7/1999) caused the Government to review its recruitment policies on rejecting job applicants who had a first degree relative with a history of mental illness of a hereditary nature.</p><p>In response to the interference of the operation of the Kowloon Bay Health Centre by some residents of Richland Gardens in 1999, the EOC conducted investigation into the matter. After repeated attempts of conciliation failed, the EOC initiated legal action in 2000 on harassment and vilification against patients and workers of the Kowloon Bay Health Centre. The case was eventually settled out of court in January 2002.</p>",
-                "tc": "<p>平機會協助的一宗殘疾歧視重要案例(K及其他人 訴 律政司司長DCEO 3, 4及7/1999)，促使政府檢討其招聘政策，改變一律拒絕第一級別親屬有遺傳性精神病病歷的求職者之做法。</p><p>因應九龍灣健康中心的運作於1999年受到部分麗晶花園居民的干擾，平機會進行調查。在屢次調停失敗後，平機會於2000年主動就九龍灣健康中心的病人及職員受到騷擾和中傷而作出法律行動。該個案最終在2002年1月庭外和解。</p>"
+                "en": "<p>The EOC’s landmark case of disability discrimination (K & Ors v Secretary for Justice DCEO 3, 4 and 7/1999) caused the Government to review its recruitment policies on rejecting job applicants who had a first degree relative with a history of mental illness of a hereditary nature.</p>",
+                "tc": "<p>平機會協助的一宗殘疾歧視重要案例(K及其他人 訴 律政司司長DCEO 3, 4及7/1999)，促使政府檢討其招聘政策，改變一律拒絕第一級別親屬有遺傳性精神病病歷的求職者之做法。</p>"
+            },
+            "200009-2-text": {
+                "en": "<p>In response to the interference of the operation of the Kowloon Bay Health Centre by some residents of Richland Gardens in 1999, the EOC conducted investigation into the matter. After repeated attempts of conciliation failed, the EOC initiated legal action in 2000 on harassment and vilification against patients and workers of the Kowloon Bay Health Centre. The case was eventually settled out of court in January 2002.</p>",
+                "tc": "<p>因應九龍灣健康中心的運作於1999年受到部分麗晶花園居民的干擾，平機會進行調查。在屢次調停失敗後，平機會於2000年主動就九龍灣健康中心的病人及職員受到騷擾和中傷而作出法律行動。該個案最終在2002年1月庭外和解。</p>"
             },
             "200011-date": {
                 "en": "Nov 2000",
@@ -1106,8 +1110,8 @@
                 "tc": "<p>平機會的《殘疾歧視條例僱傭實務守則》修訂本在經立法會通過的修訂決議刊登憲報後，於6月3日生效。平機會其後於9月就《殘疾歧視條例僱傭實務守則》發出《簡易指引》，以方便市民特別是僱主和僱員參考該守則。</p>"
             },
             "201106-image": {
-                "en": "<img class=\"img-fluid\" src=\"assets/img/2011.6_CoP DDO Booklet final eng-1.jpg\" />",
-                "tc": "<img class=\"img-fluid\" src=\"assets/img/2011.6_CoP DDO Booklet final chi-1.jpg\" />"
+                "en": "<img class=\"img-fluid\" src=\"assets/img/2011.6-ddo-eng.jpg\" />",
+                "tc": "<img class=\"img-fluid\" src=\"assets/img/2011.6-ddo-chi.jpg\" />"
                 
 
                 
@@ -1241,8 +1245,12 @@
                 "tc": "2014年12月"
             },
             "201412-text": {
-                "en": "<p>The Legislative Council passed the Sex Discrimination (Amendment) Bill 2014, which made unlawful sexual harassment by customers against providers or prospective providers of goods, facilities or services – even if the act occurs on local ships and aircraft outside Hong Kong. The Bill incorporated the EOC’s recommendations into law, following over 10 years of advocacy.</p><p>The EOC established a dedicated unit to address the specific needs and difficulties of Hong Kong’s ethnic minority communities, such as the barriers they face in education. In this regard, the Unit urged kindergartens to embrace the principles of diversity and inclusion in admitting ethnic minority children. Earlier in June 2014, the EOC released a guide on “Racial Equality and School Uniform” to assist schools in the development and implementation of uniform rules in accordance with the principle of equality.</p>",
-                "tc": "<p>立法會通過《2014年性別歧視（修訂）條例草案》，訂明任何顧客如向提供或可能提供貨品、設施或服務的人作出性騷擾，包括在香港境外的本地船舶或飛機上作出性騷擾，皆屬違法行爲。在經過十數年的倡議工作後，平機會的建議最終獲收納在法例中。</p><p>平機會成立了一個專設小組，專門處理本港少數族裔社群的特殊需要和困難，包括在教育上面對的障礙，例如該組促請幼稚園在錄取少數族裔兒童時採納多元共融的原則。平機會較早前於6月推出了《種族平等與校服》指引，協助學校按照平等原則制定並實施校服規則。</p>"
+                "en": "<p>The Legislative Council passed the Sex Discrimination (Amendment) Bill 2014, which made unlawful sexual harassment by customers against providers or prospective providers of goods, facilities or services – even if the act occurs on local ships and aircraft outside Hong Kong. The Bill incorporated the EOC’s recommendations into law, following over 10 years of advocacy.</p>",
+                "tc": "<p>立法會通過《2014年性別歧視（修訂）條例草案》，訂明任何顧客如向提供或可能提供貨品、設施或服務的人作出性騷擾，包括在香港境外的本地船舶或飛機上作出性騷擾，皆屬違法行爲。在經過十數年的倡議工作後，平機會的建議最終獲收納在法例中。</p>"
+            },
+            "201412-2-text": {
+                "en": "<p>The EOC established a dedicated unit to address the specific needs and difficulties of Hong Kong’s ethnic minority communities, such as the barriers they face in education. In this regard, the Unit urged kindergartens to embrace the principles of diversity and inclusion in admitting ethnic minority children. Earlier in June 2014, the EOC released a guide on “Racial Equality and School Uniform” to assist schools in the development and implementation of uniform rules in accordance with the principle of equality.</p>",
+                "tc": "<p>平機會成立了一個專設小組，專門處理本港少數族裔社群的特殊需要和困難，包括在教育上面對的障礙，例如該組促請幼稚園在錄取少數族裔兒童時採納多元共融的原則。平機會較早前於6月推出了《種族平等與校服》指引，協助學校按照平等原則制定並實施校服規則。</p>"
             },
             "201412-image": {
                 "en": "<img class=\"img-fluid\" src=\"assets/img/2014.12_Eng - SDO Amendment.jpg\" />",
