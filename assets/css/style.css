@@ -524,7 +524,11 @@ blockquote {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #6a6a6a;
+    background-color: rgb(126, 126, 126);
+}
+
+.fa-arrow-alt-circle-right{
+    color:white
 }
 
 .collage:hover .overlay {
