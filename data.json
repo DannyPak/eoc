@@ -94,8 +94,8 @@
         },
         "index": {
             "collage-message":{
-                "en": "<i class=\"far fa-arrow-alt-circle-right fa-4x\"></i>",
-                "tc":"<i class=\"far fa-arrow-alt-circle-right fa-4x\"></i> ",
+                "en":"<img src=\"assets/img/index-message-en.png\" class=\"img-fluid\">",
+                "tc":"<img src=\"assets/img/index-message-tc.png\" class=\"img-fluid\">",
                 "linken":"message.html?lang=en",
                 "linktc":"message.html?lang=tc"  
                           
@@ -133,8 +133,8 @@
 
             },
             "index-scheme":{
-                "en":" <img src=\"assets/img/index-scheme.png\" class=\"img-fluid\"> ",
-                "tc":" <img src=\"assets/img/index-scheme.png\" class=\"img-fluid\"> "
+                "en":" <img src=\"assets/img/index-scheme-e.png\" class=\"img-fluid\"> ",
+                "tc":" <img src=\"assets/img/index-scheme-c.png\" class=\"img-fluid\"> "
      
 
 
