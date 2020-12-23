@@ -26,7 +26,7 @@
     <a id="back-button"><i class="fas fa-arrow-circle-up fa-4x"></i></a>
     <div id="header"></div>
     <div class="content">
-        
+
         <!-- bootstrap carousel-->
         <div class="carousel slide" data-ride="carousel" data-pause="false" data-interval="4000"
             id="carouselIndicators">
@@ -78,67 +78,39 @@
             <div class="collage-container no-gutters row">
                 <div class="col-sm-12 col-md-3">
                     <div class="collage">
-                        <span id="collage-message-text"> </span>
-                        <div class="overlay">
-                            <div class="collage-text">
-                                <a href="" id="collage-message" role="button" aria-pressed="true"></a>
-                            </div>
-                        </div>
+                        <a href="" id="collage-message" role="button" aria-pressed="true"></a>
                     </div>
+
                     <div class="collage">
-                        <span id="collage-projects-text"></span>
-                        <div class="overlay">
-                            <div class="collage-text">
-                                <a href="" id="collage-projects" role="button" aria-pressed="true"></a>
-                            </div>
-                        </div>
+                        <a href="" id="collage-projects" role="button" aria-pressed="true"></a>
+
                     </div>
                 </div>
+
                 <div class="col-sm-12 col-md-5">
                     <div class="collage">
-                        <span id="index-scheme"></span>
-                        <div class="overlay">
-                            <div class="collage-text">
-                                <a href="" id="collage-scheme" role="button" aria-pressed="true" target="_blank"></a>
-                            </div>
-                        </div>
+                        <a href="" id="collage-scheme" role="button" aria-pressed="true" target="_blank"></a>
+
                     </div>
-                    <div class="collage">
-                        <span id="index-campaign"></span>
-                        <div class="overlay">
-                            <div class="collage-text">
-                                <a href="" id="collage-campaign" role="button" aria-pressed="true" target="_blank"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-4">
                     <div class="collage">
 
-                        <span id="collage-stories-text"></span>
-                        <div class="overlay">
-                            <div class="collage-text">
-                                <a href="" id="collage-stories" role="button" aria-pressed="true"></a>
-                            </div>
-                        </div>
+                        <a href="" id="collage-campaign" role="button" aria-pressed="true" target="_blank"></a>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="collage">
+                        <a href="" id="collage-stories" role="button" aria-pressed="true"></a>
                     </div>
                     <div class="collage">
-                        <img src="assets/img/index-competition.jpg" class="img-fluid">
-                        <div class="overlay">
-                            <div class="collage-text">
-                                <a href="" id="collage-competition" role="button" aria-pressed="true"
-                                    target="_blank"></a>
-                            </div>
-                        </div>
+                        <a href="" id="collage-competition" role="button" aria-pressed="true" target="_blank"></a>
+
                     </div>
                     <div class="collage">
-                        <span id="collage-conference-text"></span>
-                        <div class="overlay">
-                            <div class="collage-text">
-                                <a href="" id="collage-conference" role="button" aria-pressed="true"></a>
-                            </div>
-                        </div>
+                        <a href="" id="collage-conference" role="button" aria-pressed="true"></a>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -170,19 +142,13 @@
 
         //insert Element's ID
         var elementId = [
-            "collage-message-text",
             "collage-message",
             "collage-projects",
-            "collage-projects-text",
             "collage-scheme",
-            "index-scheme",
-            "collage-conference",
-            "collage-conference-text",
-            "collage-stories",
-            "collage-stories-text",
             "collage-campaign",
-            "index-campaign",
-            "collage-competition"];
+            "collage-stories",
+            "collage-competition",
+            "collage-conference"];
 
 
         $.getJSON('data.json', function (data) {
