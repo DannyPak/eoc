@@ -5,7 +5,7 @@
                 "en": "EOC Home",
                 "tc": "平機會主頁",
                 "linken": "https://www.eoc.org.hk",
-                "linktc":"https://www.eoc.org.hk/default.asp#"
+                "linktc": "https://www.eoc.org.hk/default.asp#"
             },
             "logo": {
                 "en": "<img src=\"assets/img/eoc-25-logo-140.png\" alt=\"logo\" class=\"logo m-1 img-fluid\">",
@@ -23,49 +23,49 @@
                 "en": "EOC 25th Anniversary",
                 "tc": "平機㑹25週年",
                 "linken": "",
-                "kinktc":""
+                "kinktc": ""
             },
             "m2-1": {
                 "en": "Chairperson's Message",
                 "tc": "主席的話",
                 "linken": "message.html?lang=en",
-                "linktc":"message.html?lang=tc"
+                "linktc": "message.html?lang=tc"
             },
             "m3": {
                 "en": "Our Stories",
                 "tc": "我們的故事",
                 "linken": "",
-                "linktc":""
+                "linktc": ""
             },
             "m3-1": {
                 "en": "List of Chairpersons",
                 "tc": "歷任主席名單",
                 "linken": "chairpersons.html?lang=en",
-                "linktc":"chairpersons.html?lang=tc"
+                "linktc": "chairpersons.html?lang=tc"
             },
             "m3-2": {
                 "en": "List of Members",
                 "tc": "歷任委員名單",
                 "linken": "members.html?lang=en",
-                "linktc":"members.html?lang=tc"
+                "linktc": "members.html?lang=tc"
             },
             "m3-3": {
                 "en": "Major Events & Projects 1996-2020",
                 "tc": "1996-2020 大事回顧",
                 "linken": "projects.html?lang=en",
-                "linktc":"projects.html?lang=tc"
+                "linktc": "projects.html?lang=tc"
             },
             "m3-4": {
                 "en": "Our People, Our Voices, Our Mission at Work",
                 "tc": "人物誌",
                 "linken": "stories.html?lang=en",
-                "linktc":"stories.html?lang=tc"
+                "linktc": "stories.html?lang=tc"
             },
             "m4": {
                 "en": "Events & Activities",
                 "tc": "慶祝活動",
                 "linken": "",
-                "linktc":""
+                "linktc": ""
             },
             "m4-1": {
                 "en": "Children’s Painting and Colouring Competition",
@@ -101,98 +101,70 @@
                 "en": "EOC 25th Anniversary",
                 "tc": "平機㑹25週年",
                 "linken": "",
-                "linktc":""
+                "linktc": ""
             },
             "m5-1": {
                 "en": "Multimedia Gallery",
                 "tc": "多媒體資訊",
                 "linken": "gallery.html?lang=en",
-                "linktc":"gallery.html?lang=tc"
+                "linktc": "gallery.html?lang=tc"
             }
         },
         "index": {
-          
-            "collage-message":{
-                "en":"<img src=\"assets/img/index-message-e.png\" class=\"img-fluid effectfront\">",
-                "tc":"<img src=\"assets/img/index-message-c.png\" class=\"img-fluid effectfront\">",
-                "linken":"message.html?lang=en",
-                "linktc":"message.html?lang=tc"  
-                          
-
+            "collage-message": {
+                "en": "<img src=\"assets/img/index-message-e.png\" class=\"img-fluid effectfront\">",
+                "tc": "<img src=\"assets/img/index-message-c.png\" class=\"img-fluid effectfront\">",
+                "linken": "message.html?lang=en",
+                "linktc": "message.html?lang=tc"
             },
-           
-            "collage-projects":{
-                "en":"<img src=\"assets/img/index-projects-e.png\" class=\"img-fluid effectfront\">",
-                "tc":"<img src=\"assets/img/index-projects-c.png\" class=\"img-fluid effectfront\">",
-                "linken":"projects.html?lang=en",
-                "linktc":"projects.html?lang=tc" 
+            "collage-projects": {
+                "en": "<img src=\"assets/img/index-projects-e.png\" class=\"img-fluid effectfront\">",
+                "tc": "<img src=\"assets/img/index-projects-c.png\" class=\"img-fluid effectfront\">",
+                "linken": "projects.html?lang=en",
+                "linktc": "projects.html?lang=tc"
             },
-            
-        
-            
-            "collage-scheme":{
-                "en":" <img src=\"assets/img/index-scheme-e.png\" class=\"img-fluid effectfront\"> ",
-                "tc":" <img src=\"assets/img/index-scheme-c.png\" class=\"img-fluid effectfront\"> ",
-                "linken":"https://www.eoc.org.hk/s/eoemployer/en/index.html",
-                "linktc":"https://www.eoc.org.hk/s/eoemployer/hk/index.html" 
-
-
+            "collage-scheme": {
+                "en": " <img src=\"assets/img/index-scheme-e.png\" class=\"img-fluid effectfront\"> ",
+                "tc": " <img src=\"assets/img/index-scheme-c.png\" class=\"img-fluid effectfront\"> ",
+                "linken": "https://www.eoc.org.hk/s/eoemployer/en/index.html",
+                "linktc": "https://www.eoc.org.hk/s/eoemployer/hk/index.html"
             },
-             
-            "collage-campaign":{
-                "en":"<img src=\"assets/img/index-campaign-e.png\" class=\"img-fluid effectfront\"> ",
-                "tc":"<img src=\"assets/img/index-campaign-c.png\" class=\"img-fluid effectfront\"> ",
-                "linken":"https://www.eoc.org.hk/s/thewayweare/en/photos.asp",
-                "linktc":"https://www.eoc.org.hk/s/thewayweare/ch/photos.asp" 
-
+            "collage-campaign": {
+                "en": "<img src=\"assets/img/index-campaign-e.png\" class=\"img-fluid effectfront\"> ",
+                "tc": "<img src=\"assets/img/index-campaign-c.png\" class=\"img-fluid effectfront\"> ",
+                "linken": "https://www.eoc.org.hk/s/thewayweare/en/photos.asp",
+                "linktc": "https://www.eoc.org.hk/s/thewayweare/ch/photos.asp"
             },
-
-            "collage-stories":{
-                "en":"<img src=\"assets/img/index-stories-e.png\" class=\"img-fluid effectfront\">",
-                "tc":"<img src=\"assets/img/index-stories-c.png\" class=\"img-fluid effectfront\">",
-                "linken":"stories.html?lang=en",
-                "linktc":"stories.html?lang=tc" 
-
+            "collage-stories": {
+                "en": "<img src=\"assets/img/index-stories-e.png\" class=\"img-fluid effectfront\">",
+                "tc": "<img src=\"assets/img/index-stories-c.png\" class=\"img-fluid effectfront\">",
+                "linken": "stories.html?lang=en",
+                "linktc": "stories.html?lang=tc"
             },
-
-            
-            "collage-competition":{
+            "collage-competition": {
                 "en": "<img src=\"assets/img/index-competition.jpg\" class=\"img-fluid effectfront\">",
                 "tc": "<img src=\"assets/img/index-competition.jpg\" class=\"img-fluid effectfront\">",
-                "linken":"https://www.eoc.org.hk/s/genievent/contact_en.php",
-                "linktc":"https://www.eoc.org.hk/s/genievent/contact.php?lang=tc" 
-            },    
-           
-       
-
-            
-            "collage-conference":{
-                "en":"<img src=\"assets/img/index-conference.png\" class=\"img-fluid effectfront\">",
-                "tc":"<img src=\"assets/img/index-conference.png\" class=\"img-fluid effectfront\">",
-                "linken":"conference.html?lang=en",
-                "linktc":"conference.html?lang=tc" 
-
-            }    
-           
-          
-         
-
-            
-            
+                "linken": "https://www.eoc.org.hk/s/genievent/contact_en.php",
+                "linktc": "https://www.eoc.org.hk/s/genievent/contact.php?lang=tc"
+            },
+            "collage-conference": {
+                "en": "<img src=\"assets/img/index-conference.png\" class=\"img-fluid effectfront\">",
+                "tc": "<img src=\"assets/img/index-conference.png\" class=\"img-fluid effectfront\">",
+                "linken": "conference.html?lang=en",
+                "linktc": "conference.html?lang=tc"
+            }
         },
-        
         "message": {
             "page-title": {
                 "en": "Chairperson's Message",
                 "tc": "主席的話"
             },
-            
             "cp-name-en": {
                 "en": "<h2>Mr Ricky CHU Man-kin, I.D.S.</h2>",
                 "tc": ""
             },
             "cp-title-en": {
-                "en": "<h3>Chairperson<br>Equal Opportunities Commission</h3>",
+                "en": "<h3 style=\"font-size:1.2rem\">Chairperson<br>Equal Opportunities Commission</h3>",
                 "tc": ""
             },
             "cp-name-tc": {
@@ -201,23 +173,21 @@
             },
             "cp-title-tc": {
                 "en": "",
-                "tc": "<h3>平等機會委員會主席</h3>"
+                "tc": "<h3 style=\"font-weight:700; font-size:1.2rem\">平等機會委員會主席</h3>"
             },
             "cp-content": {
                 "en": "Since its establishment under the Sex Discrimination Ordinance in May 1996, the Equal Opportunities Commission (EOC) has served the city for 25 years. <br><br>Over a quarter of a century, the EOC has been faithfully discharging its mandate of enforcing Hong Kong’s anti-discrimination ordinances to eliminate discrimination based on sex, pregnancy, family status and race; sexual harassment; as well as harassment and vilification on the grounds of disability and race. <br><br>Closely connected with the everyday life of citizens and the wellbeing of different communities, the EOC’s work serves to uproot ingrained prejudices and stereotypes. While this has proven to be an increasing challenge amid drastic and complex changes to our society in recent years, the EOC remains steadfast in its mission, professional in its duty, and proactive in its outlook. The poem below captures our sentiment:",
                 "tc": "平等機會委員會(平機會)於1996年5月依據《性別歧視條例》成立，時光荏苒，平機會至今已運作近25年。<br><br>在過去四份一個世紀，平機會一直秉持使命，致力推行本港反歧視條例，消除基於性別、懷孕、殘疾、家庭崗位及種族的歧視，並打擊性騷擾，以及基於殘疾及種族的騷擾和中傷。<br><br>平機會的工作與社會群體和個人生活可謂息息相關，更肩負改變社會偏見和定型觀念的責任。近年香港社會愈趨複雜多變，平機會的工作亦愈具挑戰。但縱有幾許風雨，我們仍是抱持積極專業的態度、堅守崗位，履行我們的法定責任。以下幾句可概括平機會25年來的歲月： "
             },
-            "cp-quote":{
-                "en":"To an equal world we all aspire,<br> But never by chance does change transpire.<br> Sown over twenty years in times good and dire,<br> May our seeds bear fruit justly desired.",
+            "cp-quote": {
+                "en": "To an equal world we all aspire,<br> But never by chance does change transpire.<br> Sown over twenty years in times good and dire,<br> May our seeds bear fruit justly desired.",
                 "tc": "平等共融寰宇夢<br>機緣成就豈憑空<br>廿載深耕根葉茂<br>五月收成碩果豐"
-            
             },
             "cp-content2": {
                 "en": "Looking ahead, the EOC will continue to adopt a three-pronged approach – encompassing law enforcement, prevention and education – in removing the barriers facing marginalised communities, raising awareness of anti-discrimination laws, and reinvigorating public interest in concepts of equality and inclusion. “Equal rights for everyone” is, after all, a universal aspiration, and the EOC is determined to create positive change in Hong Kong and beyond. <br><br>I am indeed honoured by the opportunity to chart the EOC’s future roadmap at this historic moment in time. To mark our 25th anniversary, we have curated a series of activities, and I hope all of you will join us in this celebration. We have also set up this website to highlight some of the major milestones the EOC has made over the years. <br><br>A big thank-you is due to all the people who have believed in and stood by us through the past 25 years. We look forward to having the support of all sectors in society, as we keep on striving to break new ground and reach new heights.",
                 "tc": "展望未來，平機會將繼續透過執法、預防及教育的工作，為社會上的弱勢群體移除不平等的障礙，協助大眾認識反歧視法例和平等共融的理念，為香港社會以至區內及世界帶來正向改變，實現「人人生而平等」的普世價值。<br><br>我能在此歷史時刻帶領平機會開拓未來藍圖，實在與有榮焉。為了慶祝平機會25周年，我們籌劃了一系列活動和這個網站，向大眾展示平機會25年來的工作及成果，我誠意邀請大家參與這些活動。<br>我謹此衷心感謝與平機會一起走過這25年的夥伴，並期望社會各界繼續鼎力支持我們，與平機會攜手邁向新里程，繼往開來、續創輝煌。"
-                }
+            }
         },
-
         "chairpersons": {
             "chairpersons-title": {
                 "en": "List of Chairpersons",
@@ -287,454 +257,449 @@
                 "en": "Former Chairperson of the EOC (2016-2019)",
                 "tc": "平等機會委員會前任主席 (2016-2019)"
             }
-
         },
         "members": {
             "members-title": {
                 "en": "Members",
                 "tc": "歷任委員"
             },
-            "co-opted":{
-                "en":"Co-opted Members",
-                "tc":"增選委員"
-            },
-            "mb1":{
-                "en":"Mr Peter CHAN Fuk-sing",
-                "tc":"陳福成先生"
-            },
-            "mb2":{
-                "en":"Ms Elsie LEUNG Oi-sie, GBM, JP ",
-                "tc":"梁愛詩女士 "
-            },           
-            "mb3":{
-                "en":"Mr Linus CHEUNG Wing-lam, JP ",
-                "tc":"張永霖先生"
-            },
-            "mb4":{
-                "en":"Ms CHEUNG Yuet-lan ",
-                "tc":"蔣月蘭女士"
-            },
-            "mb5":{
-                "en":"Professor NG Mun-hon",
-                "tc":"吳文翰教授"
-            },
-            "mb6":{
-                "en":"Ms Elle SHUM Mun-ling",
-                "tc":"岑敏玲女士"
-            },
-            "mb7":{
-                "en":"The Hon Anna WU Hung-yuk, GBS, JP",
-                "tc":"胡紅玉議員"
-            },
-            "mb8":{
-                "en":"Mr LEE Man-ban, SBS, MBE, JP",
-                "tc":"李文彬先生"
-            },
-            "mb9":{
-                "en":"Professor Stevenson FUNG, BBS",
-                "tc":"馮漢源博士"
-            },
-            "mb10":{
-                "en":"Professor Shirley HUNG Suet-lin",
-                "tc":"洪雪蓮教授"
-            },
-            "mb11":{
-                "en":"Mr Charles LEE Yeh-kwong, GBS, OBE, JP",
-                "tc":"李業廣先生"
-            },
-            "mb12":{
-                "en":"The Hon Andrew LEUNG Kwan-yuen, GBM, GBS, JP",
-                "tc":"梁君彥議員"
-            },
-            "mb13":{
-                "en":"Mrs Peggy LAM PEI Yu-dja, GBS, SBS, OBE, JP",
-                "tc":"林貝聿嘉女士"
-            },
-            "mb14":{
-                "en":"Ms LI Fung-ying, SBS, BBS, JP",
-                "tc":"李鳳英女士"
-            },
-            "mb15":{
-                "en":"Dr Raymond WU Wai-yung, GBS",
-                "tc":"鄔維庸醫生"
-            },
-            "mb16":{
-                "en":"Mr Peter YEUNG Kong-hing",
-                "tc":"楊港興先生"
-            },
-            "mb17":{
-                "en":"Ms Bebe CHU Pui-ying",
-                "tc":"朱佩瑩女士"
-            },
-            "mb18":{
-                "en":"Dr Joseph KWOK Kin-fun",
-                "tc":"郭鍵勳博士"
-            },
-            "mb19":{
-                "en":"Dr Dennis SUN Tai-lun, BBS, JP",
-                "tc":"孫大倫博士"
-            },
-            "mb20":{
-                "en":"Mr John Robertson BUDGE, SBS, MBE, JP",
-                "tc":"白仲安先生"
-            },
-            "mb21":{
-                "en":"Ms Jessie YU Sau-chu, BBS, MH, JP",
-                "tc":"余秀珠女士"
-            },
-            "mb22":{
-                "en":"Ms Cammy CHAN Siu-king",
-                "tc":"陳少瓊女士"
-            },
-            "mb23":{
-                "en":"Ms KO Po-ling, SBS, BBS, MH, JP",
-                "tc":"高寶齡女士"
-            },
-            "mb24":{
-                "en":"Mrs Patricia CHU YEUNG Pak-yu, BBS",
-                "tc":"朱楊珀瑜女士"
-            },
-            "mb25":{
-                "en":"Ms CHAN Yu",
-                "tc":"陳瑜女士"
-            },
-            "mb26":{
-                "en":"Ms Gloria CHANG",
-                "tc":"張閭蘅女士"
-            },
-            "mb27":{
-                "en":"Professor Nelson CHOW Wing-sin, GBS, JP",
-                "tc":"周永新教授"
-            },
-            "mb28":{
-                "en":"Professor Japhet Sebastian LAW",
-                "tc":"羅文鈺教授"
-            },
-            "mb29":{
-                "en":"Mrs Laura LING LAU Yuet-fun, BBS, MH",
-                "tc":"凌劉月芬女士"
-            },
-            "mb30":{
-                "en":"Ms Priscilla WONG Pui-sze",
-                "tc":"王沛詩女士"
-            },
-            "mb31":{
-                "en":"Mr Anthony YEUNG Kwok-ki",
-                "tc":"楊國琦先生"
-            },
-            "mb32":{
-                "en":"Dr Edwin CHENG Kwok-kit",
-                "tc":"鄭國杰博士"
-            },
-            "mb33":{
-                "en":"Professor Randy CHIU, MH",
-                "tc":"趙其琨教授"
-            },
-            "mb34":{
-                "en":"Ms Virginia CHOI Wai-kam, JP",
-                "tc":"蔡惠琴女士"
-            },
-            "mb35":{
-                "en":"Mrs CHONG WONG Chor-sar, MH, JP",
-                "tc":"張黃楚沙女士"
-            },
-            "mb36":{
-                "en":"Mrs Christine KOO CHEUNG Man-kok",
-                "tc":"顧張文菊女士"
-            },
-            "mb37":{
-                "en":"Ms LAM Kam-yi",
-                "tc":"林錦儀女士"
-            },
-            "mb38":{
-                "en":"Dr Agnes YEUNG LAW Koon-chui, JP",
-                "tc":"楊羅觀翠博士"
-            },
-            "mb39":{
-                "en":"Mr Desmond LIU Luk-por",
-                "tc":"廖淥波先生"
-            },
-            "mb40":{
-                "en":"Dr LO Wing-lok",
-                "tc":"勞永樂醫生"
-            },
-            "mb41":{
-                "en":"Ms Mandy TAM Heung-man",
-                "tc":"譚香文女士"
-            },
-            "mb42":{
-                "en":"Mr Saeed UDDIN, BBS, MH",
-                "tc":"沙意先生"
-            },
-            "mb43":{
-                "en":"Ms Margaret WONG",
-                "tc":"王鳳儀女士"
-            },
-            "mb44":{
-                "en":"Mr Raymond YIP Kin-man",
-                "tc":"葉健民先生"
-            },
-            "mb45":{
-                "en":"Ms Carmen CHAN Ka-mun, JP",
-                "tc":"陳嘉敏女士"
-            },
-            "mb46":{
-                "en":"Ms Maggie CHAN Man-ki, MH, JP",
-                "tc":"陳曼琪女士"
-            },
-            "mb47":{
-                "en":"Mr LEE Luen-fai, MH",
-                "tc":"李鑾輝先生"
-            },
-            "mb48":{
-                "en":"Mr Frederick FUNG Kin-kee, SBS, JP",
-                "tc":"馮檢基先生"
-            },
-            "mb49":{
-                "en":"Ms CHOI Hing-shi, MH",
-                "tc":"蔡杏時女士"
-            },
-            "mb50":{
-                "en":"Mr Tim LUI Tim-leung, SBS, BBS, JP",
-                "tc":"雷添良先生"
-            },
-            "mb51":{
-                "en":"Ms Winnie NG Wing-mui, JP",
-                "tc":"伍穎梅女士"
-            },
-            "mb52":{
-                "en":"The Hon Paul TSE Wai-chun, JP",
-                "tc":"謝偉俊議員"
-            },
-            "mb53":{
-                "en":"Dr John TSE Wing-ling, MH",
-                "tc":"謝永齡博士"
-            },
-            "mb54":{
-                "en":"Ms Garling WONG Ka-ling",
-                "tc":"黃嘉玲女士"
-            },
-            "mb55":{
-                "en":"Ms Susanna CHIU Lai-kuen, MH, JP",
-                "tc":"趙麗娟女士"
-            },
-            "mb56":{
-                "en":"Mr Amirali Bakirali NASIR, MH, JP",
-                "tc":"黎雅明先生"
-            },
-            "mb57":{
-                "en":"Dr Maggie KOONG May-kay, BBS, JP",
-                "tc":"孔美琪博士"
-            },
-            "mb58":{
-                "en":"Mr Zaman Minhas QAMAR",
-                "tc":"金志文先生"
-            },
-            "mb59":{
-                "en":"Dr Sandra TSANG Kit-man, JP",
-                "tc":"曾潔雯博士"
-            },
-            "mb60":{
-                "en":"Mr Nelson YIP Siu-hong, MH",
-                "tc":"葉少康先生"
-            },
-            "mb61":{
-                "en":"The Hon Holden CHOW Ho-ding",
-                "tc":"周浩鼎議員"
-            },
-            "mb62":{
-                "en":"Dr Trisha LEAHY, SBS, BBS",
-                "tc":"李翠莎博士"
-            },
-            "mb63":{
-                "en":"Professor Hon Joseph LEE Kok-long, SBS, JP",
-                "tc":"李國麟教授"
-            },
-            "mb64":{
-                "en":"Ms Su-mei THOMPSON",
-                "tc":"周素媚女士"
-            },
-            "mb65":{
-                "en":"Mr Ivan CHAN Chi-kin",
-                "tc":"陳智健先生"
-            },
-            "mb66":{
-                "en":"Professor Susanne CHOI Yuk-ping",
-                "tc":"蔡玉萍教授"
-            },
-            "mb67":{
-                "en":"Ms Elizabeth LAW, MH, JP",
-                "tc":"羅君美女士"
-            },
-            "mb68":{
-                "en":"Ms Juan LEUNG Chung-yan, MH",
-                "tc":"梁頌恩女士"
-            },
-            "mb69":{
-                "en":"Ms Shirley Marie Therese LOO, BBS, MH, JP",
-                "tc":"羅乃萱女士"
-            },
-            "mb70":{
-                "en":"Miss YU Chui-yee, BBS, MH",
-                "tc":"余翠怡小姐"
-            },
-            "mb71":{
-                "en":"Professor Cecilia CHAN Lai-wan, JP",
-                "tc":"陳麗雲教授"
-            },
-            "mb72":{
-                "en":"Professor Andy CHIU Man-chung",
-                "tc":"趙文宗教授"
-            },
-            "mb73":{
-                "en":"Mr Mohan DATWANI",
-                "tc":"高朗先生"
-            },
-            "mb74":{
-                "en":"Ms Maisy HO Chiu-ha, BBS",
-                "tc":"何超蕸小姐"
-            },
-            "mb75":{
-                "en":"Dr Henry SHIE Wai-hung",
-                "tc":"謝偉鴻博士"
-            },
-            "mb76":{
-                "en":"Dr Rizwan ULLAH",
-                "tc":"利哲宏博士"
-            },
-            "mb77":{
-                "en":"Mr Samuel CHAN ka-yan, BBS, JP",
-                "tc":"陳家殷先生"
-            },
-            "mb78":{
-                "en":"Dr Sigmund LEUNG Sai-man, BBS, JP",
-                "tc":"梁世民醫生"
-            },
-            "mb79":{
-                "en":"The Hon Vincent CHENG Wing-shun, MH, JP",
-                "tc":"鄭泳舜議員"
-            },
-            "mb80":{
-                "en":"Ms Anna THOMPSON",
-                "tc":"唐安娜女士"
-            },
-            "mb81":{
-                "en":"Mr Gary Wong Chi-him",
-                "tc":"黃梓謙先生"
-            },
-            "mb82":{
-                "en":"Mr Simon LAM Ken-chung",
-                "tc":"藍建中先生"
-            },        
-
-
-            "mb83":{
-                "en":"Ms Betty LEE ",
-                "tc":"李靜雲女士 "
-            },
-            "mb84":{
-                "en":"Dr Catherine NG  ",
-                "tc":"吳華孔博士  "
-            },           
-            "mb85":{
-                "en":"Ms Linda WONG",
-                "tc":"王秀容女士"
-            },
-            "mb86":{
-                "en":"Ms Virginia CHAN, JP ",
-                "tc":"陳彩英女士"
-            },
-            "mb87":{
-                "en":"Mr CHONG Chan-yau, MBE",
-                "tc":"莊陳有先生"
-            },
-            "mb88":{
-                "en":"Dr Grace MAK Chiu-ling",
-                "tc":"麥肖玲博士"
-            },
-            "mb89":{
-                "en":"Ms LAI Sau-ling",
-                "tc":"黎秀玲女士"
-            },
-            "mb90":{
-                "en":"Mr CHAN Yun-kan",
-                "tc":"陳潤根先生"
-            },
-            "mb91":{
-                "en":"Ms CHEUNG Kwan-fong",
-                "tc":"宣張群芳女士"
-            },
-            "mb92":{
-                "en":"Ms WONG Ka-ling",
-                "tc":"黃嘉玲女士"
-            },
-            "mb93":{
-                "en":"Dr CHAN Kui-pui",
-                "tc":"陳鉅培博士"
-            },
-            "mb94":{
-                "en":"Mr Amirali Bakirali NASIR, MH, JP",
-                "tc":"黎雅明先生"
-            },
-            "mb95":{
-                "en":"Ms Maggie CHAN Mei-kit, MH",
-                "tc":"陳美潔女士"
-            },
-            "mb96":{
-                "en":"Mr Alvin CHOW Wing-hong",
-                "tc":"周永康先生"
-            },
-            "mb97":{
-                "en":"Mr Behzad MIRZAEI",
-                "tc":"苗澤文先生"
-            },
-            "mb98":{
-                "en":"Ms Agnes LAU Dan-nor",
-                "tc":"劉丹娜女士"
-            },
-            "mb99":{
-                "en":"Mr Karl LAU Chun-chuen",
-                "tc":"劉俊泉先生"
-            },
-            "mb100":{
-                "en":"Dr Raees Begum BAIG",
-                "tc":"碧樺依博士"
-            },
-            "mb101":{
-                "en":"Mr WANG Kai-fung",
-                "tc":"王繼鋒先生"
-            },
-            "mb102":{
-                "en":"Professor TSE Tsun-him, MBE",
-                "tc":"謝俊謙教授"
-            },
-            "mb103":{
-                "en":"Mr Mac CHAN Ho-ting",
-                "tc":"陳浩庭先生"
-            },
-            "mb104":{
-                "en":"Ms Puja Kapai PARYANI",
-                "tc":"紀佩雅女士"
-            },
-            "mb105":{
-                "en":"Mr CHONG Yiu-kwong",
-                "tc":"莊耀洸先生"
-            },
-            "mb106":{
-                "en":"Ms Christina Maisenne LEE",
-                "tc":"李美辰女士"
-            },
-            "mb107":{
-                "en":"Ms Rabi YIM Chor-pik",
-                "tc":"嚴楚碧女士"
-            },
-            "mb108":{
-                "en":"Ms Carmen YAU Ka-man",
-                "tc":"游家敏女士"        
+            "co-opted": {
+                "en": "Co-opted Members",
+                "tc": "增選委員"
+            },
+            "mb1": {
+                "en": "Mr Peter CHAN Fuk-sing",
+                "tc": "陳福成先生"
+            },
+            "mb2": {
+                "en": "Ms Elsie LEUNG Oi-sie, GBM, JP ",
+                "tc": "梁愛詩女士 "
+            },
+            "mb3": {
+                "en": "Mr Linus CHEUNG Wing-lam, JP ",
+                "tc": "張永霖先生"
+            },
+            "mb4": {
+                "en": "Ms CHEUNG Yuet-lan ",
+                "tc": "蔣月蘭女士"
+            },
+            "mb5": {
+                "en": "Professor NG Mun-hon",
+                "tc": "吳文翰教授"
+            },
+            "mb6": {
+                "en": "Ms Elle SHUM Mun-ling",
+                "tc": "岑敏玲女士"
+            },
+            "mb7": {
+                "en": "The Hon Anna WU Hung-yuk, GBS, JP",
+                "tc": "胡紅玉議員"
+            },
+            "mb8": {
+                "en": "Mr LEE Man-ban, SBS, MBE, JP",
+                "tc": "李文彬先生"
+            },
+            "mb9": {
+                "en": "Professor Stevenson FUNG, BBS",
+                "tc": "馮漢源博士"
+            },
+            "mb10": {
+                "en": "Professor Shirley HUNG Suet-lin",
+                "tc": "洪雪蓮教授"
+            },
+            "mb11": {
+                "en": "Mr Charles LEE Yeh-kwong, GBS, OBE, JP",
+                "tc": "李業廣先生"
+            },
+            "mb12": {
+                "en": "The Hon Andrew LEUNG Kwan-yuen, GBM, GBS, JP",
+                "tc": "梁君彥議員"
+            },
+            "mb13": {
+                "en": "Mrs Peggy LAM PEI Yu-dja, GBS, SBS, OBE, JP",
+                "tc": "林貝聿嘉女士"
+            },
+            "mb14": {
+                "en": "Ms LI Fung-ying, SBS, BBS, JP",
+                "tc": "李鳳英女士"
+            },
+            "mb15": {
+                "en": "Dr Raymond WU Wai-yung, GBS",
+                "tc": "鄔維庸醫生"
+            },
+            "mb16": {
+                "en": "Mr Peter YEUNG Kong-hing",
+                "tc": "楊港興先生"
+            },
+            "mb17": {
+                "en": "Ms Bebe CHU Pui-ying",
+                "tc": "朱佩瑩女士"
+            },
+            "mb18": {
+                "en": "Dr Joseph KWOK Kin-fun",
+                "tc": "郭鍵勳博士"
+            },
+            "mb19": {
+                "en": "Dr Dennis SUN Tai-lun, BBS, JP",
+                "tc": "孫大倫博士"
+            },
+            "mb20": {
+                "en": "Mr John Robertson BUDGE, SBS, MBE, JP",
+                "tc": "白仲安先生"
+            },
+            "mb21": {
+                "en": "Ms Jessie YU Sau-chu, BBS, MH, JP",
+                "tc": "余秀珠女士"
+            },
+            "mb22": {
+                "en": "Ms Cammy CHAN Siu-king",
+                "tc": "陳少瓊女士"
+            },
+            "mb23": {
+                "en": "Ms KO Po-ling, SBS, BBS, MH, JP",
+                "tc": "高寶齡女士"
+            },
+            "mb24": {
+                "en": "Mrs Patricia CHU YEUNG Pak-yu, BBS",
+                "tc": "朱楊珀瑜女士"
+            },
+            "mb25": {
+                "en": "Ms CHAN Yu",
+                "tc": "陳瑜女士"
+            },
+            "mb26": {
+                "en": "Ms Gloria CHANG",
+                "tc": "張閭蘅女士"
+            },
+            "mb27": {
+                "en": "Professor Nelson CHOW Wing-sin, GBS, JP",
+                "tc": "周永新教授"
+            },
+            "mb28": {
+                "en": "Professor Japhet Sebastian LAW",
+                "tc": "羅文鈺教授"
+            },
+            "mb29": {
+                "en": "Mrs Laura LING LAU Yuet-fun, BBS, MH",
+                "tc": "凌劉月芬女士"
+            },
+            "mb30": {
+                "en": "Ms Priscilla WONG Pui-sze",
+                "tc": "王沛詩女士"
+            },
+            "mb31": {
+                "en": "Mr Anthony YEUNG Kwok-ki",
+                "tc": "楊國琦先生"
+            },
+            "mb32": {
+                "en": "Dr Edwin CHENG Kwok-kit",
+                "tc": "鄭國杰博士"
+            },
+            "mb33": {
+                "en": "Professor Randy CHIU, MH",
+                "tc": "趙其琨教授"
+            },
+            "mb34": {
+                "en": "Ms Virginia CHOI Wai-kam, JP",
+                "tc": "蔡惠琴女士"
+            },
+            "mb35": {
+                "en": "Mrs CHONG WONG Chor-sar, MH, JP",
+                "tc": "張黃楚沙女士"
+            },
+            "mb36": {
+                "en": "Mrs Christine KOO CHEUNG Man-kok",
+                "tc": "顧張文菊女士"
+            },
+            "mb37": {
+                "en": "Ms LAM Kam-yi",
+                "tc": "林錦儀女士"
+            },
+            "mb38": {
+                "en": "Dr Agnes YEUNG LAW Koon-chui, JP",
+                "tc": "楊羅觀翠博士"
+            },
+            "mb39": {
+                "en": "Mr Desmond LIU Luk-por",
+                "tc": "廖淥波先生"
+            },
+            "mb40": {
+                "en": "Dr LO Wing-lok",
+                "tc": "勞永樂醫生"
+            },
+            "mb41": {
+                "en": "Ms Mandy TAM Heung-man",
+                "tc": "譚香文女士"
+            },
+            "mb42": {
+                "en": "Mr Saeed UDDIN, BBS, MH",
+                "tc": "沙意先生"
+            },
+            "mb43": {
+                "en": "Ms Margaret WONG",
+                "tc": "王鳳儀女士"
+            },
+            "mb44": {
+                "en": "Mr Raymond YIP Kin-man",
+                "tc": "葉健民先生"
+            },
+            "mb45": {
+                "en": "Ms Carmen CHAN Ka-mun, JP",
+                "tc": "陳嘉敏女士"
+            },
+            "mb46": {
+                "en": "Ms Maggie CHAN Man-ki, MH, JP",
+                "tc": "陳曼琪女士"
+            },
+            "mb47": {
+                "en": "Mr LEE Luen-fai, MH",
+                "tc": "李鑾輝先生"
+            },
+            "mb48": {
+                "en": "Mr Frederick FUNG Kin-kee, SBS, JP",
+                "tc": "馮檢基先生"
+            },
+            "mb49": {
+                "en": "Ms CHOI Hing-shi, MH",
+                "tc": "蔡杏時女士"
+            },
+            "mb50": {
+                "en": "Mr Tim LUI Tim-leung, SBS, BBS, JP",
+                "tc": "雷添良先生"
+            },
+            "mb51": {
+                "en": "Ms Winnie NG Wing-mui, JP",
+                "tc": "伍穎梅女士"
+            },
+            "mb52": {
+                "en": "The Hon Paul TSE Wai-chun, JP",
+                "tc": "謝偉俊議員"
+            },
+            "mb53": {
+                "en": "Dr John TSE Wing-ling, MH",
+                "tc": "謝永齡博士"
+            },
+            "mb54": {
+                "en": "Ms Garling WONG Ka-ling",
+                "tc": "黃嘉玲女士"
+            },
+            "mb55": {
+                "en": "Ms Susanna CHIU Lai-kuen, MH, JP",
+                "tc": "趙麗娟女士"
+            },
+            "mb56": {
+                "en": "Mr Amirali Bakirali NASIR, MH, JP",
+                "tc": "黎雅明先生"
+            },
+            "mb57": {
+                "en": "Dr Maggie KOONG May-kay, BBS, JP",
+                "tc": "孔美琪博士"
+            },
+            "mb58": {
+                "en": "Mr Zaman Minhas QAMAR",
+                "tc": "金志文先生"
+            },
+            "mb59": {
+                "en": "Dr Sandra TSANG Kit-man, JP",
+                "tc": "曾潔雯博士"
+            },
+            "mb60": {
+                "en": "Mr Nelson YIP Siu-hong, MH",
+                "tc": "葉少康先生"
+            },
+            "mb61": {
+                "en": "The Hon Holden CHOW Ho-ding",
+                "tc": "周浩鼎議員"
+            },
+            "mb62": {
+                "en": "Dr Trisha LEAHY, SBS, BBS",
+                "tc": "李翠莎博士"
+            },
+            "mb63": {
+                "en": "Professor Hon Joseph LEE Kok-long, SBS, JP",
+                "tc": "李國麟教授"
+            },
+            "mb64": {
+                "en": "Ms Su-mei THOMPSON",
+                "tc": "周素媚女士"
+            },
+            "mb65": {
+                "en": "Mr Ivan CHAN Chi-kin",
+                "tc": "陳智健先生"
+            },
+            "mb66": {
+                "en": "Professor Susanne CHOI Yuk-ping",
+                "tc": "蔡玉萍教授"
+            },
+            "mb67": {
+                "en": "Ms Elizabeth LAW, MH, JP",
+                "tc": "羅君美女士"
+            },
+            "mb68": {
+                "en": "Ms Juan LEUNG Chung-yan, MH",
+                "tc": "梁頌恩女士"
+            },
+            "mb69": {
+                "en": "Ms Shirley Marie Therese LOO, BBS, MH, JP",
+                "tc": "羅乃萱女士"
+            },
+            "mb70": {
+                "en": "Miss YU Chui-yee, BBS, MH",
+                "tc": "余翠怡小姐"
+            },
+            "mb71": {
+                "en": "Professor Cecilia CHAN Lai-wan, JP",
+                "tc": "陳麗雲教授"
+            },
+            "mb72": {
+                "en": "Professor Andy CHIU Man-chung",
+                "tc": "趙文宗教授"
+            },
+            "mb73": {
+                "en": "Mr Mohan DATWANI",
+                "tc": "高朗先生"
+            },
+            "mb74": {
+                "en": "Ms Maisy HO Chiu-ha, BBS",
+                "tc": "何超蕸小姐"
+            },
+            "mb75": {
+                "en": "Dr Henry SHIE Wai-hung",
+                "tc": "謝偉鴻博士"
+            },
+            "mb76": {
+                "en": "Dr Rizwan ULLAH",
+                "tc": "利哲宏博士"
+            },
+            "mb77": {
+                "en": "Mr Samuel CHAN ka-yan, BBS, JP",
+                "tc": "陳家殷先生"
+            },
+            "mb78": {
+                "en": "Dr Sigmund LEUNG Sai-man, BBS, JP",
+                "tc": "梁世民醫生"
+            },
+            "mb79": {
+                "en": "The Hon Vincent CHENG Wing-shun, MH, JP",
+                "tc": "鄭泳舜議員"
+            },
+            "mb80": {
+                "en": "Ms Anna THOMPSON",
+                "tc": "唐安娜女士"
+            },
+            "mb81": {
+                "en": "Mr Gary Wong Chi-him",
+                "tc": "黃梓謙先生"
+            },
+            "mb82": {
+                "en": "Mr Simon LAM Ken-chung",
+                "tc": "藍建中先生"
+            },
+            "mb83": {
+                "en": "Ms Betty LEE ",
+                "tc": "李靜雲女士 "
+            },
+            "mb84": {
+                "en": "Dr Catherine NG  ",
+                "tc": "吳華孔博士  "
+            },
+            "mb85": {
+                "en": "Ms Linda WONG",
+                "tc": "王秀容女士"
+            },
+            "mb86": {
+                "en": "Ms Virginia CHAN, JP ",
+                "tc": "陳彩英女士"
+            },
+            "mb87": {
+                "en": "Mr CHONG Chan-yau, MBE",
+                "tc": "莊陳有先生"
+            },
+            "mb88": {
+                "en": "Dr Grace MAK Chiu-ling",
+                "tc": "麥肖玲博士"
+            },
+            "mb89": {
+                "en": "Ms LAI Sau-ling",
+                "tc": "黎秀玲女士"
+            },
+            "mb90": {
+                "en": "Mr CHAN Yun-kan",
+                "tc": "陳潤根先生"
+            },
+            "mb91": {
+                "en": "Ms CHEUNG Kwan-fong",
+                "tc": "宣張群芳女士"
+            },
+            "mb92": {
+                "en": "Ms WONG Ka-ling",
+                "tc": "黃嘉玲女士"
+            },
+            "mb93": {
+                "en": "Dr CHAN Kui-pui",
+                "tc": "陳鉅培博士"
+            },
+            "mb94": {
+                "en": "Mr Amirali Bakirali NASIR, MH, JP",
+                "tc": "黎雅明先生"
+            },
+            "mb95": {
+                "en": "Ms Maggie CHAN Mei-kit, MH",
+                "tc": "陳美潔女士"
+            },
+            "mb96": {
+                "en": "Mr Alvin CHOW Wing-hong",
+                "tc": "周永康先生"
+            },
+            "mb97": {
+                "en": "Mr Behzad MIRZAEI",
+                "tc": "苗澤文先生"
+            },
+            "mb98": {
+                "en": "Ms Agnes LAU Dan-nor",
+                "tc": "劉丹娜女士"
+            },
+            "mb99": {
+                "en": "Mr Karl LAU Chun-chuen",
+                "tc": "劉俊泉先生"
+            },
+            "mb100": {
+                "en": "Dr Raees Begum BAIG",
+                "tc": "碧樺依博士"
+            },
+            "mb101": {
+                "en": "Mr WANG Kai-fung",
+                "tc": "王繼鋒先生"
+            },
+            "mb102": {
+                "en": "Professor TSE Tsun-him, MBE",
+                "tc": "謝俊謙教授"
+            },
+            "mb103": {
+                "en": "Mr Mac CHAN Ho-ting",
+                "tc": "陳浩庭先生"
+            },
+            "mb104": {
+                "en": "Ms Puja Kapai PARYANI",
+                "tc": "紀佩雅女士"
+            },
+            "mb105": {
+                "en": "Mr CHONG Yiu-kwong",
+                "tc": "莊耀洸先生"
+            },
+            "mb106": {
+                "en": "Ms Christina Maisenne LEE",
+                "tc": "李美辰女士"
+            },
+            "mb107": {
+                "en": "Ms Rabi YIM Chor-pik",
+                "tc": "嚴楚碧女士"
+            },
+            "mb108": {
+                "en": "Ms Carmen YAU Ka-man",
+                "tc": "游家敏女士"
             }
-            
         },
-
         "projects": {
             "199605-date": {
                 "en": "May 1996",
@@ -892,8 +857,6 @@
                 "en": " <img class=\"img-fluid\" src=\"assets/img/2001.7_DDOCOPedu-eng.jpg\" />",
                 "tc": " <img class=\"img-fluid\" src=\"assets/img/2001.7_DDOCOPedu-chi.jpg\" />"
             },
-
-
             "200107-2-text": {
                 "en": "<p>The EOC organised the workshop “The Role of Human Rights Institutions and other Mechanisms in Promoting and Protecting Economic, Social and Cultural Rights” in partnership with The Asia Pacific Forum on National Human Rights Institutions in July. Two months later in September, the EOC co-hosted another international conference – the 11th Global Summit of Women. These gatherings facilitated the exchange and cooperation on relevant matters between organisations in different places.</p>",
                 "tc": "<p>平機會於7月夥同亞太地區國家人權機構論壇舉行了「亞太論壇區域會議：人權機構及其他機制在促進及保護經濟、社會及文化權利之角色」。其後又於9月合辦另一個國際會議「第十一屆全球婦女高峰會議」，這些會議促進了各地組織就有關議題進行交流及合作。</p>"
@@ -949,7 +912,6 @@
             "200412-image": {
                 "en": "<img class=\"img-fluid\" src=\"assets/img/2004.9_2004-RDO Consultation Paper-eng.jpg\" />",
                 "tc": "<img class=\"img-fluid\" src=\"assets/img/2004.9_2004-RDO Consultation Paper-chi.jpg\" />"
-                
             },
             "200504-date": {
                 "en": "Apr 2005",
@@ -967,7 +929,6 @@
                 "en": "<p>The EOC entered its 10th year of operation and developed a policy comprising the corporate statement of values, strategies and objectives.</p>",
                 "tc": "<p>平機會運作進入第10年，制定了機構聲明，闡述其價值觀、策略與目標。 </p>"
             },
-            
             "200603-date": {
                 "en": "Mar 2006",
                 "tc": "2006年3月"
@@ -1135,9 +1096,6 @@
             "201106-image": {
                 "en": "<img class=\"img-fluid\" src=\"assets/img/2011.6-ddo-eng.jpg\" />",
                 "tc": "<img class=\"img-fluid\" src=\"assets/img/2011.6-ddo-chi.jpg\" />"
-                
-
-                
             },
             "201107-date": {
                 "en": "Jul 2011",
@@ -1323,8 +1281,6 @@
                 "en": "<img class=\"img-fluid\" src=\"assets/img/2016.1_EOC Report Chi p (21 Jan 2016).jpg\" />",
                 "tc": "<img class=\"img-fluid\" src=\"assets/img/2016.1_EOC Report Chi p (21 Jan 2016).jpg\" />"
             },
-            
-
             "201603-date": {
                 "en": "Mar 2016",
                 "tc": "2016年3月"
@@ -1474,7 +1430,6 @@
                 "tc": "<img class=\"img-fluid\" src=\"assets/img/2020.11_2020_08_EOC_EOERS_Brochure(Chi)_12b.jpg\" />"
             }
         },
-
         "stories": {
             "stories-title": {
                 "en": "Our People Our Voices Our Mission at Work",
