@@ -4,92 +4,110 @@
             "btn-eoc": {
                 "en": "EOC Home",
                 "tc": "平機會主頁",
-                "link": "https://www.eoc.org.hk"
+                "linken": "https://www.eoc.org.hk",
+                "linktc":"https://www.eoc.org.hk/default.asp#"
             },
             "logo": {
                 "en": "<img src=\"assets/img/eoc-25-logo-140.png\" alt=\"logo\" class=\"logo m-1 img-fluid\">",
                 "tc": "<img src=\"assets/img/eoc-25-logo-140.png\" alt=\"logo\" class=\"logo m-1 img-fluid\">",
-                "link": "index.html"
+                "linken": "index.html?lang=en",
+                "linktc": "index.html?lang=tc"
             },
             "m1": {
                 "en": "Home",
                 "tc": "主頁",
-                "link": "index.html"
+                "linken": "index.html?lang=en",
+                "linktc": "index.html?lang=tc"
             },
             "m2": {
                 "en": "EOC 25th Anniversary",
                 "tc": "平機㑹25週年",
-                "link": " "
+                "linken": "",
+                "kinktc":""
             },
             "m2-1": {
                 "en": "Chairperson's Message",
                 "tc": "主席的話",
-                "link": "message.html"
+                "linken": "message.html?lang=en",
+                "linktc":"message.html?lang=tc"
             },
             "m3": {
                 "en": "Our Stories",
                 "tc": "我們的故事",
-                "link": ""
+                "linken": "",
+                "linktc":""
             },
             "m3-1": {
                 "en": "List of Chairpersons",
                 "tc": "歷任主席名單",
-                "link": "chairpersons.html"
+                "linken": "chairpersons.html?lang=en",
+                "linktc":"chairpersons.html?lang=tc"
             },
             "m3-2": {
                 "en": "List of Members",
                 "tc": "歷任委員名單",
-                "link": "members.html"
+                "linken": "members.html?lang=en",
+                "linktc":"members.html?lang=tc"
             },
             "m3-3": {
                 "en": "Major Events & Projects 1996-2020",
                 "tc": "1996-2020 大事回顧",
-                "link": "projects.html"
+                "linken": "projects.html?lang=en",
+                "linktc":"projects.html?lang=tc"
             },
             "m3-4": {
                 "en": "Our People, Our Voices, Our Mission at Work",
                 "tc": "人物誌",
-                "link": "stories.html"
+                "linken": "stories.html?lang=en",
+                "linktc":"stories.html?lang=tc"
             },
             "m4": {
                 "en": "Events & Activities",
                 "tc": "慶祝活動",
-                "link": " "
+                "linken": "",
+                "linktc":""
             },
             "m4-1": {
                 "en": "Children’s Painting and Colouring Competition",
                 "tc": "兒童填色及繪畫比賽",
-                "link": "https://www.eoc.org.hk/s/genievent/contact.php"
+                "linken": "https://www.eoc.org.hk/s/genievent/contact_en.php",
+                "linktc": "https://www.eoc.org.hk/s/genievent/contact.php"
             },
             "m4-2": {
                 "en": "Visual Campaign",
                 "tc": "視覺藝術活動",
-                "link": "https://www.eoc.org.hk/s/thewayweare/ch/photos.asp"
+                "linken": "https://www.eoc.org.hk/s/thewayweare/en/home.asp",
+                "linktc": "https://www.eoc.org.hk/s/thewayweare/ch/home.asp"
             },
             "m4-3": {
                 "en": "EO Employer Recognition Scheme",
                 "tc": "平等機會僱主嘉許計劃",
-                "link": "https://www.eoc.org.hk/s/eoemployer/hk/index.html"
+                "linken": "https://www.eoc.org.hk/s/eoemployer/en/index.html",
+                "linktc": "https://www.eoc.org.hk/s/eoemployer/hk/index.html"
             },
             "m4-4": {
                 "en": "Asia-Pacific Women Caregivers with Disabilities Conference",
                 "tc": "亞太區殘疾女性照顧者會議",
-                "link": "conference.html"
+                "linken": "conference.html?lang=en",
+                "linktc": "conference.html?lang=tc"
             },
             "m4-5": {
                 "en": "25th Anniversary Reception",
                 "tc": "廿五週年慶祝聚會",
-                "link": "reception.html"
+                "linken": "reception.html?lang=en",
+                "linktc": "reception.html?lang=tc"
             },
             "m5": {
                 "en": "EOC 25th Anniversary",
                 "tc": "平機㑹25週年",
-                "link": " "
+                "linken": "",
+                "linktc":""
             },
             "m5-1": {
                 "en": "Multimedia Gallery",
                 "tc": "多媒體資訊",
-                "link": "gallery.html"
+                "linken": "gallery.html?lang=en",
+                "linktc":"gallery.html?lang=tc"
             }
         },
         "index": {

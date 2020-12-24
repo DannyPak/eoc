@@ -94,15 +94,17 @@
                 document.getElementById("btn-tc").style.display = "inline";
                 document.getElementById("btn-en").style.display = "none";
                 document.getElementById(menuId[j]).innerHTML = menu[menuId[j]].en;
+                document.getElementById(menuId[j]).setAttribute("href", menu[menuId[j]].linken);
 
             } else {
                 document.getElementById("btn-tc").style.display = "none";
                 document.getElementById("btn-en").style.display = "inline";
                 document.getElementById(menuId[j]).innerHTML = menu[menuId[j]].tc;
+                document.getElementById(menuId[j]).setAttribute("href", menu[menuId[j]].linktc);
 
             }
 
-            document.getElementById(menuId[j]).setAttribute("href", menu[menuId[j]].link + "?lang=" + lang);
+           // document.getElementById(menuId[j]).setAttribute("href", menu[menuId[j]].link + "?lang=" + lang);
         }
 
 
