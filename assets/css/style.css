@@ -221,10 +221,7 @@ body {
     text-transform: uppercase;
 } */
 /* gallery */
-.modal.dialog {
-    max-width: 20000px;
-    max-height: 100vh !important;
-}
+
 
 .carousel-item {
     max-height: 100vh !important;
@@ -333,7 +330,7 @@ header {
     }
 
     .page-title {
-        font-size: 1.3rem;
+        font-size: 1.8em;
         text-align: center;
         margin: 20px 0;
     }

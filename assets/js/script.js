@@ -64,8 +64,7 @@ function bannerText(menu, lang, category, page) {
     //document.getElementById("page-category").innerHTML = menu[category].tc;
     document.getElementById("level-2").innerHTML = menu[page].tc;
     document.getElementById("page-title").innerHTML = menu[page].tc;
-    document.getElementById("level-0").setAttribute("href", menu["m1"].linktc);
-    
+    document.getElementById("level-0").setAttribute("href", menu["m1"].linktc);    
 
 
   }
