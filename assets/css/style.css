@@ -74,23 +74,23 @@ body {
 }
 
 .bio-name {
-    margin-top: 20px ;
-    font-size: 20px;
+    margin-top: 0px ;
+    font-size: 1.7rem;
     color: #0F93AB;
     text-align: left;
 }
 
 @media (max-width:767px) {
     .bio-name {
-  
-        text-align: center;
+
+        text-align: left;
         }
 }
 
 .bio-title {
     /* color: #118091; */
     color: #76777B;
-    font-size: 16px;
+    font-size: 1.2rem;
     text-align: left;
 }
 
@@ -458,13 +458,16 @@ header {
     }
 }
 
-.mb .col-md-3 {
-    padding: 20px;
-    background-color: #F8F9FA;
-    border-radius: 10px;
-    border-width: 5px;
-    border-color: white;
-    border-style: solid;
+.mb .member {
+    padding:10px 20px;
+    
+    
+}
+.mb{
+    background-color:rgb(250, 250, 250);
+    padding:20px;
+    
+    border-radius:10px
 }
 
 blockquote {
@@ -569,7 +572,7 @@ blockquote {
 
 @media (max-width:767px) {
     .bio-title {
-        text-align: center;
+        text-align: left;
     }
 
     .jumbotron h2 {

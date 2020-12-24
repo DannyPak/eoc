@@ -86,8 +86,17 @@
             <div class="row">
                 <div class="col-md-4 col-xs-12">
                     <img src="assets/img/chu.jpg" alt="Chu Man-kin" class="img-fluid d-block">
-                    <h2 class="col-12  bio-name" id="cp-name"></h2>
-                    <h3 class="col-12  bio-title" id="cp-title"></h3>
+
+                    <span class="col-12" >                        
+                        <h2 id="cp-name-en" class="bio-name"></h2>
+                        <h3 id="cp-title-en" class="bio-title"></h3>
+                    </span>
+                    <span class="col-12">
+                        
+                        <h3 id="cp-title-tc" class="bio-title"></h3>
+                        <h2 id="cp-name-tc" class="bio-name"></h2>
+                    </span>
+                    
                 </div>
 
                 <div class="col-md-8 col-xs-12 messages-content bg-light mx-auto mb-5">
@@ -125,7 +134,7 @@
         /*------------Fill content---------*/
 
         //insert Element's ID
-        var elementId = ["page-title", "cp-name", "cp-title", "cp-content", "cp-quote", "cp-content2"];
+        var elementId = ["page-title", "cp-name-en","cp-name-tc", "cp-title-en","cp-title-tc", "cp-content", "cp-quote", "cp-content2"];
 
         $.getJSON('data.json', function (data) {
 

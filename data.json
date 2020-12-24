@@ -168,17 +168,22 @@
                 "en": "Chairperson's Message",
                 "tc": "主席的話"
             },
-            "message-title": {
-                "en": "MESSAGE from the CHAIRPERSON",
-                "tc": "平機會主席的話"
-            },
-            "cp-name": {
+            
+            "cp-name-en": {
                 "en": "Mr Ricky CHU Man-kin, I.D.S.",
+                "tc": ""
+            },
+            "cp-title-en": {
+                "en": "Chairperson<br>Equal Opportunities Commission",
+                "tc": ""
+            },
+            "cp-name-tc": {
+                "en": "",
                 "tc": "朱敏健, I.D.S."
             },
-            "cp-title": {
-                "en": "Chairperson, Equal Opportunities Commission",
-                "tc": "平機會主席"
+            "cp-title-tc": {
+                "en": "",
+                "tc": "平等機會委員會主席"
             },
             "cp-content": {
                 "en": "Since its establishment under the Sex Discrimination Ordinance in May 1996, the Equal Opportunities Commission (EOC) has served the city for 25 years. <br><br>Over a quarter of a century, the EOC has been faithfully discharging its mandate of enforcing Hong Kong’s anti-discrimination ordinances to eliminate discrimination based on sex, pregnancy, family status and race; sexual harassment; as well as harassment and vilification on the grounds of disability and race. <br><br>Closely connected with the everyday life of citizens and the wellbeing of different communities, the EOC’s work serves to uproot ingrained prejudices and stereotypes. While this has proven to be an increasing challenge amid drastic and complex changes to our society in recent years, the EOC remains steadfast in its mission, professional in its duty, and proactive in its outlook. The poem below captures our sentiment:",
@@ -242,7 +247,7 @@
             },
             "cp6": {
                 "en": "Mr LAM Woon-kwong, GBS, JP",
-                "tc": "林煥光議員, GBS, JP"
+                "tc": "林煥光先生, GBS, JP"
             },
             "cp6-title": {
                 "en": "Former Chairperson of the EOC (2010-2013)",
