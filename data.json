@@ -202,8 +202,8 @@
                 "tc": "平等機會委員會首任主席 (1996-1999)"
             },
             "cp2": {
-                "en": "The Hon Anna WU Hung-yuk, GBS, JP",
-                "tc": "胡紅玉議員, GBS, JP"
+                "en": "Ms Anna WU Hung-yuk, GBS, JP",
+                "tc": "胡紅玉女士, GBS, JP"
             },
             "cp2-title": {
                 "en": "Former Chairperson of the EOC (1999-2003)",
@@ -256,6 +256,14 @@
             "cp8-title": {
                 "en": "Former Chairperson of the EOC (2016-2019)",
                 "tc": "平等機會委員會前任主席 (2016-2019)"
+            },
+            "cp9": {
+                "en": "Mr Ricky CHU Man-kin, IDS",
+                "tc": "朱敏健先生, IDS"
+            },
+            "cp9-title": {
+                "en": "Chairperson of the EOC (2019-Present)",
+                "tc": "平等機會委員會主席 (2019-Present)"
             }
         },
         "members": {
