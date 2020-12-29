@@ -686,12 +686,12 @@ blockquote {
 }
 
 .row1{
-    background-color:#0F93AB;
+    background-color:#12b5d1;
     color:white;
 }
 
 .row2{
-    background-color:rgb(250, 250, 250);
+    background-color:rgb(221, 220, 220);
 }
 
 
@@ -709,12 +709,12 @@ blockquote {
 }
 
 .table2{
-    border: 1px solid #0F93AB;
+    border: 1px solid #12b5d1;
 
 }
 
 .cell1{
-    width:300px
+    width:250px
 }
 
 .conf-btn{
@@ -728,7 +728,3 @@ blockquote {
     background-color:grey;
     color:white
 }
-/* end of conference table */
-
-
-
