@@ -655,5 +655,74 @@ blockquote {
     
 }
 
+/* conference table */
+
+/* DivTable.com */
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+
+.divTableCell {
+	
+	display: table-cell;
+	
+}
+
+
+.divTableBody {
+	display: table-row-group;
+}
+
+.divTableRow{
+   
+    border-color:#0F93AB;
+    border-bottom-width:1px;
+    border-bottom-style:solid
+}
+
+.divTableCell{
+    padding:10px 20px;
+}
+
+.row1{
+    background-color:#0F93AB;
+    color:white;
+}
+
+.row2{
+    background-color:rgb(240, 240, 240)
+}
+
+.table1 .divTableCell{
+    
+    border-bottom: rgb(240, 240, 240) solid 1px;
+    
+}
+
+.table2{
+    border: 1px solid #0F93AB;
+
+}
+
+.cell1{
+    width:300px
+}
+
+.conf-btn{
+    background-color:#0F93AB;
+    color:white;
+
+}
+
+.conf-btn:hover{
+    background-color:grey;
+    color:white
+}
+/* end of conference table */
+
 
 

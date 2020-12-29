@@ -86,8 +86,8 @@
                 "linktc": "https://www.eoc.org.hk/s/eoemployer/hk/index.html"
             },
             "m4-4": {
-                "en": "Asia-Pacific Women Caregivers with Disabilities Conference",
-                "tc": "亞太區殘疾女性照顧者會議",
+                "en": "Asia-Pacific Women Caregivers with Disabilities Conference 2021",
+                "tc": "2021 亞太區殘疾女性照顧者會議",
                 "linken": "conference.html?lang=en",
                 "linktc": "conference.html?lang=tc"
             },
@@ -1464,9 +1464,17 @@
             }
         },
         "conference": {
-            "conference-title": {
-                "en": "Asia-Pacific Women Caregivers with Disabilities Conference",
-                "tc": "亞太區殘障女性照顧者會議"
+            "content1": {
+                "en": "The needs of women with disabilities and the support for them have long been neglected by the society, particularly concerning their responsibilities to take care of their family members. According to the survey conducted by The Association of Women with Disabilities Hong Kong (AWDHK), women with disabilities face all sorts of difficulties in performing household chores. For example, there are about 75% of them having problems with grocery shopping, while there are approximately 70% of them finding difficulties in purchasing essentials. Furthermore, over two-thirds of women with disabilities face issues of housework such as cookery due to their limitations in physical mobility or design of their residences.",
+                "tc": "長久以來，殘疾婦女的需要一直被社會大眾所忽略，特別在照顧者的角色方面，缺少對她們的支援。根據香港女障協進會一個調查所得，殘疾婦女們在日常家務上經常面臨各種困擾：約有75％的受訪者在購物時遇到場所障礙問題；此外，有大約70％的受訪者發現購買必需品時遇到不同程度的困難及挑戰。此外，由於行動不便的關係及家居設計限制，有超過三分之二的殘疾婦女在諸如煮食等的家務中遇到困難。"
+            },
+            "content2": {
+                "en": "To address and look at the issues facing women carers with disabilities, the Equal Opportunities Commission and The Association of Women with Disabilities Hong Kong co-organise the Asia-Pacific Women Caregivers with Disabilities Conference 2021.  The Conference will discuss various topics including the rights of women with disabilities and the implementation of discrimination ordinances in Hong Kong, and the accessibility of health assessments and services for women with disabilities etc. The Conference will be live broadcast due to the pandemic. Details of the Conference and registration link are set out below:",
+                "tc": "有見及此，平等機會委員會與香港女障協進會合辦《亞太區殘疾婦女照顧者研討會 2021》。是次會議將討論各種有關殘疾婦女的議題，包括殘疾婦女的權利，香港實施反歧視法例的情況以及殘疾婦女享用健康評估和服務的平等機會等。因疫情關係，本會議將於在線上進行直播。詳情如下："
+            },
+            "content4": {
+                "en": "Click here to register",
+                "tc": "按此報名"
             }
         },
         "reception": {
