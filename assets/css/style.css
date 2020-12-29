@@ -458,7 +458,7 @@ header {
 .mb .member {
     padding:20px;
     margin:0 20px;
-    border-bottom: rgb(226, 226, 226) solid 2px;
+    border-bottom: rgb(226, 226, 226) solid 1px;
     
     
 }
@@ -469,9 +469,7 @@ header {
     font-weight:500
 }
 
-.mb hr{
-    border-top: 1px solid red;
-}
+
 .mb{
     background-color:rgb(250, 250, 250);
     padding:20px;
@@ -612,8 +610,7 @@ blockquote {
     .mb .member {
         padding:5px;
         margin:5px 0;
-        border-bottom: rgb(226, 226, 226) solid 2px;
-        
+      
         
     }
 
@@ -685,7 +682,7 @@ blockquote {
 }
 
 .divTableCell{
-    padding:10px 20px;
+    padding:10px 20px 0px 20px;
 }
 
 .row1{
@@ -694,13 +691,21 @@ blockquote {
 }
 
 .row2{
-    background-color:rgb(240, 240, 240)
+    background-color:rgb(250, 250, 250);
 }
 
-.table1 .divTableCell{
-    
-    border-bottom: rgb(240, 240, 240) solid 1px;
-    
+
+
+.table1{
+    padding:20px;
+    background-color:#0F93AB;
+    color:white;
+    text-align:left;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+    font-size:1.5em;
+    font-weight:500;
+    border-bottom: solid white 1px;
 }
 
 .table2{
