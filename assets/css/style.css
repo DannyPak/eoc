@@ -710,6 +710,8 @@ blockquote {
 
 .table2{
     border: 1px solid #12b5d1;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius:5px;
 
 }
 
