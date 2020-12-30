@@ -258,8 +258,8 @@
                 "tc": "平等機會委員會前任主席 (2016-2019)"
             },
             "cp9": {
-                "en": "Mr Ricky CHU Man-kin, IDS",
-                "tc": "朱敏健先生, IDS"
+                "en": "Mr Ricky CHU Man-kin, I.D.S",
+                "tc": "朱敏健先生, I.D.S"
             },
             "cp9-title": {
                 "en": "Chairperson of the EOC (2019-Present)",
@@ -1439,9 +1439,9 @@
             }
         },
         "stories": {
-            "stories-title": {
-                "en": "Our People Our Voices Our Mission at Work",
-                "tc": "人物誌"
+            "coming": {
+                "en": "Coming Soon",
+                "tc": "敬請期待"
             }
         },
         "competition": {
@@ -1544,9 +1544,15 @@
             
         },
         "reception": {
-            "reception-title": {
-                "en": "25th Anniversary Reception",
-                "tc": "廿五週年慶祝聚會"
+            "coming": {
+                "en": "Coming Soon",
+                "tc": "敬請期待"
+            }
+        },
+        "gallery": {
+            "coming": {
+                "en": "Coming Soon",
+                "tc": "敬請期待"
             }
         }
     }
