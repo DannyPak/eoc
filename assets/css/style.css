@@ -619,38 +619,6 @@ blockquote {
     
 }
 
-@media (max-width:1200px) {
-
-
-    .tl-month h2{
-        font-size:1.4rem;
-    }
-
-    .tl h1{
-        font-size:2.2rem;
-    }
-
-    .slogan .row:first-child h3 {
-    
-        font-size: 2.2em;
-        font-weight: 900;
-    }
-    
-    .slogan .row:nth-child(2) h3 {
-    
-        font-size: 1em;
-        font-weight: 500;
-    }
-
-    .banner {
-   
-        height: auto;
-        max-height:500px;
-        overflow:hidden;
-    }
-
-    
-}
 
 /* conference table */
 
@@ -729,4 +697,45 @@ blockquote {
 .conf-btn:hover{
     background-color:grey;
     color:white
+}
+
+
+@media (max-width:1200px) {
+
+
+    .tl-month h2{
+        font-size:1.4rem;
+    }
+
+    .tl h1{
+        font-size:2.2rem;
+    }
+
+    .slogan .row:first-child h3 {
+    
+        font-size: 2.2em;
+        font-weight: 900;
+    }
+    
+    .slogan .row:nth-child(2) h3 {
+    
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+    .banner {
+   
+        height: auto;
+        max-height:500px;
+        overflow:hidden;
+    }
+
+    .cell1{
+        width:150px !important
+    }
+    .divTableCell{
+        padding:5px !important
+    }
+
+    
 }

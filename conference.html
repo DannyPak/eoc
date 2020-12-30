@@ -88,60 +88,61 @@
                 <div class="col-12 col-md-8">
                     <p id="content1"></p>
                     <p id="content2"></p>
+                    
                     <div class=" table1">
-                        <p>Date: 22 Jan 2021 (Friday)</p>
-                        <p>Time: 2 &ndash; 4 pm</p>
-                        <p>Venue: Auditorium, Duke of Windsor Social Services Building</p>
+                        <p id="date">Date: 22 Jan 2021 (Friday)</p>
+                        <p id="time">Time: 2 &ndash; 4 pm</p>
+                        <p id="venue">Venue: Auditorium, Duke of Windsor Social Services Building</p>
 
                     </div>
                     <div class="divTable table2">
                         <div class="divTableBody">
                             <div class="divTableRow row1">
                                 <div class="divTableCell cell1">
-                                    <p><strong>Keynote Speakers</strong></p>
+                                    <strong><p id="keynote">Keynote Speakers</p></strong>
                                 </div>
                                 <div class="divTableCell">
-                                    <p><strong>Topics</strong></p>
-                                </div>
-                            </div>
-                            <div class="divTableRow">
-                                <div class="divTableCell">
-                                    <strong>
-                                        <p>Ms Miyeon Kim</p>
-                                    </strong>
-                                </div>
-                                <div class="divTableCell">
-                                    <p>Gender Equality in the Disability Society</p>
-                                </div>
-                            </div>
-                            <div class="divTableRow row2">
-                                <div class="divTableCell">
-                                    <strong>
-                                        <p>Prof Cecilia Chan</p>
-                                    </strong>
-                                </div>
-                                <div class="divTableCell">
-                                    <p>Supporting Women with Disabilities through Community Rehabilitation Services</p>
+                                    <strong><p id="topics">Topics</p></strong>
                                 </div>
                             </div>
                             <div class="divTableRow">
                                 <div class="divTableCell">
                                     <strong>
-                                        <p>Dr Fan Ning</p>
+                                        <p id="kim">Ms Miyeon Kim</p>
                                     </strong>
                                 </div>
                                 <div class="divTableCell">
-                                    <p>Accessibility and Equality of Health Management</p>
+                                    <p id="kim-t">Gender Equality in the Disability Society</p>
                                 </div>
                             </div>
                             <div class="divTableRow row2">
                                 <div class="divTableCell">
                                     <strong>
-                                        <p>Ms Anne Wong Chun-miao</p>
+                                        <p id="chan">Prof Cecilia Chan</p>
                                     </strong>
                                 </div>
                                 <div class="divTableCell">
-                                    <p>Support for Women Survivors of Violence: From Mother-Child Relationship in the
+                                    <p id="chan-t">Supporting Women with Disabilities through Community Rehabilitation Services</p>
+                                </div>
+                            </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell">
+                                    <strong>
+                                        <p id="fan">Dr Fan Ning</p>
+                                    </strong>
+                                </div>
+                                <div class="divTableCell">
+                                    <p id="fan-t">Accessibility and Equality of Health Management</p>
+                                </div>
+                            </div>
+                            <div class="divTableRow row2">
+                                <div class="divTableCell">
+                                    <strong>
+                                        <p id="wong">Ms Anne Wong Chun-miao</p>
+                                    </strong>
+                                </div>
+                                <div class="divTableCell">
+                                    <p id="wong-t">Support for Women Survivors of Violence: From Mother-Child Relationship in the
                                         Context of
                                         Intimate Partner Violence to a Call for Demarginalizing the Intersection of
                                         Gender
@@ -152,15 +153,15 @@
                             <div class="divTableRow">
                                 <div class="divTableCell">
                                     <strong>
-                                        <p>Ms Carmen Yau</p>
+                                        <p id="yau">Ms Carmen Yau</p>
                                     </strong>
                                 </div>
                                 <div class="divTableCell">
-                                    <p>Family Status and Disabled Caregivers</p>
+                                    <p id="yau-t">Family Status and Disabled Caregivers</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> 
 
 
 
@@ -175,7 +176,7 @@
                             style="border:solid 1px rgb(221,221,221)">
                     </button>
                     <a href="https://forms.gle/XZ5EsCuA82NVYbcN9" target="_blank">
-                        <button type="button" class="my-5 btn btn-lg conf-btn" id="content4"></button>
+                        <button type="button" class="my-5 btn btn-lg conf-btn" id="content3"></button>
                     </a>
 
                     <!-- Modal -->
@@ -238,7 +239,7 @@
         /*------------Fill content---------*/
 
         //insert Element's ID
-        var elementId = ["content1", "content2", "content4"];
+        var elementId = ["content1", "content2", "content3","content4","date","time","venue","keynote","topics","kim","kim-t","chan","chan-t","fan","fan-t","wong","wong-t","yau","yau-t"];
 
         $.getJSON('data.json', function (data) {
 
