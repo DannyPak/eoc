@@ -7,9 +7,15 @@
                 "linken": "https://www.eoc.org.hk",
                 "linktc": "https://www.eoc.org.hk/default.asp#"
             },
+            "eoc-logo": {
+                "en": " <img src=\"assets/img/logo-square.png\" class=\"logo img-fluid \" target=\"_blank\" alt=\"EOC\">",
+                "tc": " <img src=\"assets/img/logo-square.png\" class=\"logo img-fluid\" target=\"_blank\" alt=\"EOC\">",
+                "linken": "https://www.eoc.org.hk",
+                "linktc": "https://www.eoc.org.hk/default.asp#"
+            },
             "logo": {
-                "en": "<img src=\"assets/img/eoc-25-logo-140.png\" alt=\"logo\" class=\"logo m-1 img-fluid\">",
-                "tc": "<img src=\"assets/img/eoc-25-logo-140.png\" alt=\"logo\" class=\"logo m-1 img-fluid\">",
+                "en": "<img src=\"assets/img/eoc-25-logo-140.png\" alt=\"logo\" class=\"logo m-1 img-fluid\" alt=\"EOC 25th anniversary\">",
+                "tc": "<img src=\"assets/img/eoc-25-logo-140.png\" alt=\"logo\" class=\"logo m-1 img-fluid\" alt=\"EOC 25th anniversary\">",
                 "linken": "index.html?lang=en",
                 "linktc": "index.html?lang=tc"
             },
