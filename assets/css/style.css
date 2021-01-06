@@ -95,7 +95,8 @@ body {
 }
 
 .mbtn-lang{
-    background-color:red
+    background-color:red;
+    font-size:200px
 }
 
 .btn-lang:hover {
