@@ -94,9 +94,8 @@ body {
     text-align: left;
 }
 
-@media (max-width:767px) {
-
-   
+.mbtn-lang{
+    background-color:red
 }
 
 .btn-lang:hover {
