@@ -761,6 +761,9 @@ blockquote {
     .table1 {
         font-size: 1.2em
     }
+.heading-btn{
+    display:none
+}
 
 
 }
