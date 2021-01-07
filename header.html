@@ -13,16 +13,25 @@
                 </a>
 
             </div>
-
-            <button type="button" class="btn navbar-toggler mx-3" data-toggle="collapse"
+            <span class = "d-flex justify-content-end">
+            <button id="mbtn-tc" class="btn btn-sm mbtn-lang" onclick="selectLang()">
+                繁
+            </button>
+            <button id="mbtn-en" class="btn  btn-sm mbtn-lang" onclick="selectLang()">
+                EN
+            </button>
+            <button type="button" class="btn navbar-toggler" data-toggle="collapse"
                 data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"> </span>
             </button>
+        </span>
+
+
 
             <div class="collapse bg-white nav-menu navbar-collapse pb-4" id="navbarResponsive">
 
 
-                <div class="my-3 mx-2">
+                <div class="my-3 mx-2 heading-btn">
                     <a href="" role="button" class="btn btn-outline-secondary btn-sm" id="btn-eoc" target="_blank"></a>
                     <button id="btn-tc" class="btn btn-secondary btn-sm btn-lang" onclick="selectLang()">
                         繁
@@ -30,6 +39,7 @@
                     <button id="btn-en" class="btn btn-secondary btn-sm btn-lang" onclick="selectLang()">
                         EN
                     </button>
+
 
 
                 </div>
@@ -94,12 +104,18 @@
                 document.getElementById("btn-en").style.display = "none";
                 document.getElementById(menuId[j]).innerHTML = menu[menuId[j]].en;
                 document.getElementById(menuId[j]).setAttribute("href", menu[menuId[j]].linken);
+                langSwitch(x) // Call listener function at run time
+                x.addListener(langSwitch) // Attach listener function on state changes
+
 
             } else {
                 document.getElementById("btn-tc").style.display = "none";
                 document.getElementById("btn-en").style.display = "inline";
                 document.getElementById(menuId[j]).innerHTML = menu[menuId[j]].tc;
                 document.getElementById(menuId[j]).setAttribute("href", menu[menuId[j]].linktc);
+                langSwitch(x) // Call listener function at run time
+                x.addListener(langSwitch) // Attach listener function on state changes
+
 
             }
 
@@ -113,6 +129,10 @@
     //change active menu item border color
     $(document).ready(function () {
 
+
+
+
+
         var location = window.location.href;
 
         function searchString(string) {
@@ -124,9 +144,9 @@
         function menuBorderColor(page) {
             document.getElementById(page).style.borderColor = "#0F93AB";
         }
-       
 
-   
+
+
 
 
         if (searchString("index")) {
@@ -149,5 +169,34 @@
     });
 
     //end
+
+    function langSwitch(x) {
+        if (x.matches) { // If media query matches (mobile version)
+            if (lang != "tc") {
+
+                document.getElementById("mbtn-tc").style.display = "inline";
+                document.getElementById("mbtn-en").style.display = "none";
+
+            } else {
+
+                document.getElementById("mbtn-tc").style.display = "none";
+                document.getElementById("mbtn-en").style.display = "inline";
+
+            }
+
+
+
+
+        } else {
+            document.getElementById("mbtn-en").style.display = "none";
+            document.getElementById("mbtn-tc").style.display = "none";
+
+
+        }
+    }
+
+
+    var x = window.matchMedia("(max-width: 1200px)")
+
 
 </script>
