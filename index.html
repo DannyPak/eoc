@@ -13,12 +13,12 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     <!-- Place your kit's code here -->
-   
+
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
     <link rel="manifest" href="assets/img/site.webmanifest">
-   
+
 </head>
 
 <body>
@@ -71,6 +71,23 @@
             </div>
         </div>
         <!-- end of banner -->
+
+        <!-- start of breadcumb -->
+
+        <nav aria-label="breadcrumb" class="breadcrumb-container">
+            <ol class="breadcrumb container">
+                <li class="breadcrumb-item">
+                    <a href="#" id="level-0"></a>
+                </li>
+                <li class="breadcrumb-item" id="level-1" style="display:none"></li>
+                <li class="breadcrumb-item active" aria-current="page" id="level-2" style="display:none"></li>
+            </ol>
+        </nav>
+        <!-- end of breadcumb -->
+        <div class="align-self-stretch container" style="display:none">
+
+            <h1 class=" text-wrap page-title" id="page-title"></h1>
+        </div>
         <!--start of content-->
 
         <div class="container pt-5">
@@ -121,9 +138,9 @@
         integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ=="
         crossorigin="anonymous"></script>
     <script src="assets/js/jquery.min.js"></script>
-    
+
     <script src="assets/js/script.js"></script>
-    
+
     <script src="assets/js/popper.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script>
@@ -152,8 +169,9 @@
 
 
         $.getJSON('data.json', function (data) {
-
-
+            var menu = data[0].menu;
+            //insert breadcumb and page title
+            bannerText(menu, lang, "m1", "m4-1");
 
 
             //insert page content
@@ -184,7 +202,7 @@
         /*------------end of Fill content---------*/
 
     </script>
-    
+
 </body>
 
 </html>
