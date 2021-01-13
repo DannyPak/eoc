@@ -91,12 +91,19 @@ body {
 .mbtn-lang {
   font-size: 1.2em;
   font-weight: 700;
-  color: #76777b;
+  color: #0f93ab;
+}
+
+.btn-lang {
+  background-color: #0f93ab;
+  border-color: #0f93ab;
+  color:white
 }
 
 .btn-lang:hover {
-  background-color: #0f93ab;
-  border-color: #0f93ab;
+  background-color: grey;
+  border-color: grey;
+  color:white
 }
 
 .footer,

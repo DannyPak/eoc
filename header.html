@@ -32,10 +32,10 @@
 
                 <div class="my-3 mx-2 heading-btn">
                     <a href="" role="button" class="btn btn-outline-secondary btn-sm" id="btn-eoc" target="_blank"></a>
-                    <button id="btn-tc" class="btn btn-secondary btn-sm btn-lang" onclick="selectLang()">
+                    <button id="btn-tc" class="btn  btn-sm btn-lang" onclick="selectLang()">
                         繁
                     </button>
-                    <button id="btn-en" class="btn btn-secondary btn-sm btn-lang" onclick="selectLang()">
+                    <button id="btn-en" class="btn  btn-sm btn-lang" onclick="selectLang()">
                         EN
                     </button>
 
@@ -128,21 +128,14 @@
     });
     //change active menu item border color
 
-    $( window ).on( "load", function() {
-        var location = window.location.href;
-     var str = location.substr(-16);  
-        if (str = "25thanniversary/"){
-            
-            
-            self.location= "http://www.eoc.org.hk/s/25thanniversary/index.html?lang=tc";
-            }
-        
-    })
+       
+    
     $(document).ready(function () {
-       
               
+        var location = window.location.href;
+
+
        
-        
        
 
         function searchString(string) {
