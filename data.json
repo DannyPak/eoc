@@ -1572,13 +1572,18 @@
                 "tc": "<iframe class=\"embed-responsive-item \" src=\"https://www.youtube.com/embed/1V7RoUzJn_o?rel=0\" allowfullscreen/></iframe>"
             },
             "p-link": {
-                "en": "<iframe class=\"embed-responsive-item \" src=\"https://www.youtube.com/embed/oQMuNcIhHQQ?rel=0\" allowfullscreen/></iframe>",
+                "en": "<iframe class=\"embed-responsive-item \" src=\"\" allowfullscreen/></iframe>",
                 "tc": "<iframe class=\"embed-responsive-item \" src=\"https://www.youtube.com/embed/oQMuNcIhHQQ?rel=0\" allowfullscreen/></iframe>"
             },
 
             "v-lang":{
                 "en":"English Subtitle",
-                "tc":"廣東話版本"
+                "tc":"繁體字幕"
+            },
+
+            "p-title":{
+                "en":"",
+                "tc":"简体字幕"
             }
             
             
