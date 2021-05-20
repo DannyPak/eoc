@@ -1508,7 +1508,7 @@
             },
             "kim":{
                 "en":"Ms Miyeon Kim",
-                "tc":"Miyeon Kim女士"
+                "tc":"Miyeon Kim 女士"
             },
             "kim-t":{
                 "en":"Gender Equality in the Disability Society",
@@ -1559,10 +1559,20 @@
             }
         },
         "gallery": {
-            "coming": {
-                "en": "Coming Soon",
-                "tc": "敬請期待"
-            }
+            "v-title":{
+                "en":"EOC’s 25th Anniversary Special:  Inheriting the Past Charting the Future",
+                "tc":"平機會25周年紀念短片：承先啟後  穩步將來  "
+            },
+            "v-descr": {
+                "en": "Since its establishment under the Sex Discrimination Ordinance in May 1996, the Equal Opportunities Commission (EOC) has served the city for 25 years. Over a quarter of a century, the EOC has been faithfully discharging its mandate of enforcing Hong Kong’s anti-discrimination ordinances to eliminate discrimination based on sex, breastfeeding, pregnancy, marital status, disability, family status and race; as well as to eliminate sexual harassment, breastfeeding harassment, and harassment and vilification on the grounds of disability and race. Let us take a trip down memory lane and see how the EOC has advanced the frontiers of equality over the past 25 years.",
+                "tc": "平等機會委員會於1996年5月根據《性別歧視條例》成立，至今已運作 25 年。在過去四份一個世紀，平機會一直秉持使命，致力推行本港反歧視條例，消除基於性別、餵哺母乳、懷孕、婚姻狀況、殘疾、家庭崗位及種族的歧視，並消除性騷擾和餵哺母乳騷擾以及基於殘疾及種族的騷擾和中傷。現在就讓我們走進時光隧道，一起重溫平機會廿五年來，如何為香港開拓這條平等路！"
+            },
+            "v-link": {
+                "en": "<iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/5AFygPnz_Jw?rel=0\" allowfullscreen/></iframe>",
+                "tc": "<iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/1V7RoUzJn_o?rel=0\" allowfullscreen/></iframe>"
+            },
+            
+            
         }
     }
 ]
