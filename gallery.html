@@ -88,11 +88,18 @@
     <div class="container text-left py-3 my-5 ">
       <h3 id="v-title" class="my-3"></h3>
       <p id="v-descr" class="my-5"></p>
-      
-      <div class="embed-responsive embed-responsive-16by9">
-        <span id="v-link"></span>
+      <div class="row">
+      <div class="embed-responsive embed-responsive-16by9 col-md-6 p-5 my-2">
+        <div id="v-link"></div>
        
       </div>
+      
+      <div class="embed-responsive embed-responsive-16by9 col-md-6 my-2">
+       
+        <span id="p-link"></span>
+       
+      </div>
+    </div>
   </div>
     
 
@@ -137,7 +144,7 @@
 
 
     //insert Element's ID
-    var elementId = ["v-title", "v-descr","v-link"];
+    var elementId = ["v-title", "v-descr","v-link","p-link"];
 
 
     $.getJSON('data.json', function (data) {
