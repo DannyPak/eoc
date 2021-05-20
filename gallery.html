@@ -85,10 +85,13 @@
 
     <!-- end of page title-->
 
-    <div class="container text-center py-5 my-5 display-4">
+    <div class="container text-left py-3 my-5 ">
+      <h3 id="v-title" class="my-3"></h3>
+      <p id="v-descr" class="my-5"></p>
       
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5AFygPnz_Jw?rel=0" allowfullscreen></iframe>
+        <span id="v-link"></span>
+       
       </div>
   </div>
     
@@ -134,7 +137,7 @@
 
 
     //insert Element's ID
-    var elementId = ["coming"];
+    var elementId = ["v-title", "v-descr","v-link"];
 
 
     $.getJSON('data.json', function (data) {
