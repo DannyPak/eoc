@@ -1452,6 +1452,18 @@
                 "en": "Coming Soon",
                 "tc": "敬請期待"
             },
+            "v-title": {
+                "en": "Corporate Video of the Equal Opportunities Commission - Overcoming Barriers to an Inclusive World",
+                "tc": "平等機會委員會機構短片：跨越障礙 歧視不再"
+            },
+            "v-descr": {
+                "en": "Since the Equal Opportunities Commission (EOC) was set up in 1996, it has worked closely with all sectors of the community to eliminate discrimination. Our responsibilities include implementing the anti-discrimination ordinances, legal assistance, public education, training services, and policy research. This video introduces the various aspects of the work of the EOC.",
+                "tc": "平等機會委員會自1996年成立以來，一直與社會各界合作，透過執行反歧視條例、法律協助、宣傳教育和培訓，以及政策研究等範疇，致力消除歧視。這套短片會就著各個範疇向大家介紹平機會的工作。"
+            },
+            "v-link": {
+                "en": "<iframe class=\"embed-responsive-item \" src=\"https://www.youtube.com/embed/K5q041YuTl4?rel=0\" allowfullscreen/></iframe>",
+                "tc": "<iframe class=\"embed-responsive-item \" src=\"https://www.youtube.com/embed/rY_S9CP0Y6A?rel=0\" allowfullscreen/></iframe>"
+            },
             "about-logo": {
                 "en": "<ul><li>The icons are rendered by the stylized characters &ldquo;E&rdquo;, &ldquo;O&rdquo;, &ldquo;2&rdquo;, and &ldquo;5&rdquo; for equal opportunities and the 25th anniversary.</li><li>Hearts are the universal symbol for &ldquo;love&rdquo;. It is the fundamental concept behind equal opportunities regardless of sex, disability, family status, and race.</li></ul>",
                 "tc": "敬請期待"
