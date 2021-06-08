@@ -1451,6 +1451,22 @@
             "coming": {
                 "en": "Coming Soon",
                 "tc": "敬請期待"
+            },
+            "about-logo": {
+                "en": "<ul><li>The icons are rendered by the stylized characters &ldquo;E&rdquo;, &ldquo;O&rdquo;, &ldquo;2&rdquo;, and &ldquo;5&rdquo; for equal opportunities and the 25th anniversary.</li><li>Hearts are the universal symbol for &ldquo;love&rdquo;. It is the fundamental concept behind equal opportunities regardless of sex, disability, family status, and race.</li></ul>",
+                "tc": "敬請期待"
+            },
+            "about-logo-title": {
+                "en": "About the EOC 25th Anniversary Logo and EO Employer Logo",
+                "tc": "敬請期待"
+            },
+            "about-designer-title": {
+                "en": "Coming Soon",
+                "tc": "敬請期待"
+            },
+            "about-designer": {
+                "en": "Coming Soon",
+                "tc": "敬請期待"
             }
         },
         "competition": {
