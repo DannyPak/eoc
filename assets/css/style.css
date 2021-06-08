@@ -73,7 +73,8 @@ body {
 }
 
 .bio-name,
-.chairperson-name {
+.chairperson-name,
+.stories-title {
   margin-top: 0px;
   font-size: 1.7em;
   color: #0f93ab;
@@ -339,9 +340,9 @@ header {
   padding: 0;
 }
 
-.cp .col-md-4 {
+.cp .col-md-4, .stories-content {
   padding: 10px;
-  background-color: #f8f9fa;
+  background-color: rgb(250,250,250);
 }
 
 @media (max-width: 767px) {
