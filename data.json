@@ -4,14 +4,15 @@
             "btn-eoc": {
                 "en": "EOC Home",
                 "tc": "平機會主頁",
-                "linken": "https://www.eoc.org.hk",
-                "linktc": "https://www.eoc.org.hk/default.asp#"
+                "linken": "https://www.eoc.org.hk/en",
+                "linktc": "https://www.eoc.org.hk/zh-hk"
+                
             },
             "eoc-logo": {
                 "en": " <img src=\"assets/img/logo-square.png\" class=\"logo img-fluid \" target=\"_blank\" alt=\"EOC\">",
                 "tc": " <img src=\"assets/img/logo-square.png\" class=\"logo img-fluid\" target=\"_blank\" alt=\"EOC\">",
-                "linken": "https://www.eoc.org.hk",
-                "linktc": "https://www.eoc.org.hk/default.asp#"
+                "linken": "https://www.eoc.org.hk/en",
+                "linktc": "https://www.eoc.org.hk/zh-hk"
             },
             "logo": {
                 "en": "<img src=\"assets/img/eoc-25-logo-140.png\" alt=\"logo\" class=\"logo m-1 img-fluid\" alt=\"EOC 25th anniversary\">",
